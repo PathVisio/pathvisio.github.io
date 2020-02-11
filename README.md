@@ -5,6 +5,6 @@ Welcome to the PathVisio website.
 * We are moving the website content to this Github page so users can continue to download and use PathVisio.
 
 **Status**
-- [x] Download page and installation instructions
-- [ ] PathVisio plugin repository is not yet back online.
-- [ ] Tutorials/FAQ will be moved in the next couple of days.
+- [x]  Download page and installation instructions
+- [ ]  PathVisio plugin repository is not yet back online.
+- [ ]  Tutorials/FAQ will be moved in the next couple of days.
