@@ -1,4 +1,4 @@
-# PathVisio website
+# PathVisio biological pathway editor
 Welcome to the PathVisio website.
 
 * Our website is offline since Dec 23, 2019 due to a cyberattack at the university.
