@@ -5,4 +5,6 @@
 * **On Windows**: start PathVisio by double-clicking the pathvisio.bat file
 * **On MacOSX / Linux**: start PathVisio by running pathvisio.sh or double-click the pathvisio.jar file
 
+# Requirements
+* PathVisio requires the installation of Java 8
 
