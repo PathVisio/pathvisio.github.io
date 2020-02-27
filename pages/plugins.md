@@ -1,0 +1,3 @@
+# PathVisio plugins
+
+* WikiPathways plugin 
