@@ -1,4 +1,5 @@
 # PathVisio plugin repository
+
 | Tables        | Are           |
 | ------------- |:-------------:|
 | ![](../images/plugin.png) | [BioPAX plugin](biopax.md) |
@@ -19,6 +20,7 @@
 | ![](../images/plugin.png) | [TissueAnalyzer plugin](tissueanalyzer.md) | 
 | ![](../images/plugin.png) | [TypeConverter plugin](typeconverter.md) | 
 | ![](../images/plugin.png) | [WikiPathways plugin](wikipathways.md) |
+
 
 | Logo     | Plugins                           | 
 | -------- | :---------------------------------: |
