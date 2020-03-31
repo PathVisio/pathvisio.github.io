@@ -19,7 +19,7 @@ This plugins allows the conversion of pathway elements into other types, e.g. a 
 
 ### Authors
 * [Martina Kutmon](https://github.com/mkutmon)
-* [Jonathan Melius])(https://github.com/JonathanMELIUS)
+* [Jonathan Melius](https://github.com/JonathanMELIUS)
 
 ---- 
 
