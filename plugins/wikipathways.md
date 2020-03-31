@@ -16,6 +16,10 @@ Website: [http://plugins.pathvisio.org/wp-client/](http://plugins.pathvisio.org/
 
 **Releases**
 Code repository: [https://github.com/PathVisio/WP-plugin](https://github.com/PathVisio/WP-plugin)
-* 1.1.3: 2016-11-17
-* 1.1.2: 2016-09-21
-* 1.1.1: 2016-04-04
+
+| Version | Release date |
+| ------- |:------------:| 
+| 1.1.3 | 2016-11-17 | 
+| 1.1.2 | 2016-09-21 |  
+| 1.1.1 | 2016-04-04 |  
+
