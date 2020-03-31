@@ -1,4 +1,10 @@
 # PathVisio plugin repository
+| Tables        | Are           |
+| ------------- |:-------------:|
+| ![](../images/plugin.png) | [BioPAX plugin](biopax.md) |
+| col 2 is      | centered      |
+| zebra stripes | are neat      |
+
 | Logo     | Plugins                           | 
 | -------- | :---------------------------------: |
 | ![](../images/plugin.png) | [BioPAX plugin](biopax.md) | 
