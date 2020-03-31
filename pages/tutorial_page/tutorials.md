@@ -36,7 +36,7 @@ PathVisio supports a [plugin repository](https://pathvisio.github.io/plugins/plu
 
 
 ## Select an Identifier Mapping Database
-Individual databases have their own unique identifiers for genes, proteins, genetic variants, metabolites, and metabolic reactions. The identifier mapping database [BridgeDb](https://bridgedb.github.io/) makes it possible to map between the different biological databases. PathVisio can make use of the mapping data. 
+Individual databases have their own unique identifiers for genes, proteins, genetic variants, metabolites, and metabolic reactions. The database identifier mapping service [BridgeDb](https://bridgedb.github.io/) makes it possible to map between the different biological databases. PathVisio can make use of the mapping data. 
 
 The latest linksets for multiple species are available for download [here](https://bridgedb.github.io/data/gene_database/). Download the linksets you need. For example, the Gene / Protein ID mapping linkset starting with "Hs" is the human linkset. You can additionally download the Interaction and Metabolite ID mapping databases.
 
