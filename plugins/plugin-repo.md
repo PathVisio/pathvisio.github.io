@@ -1,7 +1,7 @@
 # PathVisio plugin repository
 | Logo     | Plugins                           | 
 | -------- | :---------------------------------: |
-|  | [BioPAX plugin](biopax.md) | 
+| ![](../images/plugin.png) | [BioPAX plugin](biopax.md) | 
 | ![](../images/plugin.png) | [BridgeDb plugin](bridgedb.md) | 
 | ![](../images/plugin.png) | [ComplexViz plugin](complexviz.md) | 
 | ![](../images/plugin.png) | [FindYourInteraction plugin](fyi.md) | 
@@ -13,7 +13,7 @@
 | ![](../images/plugin.png) | [NimWiz plugin](nimwiz.md) | 
 | ![](../images/plugin.png) | [PathSBML plugin](pathsbml.md) | 
 | ![](../images/plugin.png) | [PathVisioRPC plugin](pathvisiorpc.md) | 
-|  | [QuickSearch plugin](quicksearch.md) | 
+| ![](../images/plugin.png) | [QuickSearch plugin](quicksearch.md) | 
 | ![](../images/plugin.png) | [RegInt plugin](regint.md) | 
 | ![](../images/plugin.png) | [SBGN plugin](sbgn.md) | 
 | ![](../images/plugin.png) | [TissueAnalyzer plugin](tissueanalyzer.md) | 
