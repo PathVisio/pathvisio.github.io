@@ -9,7 +9,7 @@ Website: [http://developers.pathvisio.org/wiki/BiopaxPluginHelp](http://develope
 
 **Installation** 
 * Go to Plugins > Plugin Manager. 
-* Select the xxx plugin.
+* Select the BioPAX plugin.
 * Click on Install.
 
 ----
