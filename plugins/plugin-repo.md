@@ -1,5 +1,5 @@
 # PathVisio plugin repository
-| Logo | Plugins | 
+| Logo     | Plugins                           | 
 | -------- | --------------------------------- |
 | ![](../images/plugin.png) | [BioPAX plugin](biopax.md) | 
 | ![](../images/plugin.png) | [BridgeDb plugin](bridgedb.md) | 
