@@ -16,8 +16,11 @@ Website: [http://plugins.pathvisio.org/wp-client/](http://plugins.pathvisio.org/
 ----
 
 **Authors**
-* Sravanthi Sinah 
-* Martina Kutmon
+* [Sravanthi Sinah](https://github.com/SravanthiSinha)
+* [Martina Kutmon](https://github.com/mkutmon)
+* [Jonathan Melius](https://github.com/JonathanMELIUS)
+* [Thomas Kelder](https://github.com/thomaskelder)
+* [Alexander Pico](https://github.com/AlexanderPico)
 
 ---- 
 
