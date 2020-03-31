@@ -6,14 +6,20 @@ This plugin connects to the online pathway databases, WikiPathways, and allows u
 
 Website: [http://plugins.pathvisio.org/wp-client/](http://plugins.pathvisio.org/wp-client/)
 
+----
+
 **Installation** 
 * Go to Plugins > Plugin Manager. 
 * Select the WikiPathways client plugin.
 * Click on Install.
 
+----
+
 **Authors**
 * Sravanthi Sinah 
 * Martina Kutmon
+
+---- 
 
 **Releases**
 
