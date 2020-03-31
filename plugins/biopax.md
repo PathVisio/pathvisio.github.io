@@ -21,7 +21,7 @@ Website: [http://developers.pathvisio.org/wiki/BiopaxPluginHelp](http://develope
 
 **Releases**
 
-Code repository: [repo](link)
+Code repository: [https://github.com/PathVisio/biopax-plugin](https://github.com/PathVisio/biopax-plugin)
 
 | Version | Release date |
 | ------- |:------------:| 
