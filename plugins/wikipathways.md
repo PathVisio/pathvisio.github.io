@@ -1,8 +1,8 @@
-# WikiPathways plugin ![](/images/plugin.png)
+# WikiPathways plugin ![](/images/wikipathways.png)
 
 **Description**
 
-This plugin connects to the online pathway databases, WikiPathways, and allows users to search and browse pathways from PathVisio directly. It also enables updating and upload functionality (special permissions are required which can be requested from the WP developers).
+This plugin connects to the online pathway databases, [WikiPathways](www.wikipathways.org), and allows users to search and browse pathways from PathVisio directly. It also enables updating and upload functionality (special permissions are required which can be requested from the [WP developers](https://www.wikipathways.org/index.php/Contact_Us)).
 
 Website: [http://plugins.pathvisio.org/wp-client/](http://plugins.pathvisio.org/wp-client/)
 
