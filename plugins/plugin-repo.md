@@ -22,7 +22,7 @@
 | ![](../images/plugin.png) | [WikiPathways plugin](wikipathways.md) |
 
 
-| Logo     | Plugins                           | 
+|      | Plugins                           | 
 | -------- | :---------------------------------: |
 | ![](../images/plugin.png) | [BioPAX plugin](biopax.md) | 
 | ![](../images/plugin.png) | [BridgeDb plugin](bridgedb.md) | 
