@@ -10,14 +10,14 @@ This plugin connects to the online pathway databases, [WikiPathways](https://www
 
 ----
 
-**Installation** 
+### Installation
 * Go to Plugins > Plugin Manager. 
 * Select the WikiPathways client plugin.
 * Click on Install.
 
 ----
 
-**Authors**
+### Authors
 * [Sravanthi Sinah](https://github.com/SravanthiSinha)
 * [Martina Kutmon](https://github.com/mkutmon)
 * [Jonathan Melius](https://github.com/JonathanMELIUS)
@@ -26,7 +26,7 @@ This plugin connects to the online pathway databases, [WikiPathways](https://www
 
 ---- 
 
-**Releases**
+### Releases
 
 Code repository: [https://github.com/PathVisio/WP-plugin](https://github.com/PathVisio/WP-plugin)
 
