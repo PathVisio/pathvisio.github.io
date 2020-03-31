@@ -1,6 +1,13 @@
 # PathVisio plugin repository
+
+|         | Plugins           | 
+| ------------- |:-------------:|
+| ![](../images/plugin.png) | [BioPAX plugin](biopax.md) | 
+| col 2 is      | centered      | 
+| zebra stripes | are neat      | 
+
 | Logo     | Plugins                           | 
-| -------- | --------------------------------- |
+| -------- | :---------------------------------: |
 |  | [BioPAX plugin](biopax.md) | 
 |   | [BridgeDb plugin](bridgedb.md) | 
 |   | [ComplexViz plugin](complexviz.md) | 
