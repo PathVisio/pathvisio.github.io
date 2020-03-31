@@ -21,7 +21,7 @@ Website: [http://developers.pathvisio.org/wiki/BridgeDbConfigPluginHelp](http://
 
 **Releases**
 
-Code repository: [repo](link)
+Code repository: 
 
 | Version | Release date |
 | ------- |:------------:| 
