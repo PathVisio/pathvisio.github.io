@@ -49,7 +49,7 @@ Double clicking the pathvisio.jar file may give the following error message.
 <p align="center">
   <img width="430" height="158" src="../images/Java_Access_Mac.png">
 </p>
-8. Click ok, and PathVisio should work on your device. 
+8. Click OK, and PathVisio should work on your device. Remember where you placed the downloaded files because this is where PathVisio will be located on your device.  
 
 ## Homebrew Installation
 A brew for PathVisio is available from Homebrew on Mac. Before installing make sure you have the latest brews: brew update Then install PathVisio with: brew install homebrew/science/pathvisio Pathvisio is installed into /usr/local/bin. PathVisio can be started with pathvisio from the terminal command line
