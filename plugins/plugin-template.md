@@ -20,7 +20,7 @@ Website: [website](link)
 
 **Releases**
 
-Code repository: [https://github.com/PathVisio/biopax-plugin](https://github.com/PathVisio/biopax-plugin)
+Code repository: [repo](link)
 
 | Version | Release date |
 | ------- |:------------:| 
