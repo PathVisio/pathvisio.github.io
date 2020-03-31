@@ -13,25 +13,25 @@ PathVisio supports a [plugin repository](https://pathvisio.github.io/plugins/plu
 2. In the toolbar, click on *Plugins* --> *Plugin manager*
 
 <p align="center">
-  <img width="506" height="121" src="images/Install_plugin.png">
+  <img width="506" height="121" src="../../images/Install_plugin.png">
 </p>
 
 3. The Plugin Manager Window will open. In the *Available* tab, scroll down to the WikiPathways plugin and click *Install*
 
 <p align="center">
-  <img width="487" height="349" src="images/Plug-in_manager.png">
+  <img width="487" height="349" src="../../images/Plug-in_manager.png">
 </p>
 
 4. A pop-up window will alert you when the plugin has been installed successfully. Click OK
 
 <p align="center">
-  <img width="487" height="349" src="images/Plugin_success.png">
+  <img width="487" height="349" src="../../images/Plugin_success.png">
 </p>
 
 5. The WikiPathways plugin is now installed. You may need to restart PathVisio to find it in the toolbar.
 
 <p align="center">
-  <img width="413" height="181" src="images/Plugins-WikiPathways.png">
+  <img width="413" height="181" src="../../images/Plugins-WikiPathways.png">
 </p>
 
 
@@ -43,13 +43,13 @@ The latest linksets for multiple species are available for download [here](https
 To use the Gene / Protein ID mapping database in PathVisio, click *Data* in the toolbar, and press *Select Gene Mapping Database*
 
 <p align="center">
-  <img width="393" height="230" src="images/Select_gene_database.png">
+  <img width="393" height="230" src="../../images/Select_gene_database.png">
 </p>
 
 You can see whether the database was properly selected in the bottom left corner. After "Gene Database" you should see the name of the database you just selected.
 
 <p align="center">
-  <img width="516" height="21" src="images/Gene_database.png">
+  <img width="516" height="21" src="../../images/Gene_database.png">
 </p>
 
 You can also select the Interaction and Metabolite ID mapping databases in the same way, but click either *Select Interaction Database* or *Select Metabolite Database*, respectively.
