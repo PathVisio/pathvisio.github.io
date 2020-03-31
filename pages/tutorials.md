@@ -4,7 +4,7 @@ Tutorials will be made available to help you navigate PathVisio and its possibil
 
 ## Getting Started
 
-Check out our guide to [getting started with PathVisio](tutorials/Get_Going.md).
+Check out our guide to [getting started with PathVisio](tutorials/Getting_Started.md).
 
 ## Pathway Modeling
 
