@@ -1,3 +1,5 @@
 # PathVisio plugin repository
 
-More info will come soon.
+| ![](../images/plugin.png) | [WikiPathways plugin](wikipathways.md) |
+| ------------- | ------------- | 
+| ![](../images/plugin.png) | [TypeConverter plugin](typeconverter.md) | 
