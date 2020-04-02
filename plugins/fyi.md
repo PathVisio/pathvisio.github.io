@@ -1,26 +1,26 @@
 # FindYourInteraction plugin ![](/images/plugin.png)
 
-**Description**
+### Description
 
 Query the Rhea webservice using the ChEBI/UniProt IDs or text labels of the two nodes the interaction connects to find identifiers. Automatically annotate the interaction with the selected identifier.
 
-Website: [http://plugins.pathvisio.org/FYI](http://plugins.pathvisio.org/FYI)
+**Website**: [http://plugins.pathvisio.org/FYI](http://plugins.pathvisio.org/FYI)
 
 ----
 
-**Installation** 
+### Installation
 * Go to Plugins > Plugin Manager. 
 * Select the FindYourInteraction plugin.
 * Click on Install.
 
 ----
 
-**Authors**
+### Authors
 * Anwesha Bohler
 
 ---- 
 
-**Releases**
+### Releases
 
 Code repository: [https://github.com/PathVisio/FindYourInteraction](https://github.com/PathVisio/FindYourInteraction)
 
