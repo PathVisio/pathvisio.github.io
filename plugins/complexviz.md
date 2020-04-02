@@ -1,26 +1,26 @@
 # ComplexViz plugin ![](/images/plugin.png)
 
-**Description**
+### Description
 
 ComplexViz is a PathVisio Plugin. It has been developed specially for simplifying visualization of data on the many complexes of Reactome pathways.
 
-Website: [https://github.com/pennatula/ComplexViz](https://github.com/pennatula/ComplexViz)
+**Website**: [https://github.com/pennatula/ComplexViz](https://github.com/pennatula/ComplexViz)
 
 ----
 
-**Installation** 
+### Installation
 * Go to Plugins > Plugin Manager. 
 * Select the ComplexViz plugin.
 * Click on Install.
 
 ----
 
-**Authors**
+### Authors
 * Anwesha Bohler
 
 ---- 
 
-**Releases**
+### Releases
 
 Code repository: [https://github.com/pennatula/ComplexViz](https://github.com/pennatula/ComplexViz)
 
