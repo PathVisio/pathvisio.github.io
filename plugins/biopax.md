@@ -1,4 +1,4 @@
-# BioPAX plugin ![](/images/plugin.png)
+# BioPAX plugin ![](/images/plugins/plugin.png)
 
 ### Description
 This plugin allows users to export and import pathways in BioPAX format. The plugin support BioPAX level 3. The import functionality is limited (pathways might need manual rearranging of objects).
