@@ -18,6 +18,8 @@ All data needs to be combined in one data file. Very likely, you are using diffe
 
 You can also combine multiple transcriptomics datasets this way. If all identifiers are from the same database, the system code column is not needed. 
 
+----
+
 ## Step 2: Import your data
 * Open PathVisio
 * Open a pathway of interest. 
