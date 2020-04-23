@@ -1,4 +1,4 @@
-# Tutorial: Multi-omics data visualziation with PathVisio
+# Tutorial: Multi-omics data visualization with PathVisio
 
 * *Author:* [Martina Summer-Kutmon](https://github.com/mkutmon)
 * *Last updated:* 2020-04-23
@@ -31,7 +31,7 @@ You can also combine multiple transcriptomics datasets this way. If all identifi
   <img width="506" src="../images/tutorials/MultiOmics1.PNG">
 </p>
 
-After successful importing the data (identifiers were recognized), you should some default visualization on the nodes with data. 
+After successful importing the data (identifiers were recognized), you should see some default visualization on the nodes with data. 
 
 ----
 
