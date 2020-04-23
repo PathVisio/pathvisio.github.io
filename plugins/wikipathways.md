@@ -1,4 +1,4 @@
-# WikiPathways plugin ![](/images/wikipathways.png)
+# WikiPathways plugin ![](/images/plugins/wikipathways.png)
 
 ### Description
 
