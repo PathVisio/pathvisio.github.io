@@ -1,0 +1,27 @@
+# SBGN plugin ![](/images/plugins/wikipathways.png)
+
+### Description
+
+This plugin allows users to create pathway diagrams in the Systems Biology Graphical Notation (SBGN).
+A description of this standard notation can be found here:
+[http://www.sbgn.org/Main_Page](http://www.sbgn.org/Main_Page).
+
+**Website**: [https://pathvisio.github.io/plugins/sbgn.html](https://pathvisio.github.io/plugins/sbgn.html)
+
+**License**: [Apache 2.0](http://www.apache.org/licenses/LICENSE-2.0)
+
+----
+
+### Installation
+* Go to Plugins > Plugin Manager. 
+* Select the SBGN plugin.
+* Click on Install.
+
+---- 
+
+### Releases
+
+| Version | Release date |
+| ------- |:------------:| 
+| 1.1.0   | 2013-03-26   |  
+
