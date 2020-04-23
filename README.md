@@ -11,7 +11,7 @@ PathVisio is a free open-source pathway analysis and drawing software which allo
     </tr>
     <tr>
       <td align="center">Getting started and tutorial</td>
-      <td align="center">Download PathVisio/td>
+      <td align="center">Download PathVisio</td>
       <td align="center">Contact us for help</td>
     </tr>
   </table
