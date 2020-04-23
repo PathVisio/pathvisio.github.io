@@ -1,4 +1,4 @@
-# SBGN plugin ![](/images/plugins/wikipathways.png)
+# SBGN plugin ![](/images/plugins/sbgn.png)
 
 ### Description
 
