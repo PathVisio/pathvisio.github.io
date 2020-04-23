@@ -7,7 +7,7 @@
 
 PathVisio requires the installation of **Java 8**!
 
-If you need further direction for installing PathVisio, visit the [Installation Guide](pages/installation_guide.md).
+If you need further direction for installing PathVisio, visit the [Installation Guide](tutorials/installation_guide.md).
 
 # Tutorials
 

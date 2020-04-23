@@ -41,7 +41,7 @@ PathVisio and [WikiPathways](http://www.wikipathways.org/index.php/WikiPathways)
 
 **6. How do I cite PathVisio?**
 
-See [HowToCite](https://pathvisio.github.io/pages/cite)
+See [HowToCite](cite.md)
 
 
 **7. Which system codes / data sources are supported for pathway elements?**
@@ -62,7 +62,7 @@ No, PathVisio sees pathways as drawings, not as graphs. This makes the program l
 
 **3. Does PathVisio support SBML? How About BioPAX?**
 
-At the moment PathVisio only supports our custom GPML format and GenMAPP MAPP format. BioPAX import / export is currently supported through the [Biopax3 plugin](https://www.pathvisio.org/plugin/biopax3-plugin/). Support for SBML is planned.
+At the moment PathVisio only supports our custom GPML format and GenMAPP MAPP format. BioPAX import / export is currently supported through the [Biopax3 plugin](plugins/biopax.md). Support for SBML is planned.
 
 ## Gene Expression / Omics Data
 
@@ -112,7 +112,7 @@ If you are online but can't connect to the repository, maybe due to proxy settin
 
 **1. The download link doesn't work**
 
-Try clearing the Java webstart cache, you can find instructions [here](http://www.ngs.ac.uk/ukca/certificates/certwizard/clearwebstartcache). If that doesn't help, please contact our mailing list (see: [MailingLists](https://pathvisio.github.io/pages/contact)).
+Try clearing the Java webstart cache, you can find instructions [here](http://www.ngs.ac.uk/ukca/certificates/certwizard/clearwebstartcache). If that doesn't help, please contact our mailing list (see: [MailingLists](contact.md)).
 
 
 **2. Where can you find the log file?**
