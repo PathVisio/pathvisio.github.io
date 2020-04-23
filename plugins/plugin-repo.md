@@ -19,4 +19,4 @@
 | ![](../images/plugins/plugin.png) | [SBGN plugin](sbgn.md) | 
 | ![](../images/plugins/plugin.png) | [TissueAnalyzer plugin](tissueanalyzer.md) | 
 | ![](../images/plugins/plugin.png) | [TypeConverter plugin](typeconverter.md) | 
-| ![](../images/plugins/plugin.png) | [WikiPathways plugin](wikipathways.md) |
+| ![](../images/plugins/wikipathways.png) | [WikiPathways plugin](wikipathways.md) |
