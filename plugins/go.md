@@ -1,4 +1,4 @@
-# GeneOntology plugin ![](/images/plugin.png)
+# GeneOntology plugin ![](/images/plugins/plugin.png)
 
 ### Description
 

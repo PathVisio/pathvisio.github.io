@@ -1,4 +1,4 @@
-# Gene Set Enrichtment Analysis plugin ![](/images/plugin.png)
+# Gene Set Enrichtment Analysis plugin ![](/images/plugins/plugin.png)
 
 **Description**
 

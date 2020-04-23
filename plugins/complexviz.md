@@ -1,4 +1,4 @@
-# ComplexViz plugin ![](/images/plugin.png)
+# ComplexViz plugin ![](/images/plugins/plugin.png)
 
 ### Description
 

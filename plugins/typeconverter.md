@@ -1,4 +1,4 @@
-# TypeConverter plugin ![](/images/plugin.png)
+# TypeConverter plugin ![](/images/plugins/plugin.png)
 
 ### Description
 
