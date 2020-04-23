@@ -5,9 +5,8 @@
 * **On Windows**: start PathVisio by double-clicking the pathvisio.bat file
 * **On MacOSX / Linux**: start PathVisio by running pathvisio.sh or double-click the pathvisio.jar file
 
-```html
-<span style="color: red"> PathVisio requires the installation of <br>Java 8</br>. </span>
-```
+PathVisio requires the installation of **Java 8**!
+
 If you need further direction for installing PathVisio, visit the [Installation Guide](pages/installation_guide.md).
 
 Are you starting with pathway modeling, have a look at this nice introduction: [https://github.com/gladstone-institutes/Bioinformatics-Workshops/wiki/Introduction-to-Pathway-Modeling](https://github.com/gladstone-institutes/Bioinformatics-Workshops/wiki/Introduction-to-Pathway-Modeling).
