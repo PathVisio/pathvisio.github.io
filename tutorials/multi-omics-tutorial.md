@@ -16,7 +16,7 @@ All data needs to be combined in one data file. Very likely, you are using diffe
 | P12821  | S  | -0.8 | 0.04 | Proteomics |
 | CHEBI:3165| Ce | -1.0 | 0.03 | Metabolomics |
 
-You can also combine multiple transcriptomics datasets this way. If all identifiers are from the same database, then the system code column is not needed. 
+You can also combine multiple transcriptomics datasets this way. If all identifiers are from the same database, the system code column is not needed. 
 
 ## Step 2: Import your data
 * Open PathVisio
