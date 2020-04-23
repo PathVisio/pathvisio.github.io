@@ -1,4 +1,4 @@
-# FindYourInteraction plugin ![](/images/plugin.png)
+# FindYourInteraction plugin ![](/images/plugins/plugin.png)
 
 ### Description
 
