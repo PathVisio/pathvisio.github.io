@@ -23,7 +23,7 @@ You can also combine multiple transcriptomics datasets this way. If all identifi
 ## Step 2: Import your data
 * Open PathVisio
 * Open a pathway of interest. 
-* Make sure the correct identifier mapping databases are loaded (species-specific gene and/or metabolite mapping databases)
+* Make sure the correct identifier mapping databases are loaded (species-specific gene and/or metabolite mapping databases). See instructions in the [starter guide](getting-started.md).
 * Data > Import Expression Data
 * Follow the wizard and make sure to select the system code column in the "Choose column types" dialog. 
 
