@@ -8,7 +8,7 @@ If you want to visualize different omics data types together on a pathway diagra
 ----
 
 ## Step 1: Prepare your data
-All data needs to be combined in one data file. Very likely, you are using different identifiers for your different measurements (e.g. Entrez Gene for transcriptomics, UniProt for proteomics and ChEBI for metabolomics). Each identifier needs to be accompanied by the appropriate [database/system code](https://bridgedb.github.io/pages/system-codes.html). Additionally, we advise to add a type column, indicating what data type/experiment the measurement comes from. The data file should look something like this. 
+All data needs to be combined in one data file. Very likely, you are using different identifiers for your different measurements (e.g. Entrez Gene for transcriptomics, UniProt for proteomics and ChEBI for metabolomics). Each identifier needs to be accompanied by the appropriate [database/system code](https://bridgedb.github.io/pages/system-codes.html). Additionally, we advise to add a type column, indicating what data type/experiment the measurement comes from. The data file should look like this (with many more measurements per type). 
 
 | Identifier  | System Code | log2FC | p-value | Type |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
