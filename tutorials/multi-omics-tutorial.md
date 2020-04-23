@@ -1,7 +1,7 @@
 # Tutorial: Multi-omics data visualziation with PathVisio
 
 * *Author:* [Martina Summer-Kutmon](https://github.com/mkutmon)
-* *Date:* 2020-04-23
+* *Date last updated:* 2020-04-23
 
 If you want to visualize different omics data types together on a pathway diagram, there are a couple of steps you need to follow. You first need to prepare your data file in the correct way (step 1), then you need to import your data (step 2) and lastly, you need to create an intuitive visualization (step 3). 
 
