@@ -1,4 +1,4 @@
-# BridgeDb plugin ![](/images/plugin.png)
+# BridgeDb plugin ![](/images/plugins/plugin.png)
 
 ### Description
 The BridgeDb configuration plugin let's you configure identifier mapping resources to be used in PathVisio. The mapping resources will be used to link pathway identifiers to identifiers in your dataset, during data import and visualization. The mapping resources are also used to fetch information for the backpage side-panel.
