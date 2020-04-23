@@ -1,5 +1,6 @@
 # PathVisio biological pathway editor
-**Welcome to the PathVisio website.**
+
+PathVisio is a free open-source pathway analysis and drawing software which allows drawing, editing, and analyzing biological pathways.
 
 <p align="left">
   <table>
