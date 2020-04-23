@@ -21,6 +21,6 @@
       <td align="center">Download PathVisio</td>
       <td align="center">Contact us for help</td>
     </tr>
-  </table
+  </table>
 </p> 
 
