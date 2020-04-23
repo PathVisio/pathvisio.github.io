@@ -1,4 +1,4 @@
-# xxx plugin ![](/images/plugin.png)
+# xxx plugin ![](/images/plugins/plugin.png)
 
 ### Description
 
