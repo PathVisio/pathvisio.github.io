@@ -28,5 +28,5 @@ If you want to get familiar with PathVisio and how the tools works, follow this 
 
 ## Advanced tutorials
 
-* [Multi-omics data visualization](tutorials/multi-omics-tutorial)
+* [Multi-omics data visualization](tutorials/multi-omics-tutorial.md)
 * Time-series data visualization *(coming soon)*
