@@ -5,12 +5,16 @@ Tutorials will be made available to help you navigate PathVisio and its possibil
 ---- 
 
 ## Introduction to pathway modeling
-Are you completely new in the field of pathways modeling? Then this [Introduction to Pathway Modeling for Biologists](https://github.com/gladstone-institutes/Bioinformatics-Workshops/wiki/Introduction-to-Pathway-Modeling) is a great place for you to start!
+Are you completely new in the field of pathways modeling? Then this introduction course is a great place for you to start!
+
+* [Introduction to Pathway Modeling for Biologists](https://github.com/gladstone-institutes/Bioinformatics-Workshops/wiki/Introduction-to-Pathway-Modeling)
 
 ---- 
 
 ## Getting started with PathVisio
-If you want to get familiar with PathVisio and how the tools works, follow this [started guide](tutorials/getting-started.md).
+If you want to get familiar with PathVisio and how the tools works, follow this started guide.
+
+* [Introduction to PathVisio](tutorials/getting-started.md)
 
 ---- 
 
