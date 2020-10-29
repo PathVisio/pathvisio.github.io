@@ -1,6 +1,7 @@
 # Frequently Asked Questions
 
 * [Java Security Settings](#java-security-settings)
+* [Running Java 8](#running-java-8)
 * [General Questions](#general-questions) 
 * [Pathway Diagrams](#pathway-diagrams)
 * [Gene Expression / Omics Data](#gene-expression-/-omics-data)
@@ -11,6 +12,21 @@
 
 ## Java Security Settings
 When starting PathVisio, you might see an error. In the latest Java update the security settings for self-signed applications have been [adapted (Java 7 Update 51)](http://java.com/en/download/faq/release7_changes.xml). Self-Signed applications, like Pathvisio, are blocked on high security level. **PathVisio is still safe to run.** We also are in the progress of registering a certificate which will allow users to also run PathVisio on high security level. Until then, you can either use the binary installation of PathVisio or lower the Java security settings. Instructions on how to set your security settings can be found [here](http://www.java.com/en/download/help/jcp_security.xml).
+
+## Running Java 8
+There is no need to uninstall other Java versions, when you want to use PathVisio.
+Simply download Java 8, and find the folder where you have installed Java 8.
+Now, open the pathvisio.bat file in a text editor.
+Change the 3rd line:
+```
+java -Xmx1024m -jar -Dfile.encoding=UTF-8 pathvisio.jar "$@"
+```
+to the following line (where "C:\Program Files (x86)\Java\jre1.8.0_271\bin\java.exe" is an example of the folder location for a Java 8 installation):
+```
+call "C:\Program Files (x86)\Java\jre1.8.0_271\bin\java.exe" -Xmx1024m -jar -Dfile.encoding=UTF-8 pathvisio.jar "$@
+```
+Save the pathvisio.bat file, close it, and try running it again.
+Adding this option allows PathVisio to find your Java 8 version (iso using a standard java version on your computer).
 
 ## General Questions
 
