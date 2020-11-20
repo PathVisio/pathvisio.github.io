@@ -7,7 +7,7 @@
       <td><img width="120" src="images/logos/pathvisio-logo.png"></td>
     </tr>
     <tr>
-      <td>PathVisio is the pathway editor for <a href="https://www.wikipathways.org">WikiPathways</a>, a community-curated pathway database allowing collaborative pathway editing.</td>
+      <td>PathVisio is the pathway editor for <a href="https://www.wikipathways.org">WikiPathways</a>, a community-curated pathway database enabling collaborative pathway editing.</td>
     </tr>
   </table>
 </p>
