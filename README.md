@@ -6,6 +6,9 @@
     <td>PathVisio is a free open-source pathway analysis and drawing software which allows drawing, editing, and analyzing biological pathways. It is developed in Java and can be extended with plugins.</td>
       <td><img width="120" src="images/logos/pathvisio-logo.png"></td>
     </tr>
+    <tr>
+      <td>PathVisio is the pathway editor for <a href="https://www.wikipathways.org">WikiPathways</a>, a community-curated pathway database allowing collaborative pathway editing.</td>
+    </tr>
   </table>
 </p>
 
