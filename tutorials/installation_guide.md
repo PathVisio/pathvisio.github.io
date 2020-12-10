@@ -13,19 +13,19 @@ This is the local installation for PathVisio and the recommended one. The binary
 
 ### How to install PathVisio using Windows:
 
-1. Visit the [Download]( https://pathvisio.github.io/pages/downloads) page for PathVisio, and click on the link to the current version of PathVisio under “Installations”
+1. Visit the [Download]( https://pathvisio.github.io/downloads) page for PathVisio, and click on the link to the current version of PathVisio under “Installations”
 2. Unzip the folder to whichever location on your hard drive you wish to access the program from. 
 3. Start PathVisio by double-clicking the pathvisio.bat file
 
 ### How to install PathVisio using Linux:
 
-1. Visit the [Download]( https://pathvisio.github.io/pages/downloads) page for PathVisio, and click on the link to the current version of PathVisio under “Installations”
+1. Visit the [Download]( https://pathvisio.github.io/downloads) page for PathVisio, and click on the link to the current version of PathVisio under “Installations”
 2. Unzip the folder to whichever location on your hard drive you wish to access the program from. 
 3. Start PathVisio by running the pathvisio.sh file
 
 ### How to install PathVisio using Mac:
 
-1. Visit the [Download]( https://pathvisio.github.io/pages/downloads) page for PathVisio, and click on the link to the current version of PathVisio under “Installations”
+1. Visit the [Download]( https://pathvisio.github.io/downloads) page for PathVisio, and click on the link to the current version of PathVisio under “Installations”
 2. Move the Zip file that you downloaded to the location on your hard drive where you wish PathVisio to be accessible from.
 3. Unzip the folder by double clicking on it. This process creates a new folder where the program files are located. 
 4. Experienced command line users can run the pathvisio.sh file. Other users should double click the pathvisio.jar file.
