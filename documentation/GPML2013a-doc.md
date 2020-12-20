@@ -23,7 +23,7 @@ hr {
 }
 /* Document title */
 h1 {
-   font-size: 18pt;
+   /*font-size: 18pt;*/
    letter-spacing: 2px;
    /*border-bottom: 1px #ccc solid;*/
    padding-top: 5px;
@@ -37,7 +37,7 @@ h2 {
 }
 /* Sub-section headers */
 h3, h3 a, h3 span {
-   font-size: 12pt;
+   /*font-size: 12pt;*/
    font-weight: bold;
    color: black;
 }
