@@ -1,6 +1,4 @@
-<!-- <?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"> -->
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html>
 <head>
 <title>GPML Version 2013a Documentation</title>
 <meta http-equiv="Content-Type" content="text/xml; charset=iso-8859-1" />
