@@ -1,5 +1,5 @@
-<!--<?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"> --> 
+/* <?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"> */
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <title>GPML Version 2013a Documentation</title>
@@ -21,7 +21,7 @@ body {
 hr {
    color: black;
 }
-/* Document title */
+/* Document title 
 h1 {
    font-size: 18pt;
    letter-spacing: 2px;
@@ -29,6 +29,8 @@ h1 {
    padding-top: 5px;
    padding-bottom: 5px;
 }
+*/
+
 /* Main section headers */
 h2 {
    font-size: 14pt;
