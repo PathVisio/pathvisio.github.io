@@ -6,4 +6,4 @@ File format to store pathway models in PathVisio and share them on WikiPathways.
 * Under development
 
 ### GPML2013a
-* Schema Documentation: [here](https://pathvisio.github.io/documentation/GPML2013a-doc.html)
+* [Schema Documentation](https://pathvisio.github.io/documentation/GPML2013a-doc.html)
