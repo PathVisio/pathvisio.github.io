@@ -4,9 +4,6 @@
 
 ---- 
 
-##  GPML - the Graphical Pathway Markup Language Schema 2013a
-You can view documentation for the GPML 2013a Schema
-
-* [GPML 2013a Schema Documentation](documentation/GPML2013a-doc.md)
-
+##  GPML file format
+You can find more information about the GPML file format [here](https://pathvisio.github.io/documentation/GPML).
 ----
