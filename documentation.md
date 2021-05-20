@@ -4,6 +4,8 @@
 
 ---- 
 
-##  GPML file format
+## GPML file format
+
 You can find more information about the GPML file format [here](https://pathvisio.github.io/documentation/GPML).
+
 ----
