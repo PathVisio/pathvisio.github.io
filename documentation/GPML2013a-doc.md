@@ -1,6 +1,6 @@
 <html>
 <head>
-<title>GPML Version 2013a Documentation</title>
+<title>GPML Schema 2013a Documentation</title>
 <meta http-equiv="Content-Type" content="text/xml; charset=iso-8859-1" />
 <style type="text/css">
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
@@ -12,7 +12,7 @@
 body {
    color: Black;
    background-color: White;
-   /*font-family: Arial, sans-serif;*/
+   font-family: Arial, sans-serif;
    font-size: 10pt;
 }
 /* Horizontal rules */
@@ -23,11 +23,10 @@ hr {
 h1 {
    font-size: 18pt;
    letter-spacing: 2px;
-   /*border-bottom: 1px #ccc solid;*/
+   border-bottom: 1px #ccc solid;
    padding-top: 5px;
    padding-bottom: 5px;
 }
-
 /* Main section headers */
 h2 {
    font-size: 14pt;
@@ -671,7 +670,7 @@ function viewDocumentation(compDesc, compName, docTextArray) {
 </script>
 </head>
 <body>
-<h1><a name="top">GPML Version 2013a Documentation</a></h1>
+<h1><a name="top">GPML Schema Documentation</a></h1>
 <div style="float: right;">
 <div id="printerControls" style="display:none;">
 <input type="checkbox" onclick="displayMode(this.checked)" />Printer-friendly Version</div>
@@ -707,40 +706,8 @@ if (gc != null) {
 <li>
 <a href="#SchemaProperties">Schema Document Properties</a>
 </li>
-<li><a href="#SchemaComponents">Global Schema Components</a>
+<li><a href="#SchemaDeclarations">Global Declarations</a>
 <ul>
-<li>
-<a href="#attributeGroup_FontAttributes">Attribute Group: <strong>FontAttributes</strong>
-</a>
-</li>
-<li>
-<a href="#attributeGroup_RectAttributes">Attribute Group: <strong>RectAttributes</strong>
-</a>
-</li>
-<li>
-<a href="#attributeGroup_ShapeStyleAttributes">Attribute Group: <strong>ShapeStyleAttributes</strong>
-</a>
-</li>
-<li>
-<a href="#type_RotationType">Simple Type: <strong>RotationType</strong>
-</a>
-</li>
-<li>
-<a href="#type_ColorType">Simple Type: <strong>ColorType</strong>
-</a>
-</li>
-<li>
-<a href="#type_StyleType">Simple Type: <strong>StyleType</strong>
-</a>
-</li>
-<li>
-<a href="#type_Dimension">Simple Type: <strong>Dimension</strong>
-</a>
-</li>
-<li>
-<a href="#group_CommentGroup">Model Group: <strong>CommentGroup</strong>
-</a>
-</li>
 <li>
 <a href="#element_Pathway">Element: <strong>Pathway</strong>
 </a>
@@ -783,6 +750,42 @@ if (gc != null) {
 </li>
 <li>
 <a href="#element_Biopax">Element: <strong>Biopax</strong>
+</a>
+</li>
+</ul>
+</li>
+<li><a href="#SchemaDefinitions">Global Definitions</a>
+<ul>
+<li>
+<a href="#attributeGroup_FontAttributes">Attribute Group: <strong>FontAttributes</strong>
+</a>
+</li>
+<li>
+<a href="#attributeGroup_RectAttributes">Attribute Group: <strong>RectAttributes</strong>
+</a>
+</li>
+<li>
+<a href="#attributeGroup_ShapeStyleAttributes">Attribute Group: <strong>ShapeStyleAttributes</strong>
+</a>
+</li>
+<li>
+<a href="#type_RotationType">Simple Type: <strong>RotationType</strong>
+</a>
+</li>
+<li>
+<a href="#type_ColorType">Simple Type: <strong>ColorType</strong>
+</a>
+</li>
+<li>
+<a href="#type_StyleType">Simple Type: <strong>StyleType</strong>
+</a>
+</li>
+<li>
+<a href="#type_Dimension">Simple Type: <strong>Dimension</strong>
+</a>
+</li>
+<li>
+<a href="#group_CommentGroup">Model Group: <strong>CommentGroup</strong>
 </a>
 </li>
 </ul>
@@ -859,382 +862,7 @@ setState('schema_scbox', false);
 </div>
 <div style="text-align: right; clear: both;"><a href="#top">top</a></div>
 <hr />
-<h2><a name="SchemaComponents">Global Schema Components</a></h2>
-<h3>Attribute Group: <a name="attributeGroup_FontAttributes" class="name">FontAttributes</a>
-</h3>
-<table class="properties">
-<tr>
-<th>Name</th>
-<td>FontAttributes</td>
-</tr>
-<tr>
-<th>Documentation</th>
-<td>
-				Common font properties. 
-			</td>
-</tr>
-</table>
-<div class="sample box">
-<div>
-<input type="button" id="attributeGroup_FontAttributes_xibox_button" class="control" onclick="switchState('attributeGroup_FontAttributes_xibox'); return false;" style="display: none" /> <span class="caption">XML Instance Representation</span>
-</div>
-<div id="attributeGroup_FontAttributes_xibox" class="contents">
-<span style="margin-left: 0em"> FontName="<span class="type"><a href="#ns_xsd" title="Find out namespace of 'xsd' prefix">xsd</a>:string</span> <span class="occurs">[0..1]</span> <a href="javascript:void(0)" title="View Documentation" class="documentation" onclick="docArray = new Array('The name of the set of printable text characters to be used for visualization, e.g. Arial.'); viewDocumentation('Attribute', 'FontName', docArray);">?</a>"</span><br /><span style="margin-left: 0em"> FontStyle="<span class="constraint"><span class="type"><a href="#ns_xsd" title="Find out namespace of 'xsd' prefix">xsd</a>:string</span> (<em>value</em> comes from list: {'Normal'|'Italic'})</span> <span class="occurs">[0..1]</span> <a href="javascript:void(0)" title="View Documentation" class="documentation" onclick="docArray = new Array('The typographic style or font face applied to displayed text, e.g. Normal or Italic.'); viewDocumentation('Attribute', 'FontStyle', docArray);">?</a>"</span><br /><span style="margin-left: 0em"> FontDecoration="<span class="constraint"><span class="type"><a href="#ns_xsd" title="Find out namespace of 'xsd' prefix">xsd</a>:string</span> (<em>value</em> comes from list: {'Normal'|'Underline'})</span> <span class="occurs">[0..1]</span> <a href="javascript:void(0)" title="View Documentation" class="documentation" onclick="docArray = new Array('The typographic style for underline or normal.'); viewDocumentation('Attribute', 'FontDecoration', docArray);">?</a>"</span><br /><span style="margin-left: 0em"> FontStrikethru="<span class="constraint"><span class="type"><a href="#ns_xsd" title="Find out namespace of 'xsd' prefix">xsd</a>:string</span> (<em>value</em> comes from list: {'Normal'|'Strikethru'})</span> <span class="occurs">[0..1]</span> <a href="javascript:void(0)" title="View Documentation" class="documentation" onclick="docArray = new Array('The typographic style for strikethru or normal.'); viewDocumentation('Attribute', 'FontStrikethru', docArray);">?</a>"</span><br /><span style="margin-left: 0em"> FontWeight="<span class="constraint"><span class="type"><a href="#ns_xsd" title="Find out namespace of 'xsd' prefix">xsd</a>:string</span> (<em>value</em> comes from list: {'Normal'|'Bold'})</span> <span class="occurs">[0..1]</span> <a href="javascript:void(0)" title="View Documentation" class="documentation" onclick="docArray = new Array('Thickness of the font used, e.g a bold font would have more weight.'); viewDocumentation('Attribute', 'FontWeight', docArray);">?</a>"</span><br /><span style="margin-left: 0em"> FontSize="<span class="type"><a href="#ns_xsd" title="Find out namespace of 'xsd' prefix">xsd</a>:nonNegativeInteger</span> <span class="occurs">[0..1]</span> <a href="javascript:void(0)" title="View Documentation" class="documentation" onclick="docArray = new Array('The point value for the size of the font.'); viewDocumentation('Attribute', 'FontSize', docArray);">?</a>"</span><br /><span style="margin-left: 0em"> Align="<span class="constraint"><span class="type"><a href="#ns_xsd" title="Find out namespace of 'xsd' prefix">xsd</a>:string</span> (<em>value</em> comes from list: {'Left'|'Center'|'Right'})</span> <span class="occurs">[0..1]</span> <a href="javascript:void(0)" title="View Documentation" class="documentation" onclick="docArray = new Array('Horizontal alignment of displayed text, e.g., Left, Center, Right.'); viewDocumentation('Attribute', 'Align', docArray);">?</a>"</span><br /><span style="margin-left: 0em"> Valign="<span class="constraint"><span class="type"><a href="#ns_xsd" title="Find out namespace of 'xsd' prefix">xsd</a>:string</span> (<em>value</em> comes from list: {'Top'|'Middle'|'Bottom'})</span> <span class="occurs">[0..1]</span> <a href="javascript:void(0)" title="View Documentation" class="documentation" onclick="docArray = new Array('Vertical alignment of displayed text, e.g., Top, Middle, Bottom.'); viewDocumentation('Attribute', 'Valign', docArray);">?</a>"</span>
-</div>
-<script type="text/javascript">
-<!--
-setState('attributeGroup_FontAttributes_xibox', true);
-// -->
-</script>
-</div>
-<div class="schemaComponent box">
-<div>
-<input type="button" id="attributeGroup_FontAttributes_scbox_button" class="control" onclick="switchState('attributeGroup_FontAttributes_scbox'); return false;" style="display: none" /> <span class="caption">Schema Component Representation</span>
-</div>
-<div id="attributeGroup_FontAttributes_scbox" class="contents">
-<div style="margin-left: 0em">&lt;<span class="scTag">xsd:attributeGroup</span> <span class="scTag">name</span>="<span class="scContent">FontAttributes</span>"&gt;<div style="margin-left: 1.5em">&lt;<span class="scTag">xsd:attribute</span> <span class="scTag">name</span>="<span class="scContent">FontName</span>" <span class="scTag">type</span>="<span class="scContent"><span class="type"><a href="#ns_xsd" title="Find out namespace of 'xsd' prefix">xsd</a>:string</span></span>" <span class="scTag">default</span>="<span class="scContent">Arial</span>"/&gt;</div><div style="margin-left: 1.5em">&lt;<span class="scTag">xsd:attribute</span> <span class="scTag">name</span>="<span class="scContent">FontStyle</span>" <span class="scTag">default</span>="<span class="scContent">Normal</span>"&gt;<div style="margin-left: 1.5em">&lt;<span class="scTag">xsd:simpleType</span>&gt;<div style="margin-left: 1.5em">&lt;<span class="scTag">xsd:restriction</span> <span class="scTag">base</span>="<span class="scContent"><span class="type"><a href="#ns_xsd" title="Find out namespace of 'xsd' prefix">xsd</a>:string</span></span>"&gt;<div style="margin-left: 1.5em">&lt;<span class="scTag">xsd:enumeration</span> <span class="scTag">value</span>="<span class="scContent">Normal</span>"/&gt;</div><div style="margin-left: 1.5em">&lt;<span class="scTag">xsd:enumeration</span> <span class="scTag">value</span>="<span class="scContent">Italic</span>"/&gt;</div>&lt;/<span class="scTag">xsd:restriction</span>&gt;</div>&lt;/<span class="scTag">xsd:simpleType</span>&gt;</div>&lt;/<span class="scTag">xsd:attribute</span>&gt;</div><div style="margin-left: 1.5em">&lt;<span class="scTag">xsd:attribute</span> <span class="scTag">name</span>="<span class="scContent">FontDecoration</span>" <span class="scTag">default</span>="<span class="scContent">Normal</span>"&gt;<div style="margin-left: 1.5em">&lt;<span class="scTag">xsd:simpleType</span>&gt;<div style="margin-left: 1.5em">&lt;<span class="scTag">xsd:restriction</span> <span class="scTag">base</span>="<span class="scContent"><span class="type"><a href="#ns_xsd" title="Find out namespace of 'xsd' prefix">xsd</a>:string</span></span>"&gt;<div style="margin-left: 1.5em">&lt;<span class="scTag">xsd:enumeration</span> <span class="scTag">value</span>="<span class="scContent">Normal</span>"/&gt;</div><div style="margin-left: 1.5em">&lt;<span class="scTag">xsd:enumeration</span> <span class="scTag">value</span>="<span class="scContent">Underline</span>"/&gt;</div>&lt;/<span class="scTag">xsd:restriction</span>&gt;</div>&lt;/<span class="scTag">xsd:simpleType</span>&gt;</div>&lt;/<span class="scTag">xsd:attribute</span>&gt;</div><div style="margin-left: 1.5em">&lt;<span class="scTag">xsd:attribute</span> <span class="scTag">name</span>="<span class="scContent">FontStrikethru</span>" <span class="scTag">default</span>="<span class="scContent">Normal</span>"&gt;<div style="margin-left: 1.5em">&lt;<span class="scTag">xsd:simpleType</span>&gt;<div style="margin-left: 1.5em">&lt;<span class="scTag">xsd:restriction</span> <span class="scTag">base</span>="<span class="scContent"><span class="type"><a href="#ns_xsd" title="Find out namespace of 'xsd' prefix">xsd</a>:string</span></span>"&gt;<div style="margin-left: 1.5em">&lt;<span class="scTag">xsd:enumeration</span> <span class="scTag">value</span>="<span class="scContent">Normal</span>"/&gt;</div><div style="margin-left: 1.5em">&lt;<span class="scTag">xsd:enumeration</span> <span class="scTag">value</span>="<span class="scContent">Strikethru</span>"/&gt;</div>&lt;/<span class="scTag">xsd:restriction</span>&gt;</div>&lt;/<span class="scTag">xsd:simpleType</span>&gt;</div>&lt;/<span class="scTag">xsd:attribute</span>&gt;</div><div style="margin-left: 1.5em">&lt;<span class="scTag">xsd:attribute</span> <span class="scTag">name</span>="<span class="scContent">FontWeight</span>" <span class="scTag">default</span>="<span class="scContent">Normal</span>"&gt;<div style="margin-left: 1.5em">&lt;<span class="scTag">xsd:simpleType</span>&gt;<div style="margin-left: 1.5em">&lt;<span class="scTag">xsd:restriction</span> <span class="scTag">base</span>="<span class="scContent"><span class="type"><a href="#ns_xsd" title="Find out namespace of 'xsd' prefix">xsd</a>:string</span></span>"&gt;<div style="margin-left: 1.5em">&lt;<span class="scTag">xsd:enumeration</span> <span class="scTag">value</span>="<span class="scContent">Normal</span>"/&gt;</div><div style="margin-left: 1.5em">&lt;<span class="scTag">xsd:enumeration</span> <span class="scTag">value</span>="<span class="scContent">Bold</span>"/&gt;</div>&lt;/<span class="scTag">xsd:restriction</span>&gt;</div>&lt;/<span class="scTag">xsd:simpleType</span>&gt;</div>&lt;/<span class="scTag">xsd:attribute</span>&gt;</div><div style="margin-left: 1.5em">&lt;<span class="scTag">xsd:attribute</span> <span class="scTag">name</span>="<span class="scContent">FontSize</span>" <span class="scTag">type</span>="<span class="scContent"><span class="type"><a href="#ns_xsd" title="Find out namespace of 'xsd' prefix">xsd</a>:nonNegativeInteger</span></span>" <span class="scTag">default</span>="<span class="scContent">12</span>"/&gt;</div><div style="margin-left: 1.5em">&lt;<span class="scTag">xsd:attribute</span> <span class="scTag">name</span>="<span class="scContent">Align</span>" <span class="scTag">default</span>="<span class="scContent">Center</span>"&gt;<div class="comment" style="margin-left: 1.5em">&lt;-- Horizontal alignment --&gt;</div><div style="margin-left: 1.5em">&lt;<span class="scTag">xsd:simpleType</span>&gt;<div style="margin-left: 1.5em">&lt;<span class="scTag">xsd:restriction</span> <span class="scTag">base</span>="<span class="scContent"><span class="type"><a href="#ns_xsd" title="Find out namespace of 'xsd' prefix">xsd</a>:string</span></span>"&gt;<div style="margin-left: 1.5em">&lt;<span class="scTag">xsd:enumeration</span> <span class="scTag">value</span>="<span class="scContent">Left</span>"/&gt;</div><div style="margin-left: 1.5em">&lt;<span class="scTag">xsd:enumeration</span> <span class="scTag">value</span>="<span class="scContent">Center</span>"/&gt;</div><div style="margin-left: 1.5em">&lt;<span class="scTag">xsd:enumeration</span> <span class="scTag">value</span>="<span class="scContent">Right</span>"/&gt;</div>&lt;/<span class="scTag">xsd:restriction</span>&gt;</div>&lt;/<span class="scTag">xsd:simpleType</span>&gt;</div>&lt;/<span class="scTag">xsd:attribute</span>&gt;</div><div style="margin-left: 1.5em">&lt;<span class="scTag">xsd:attribute</span> <span class="scTag">name</span>="<span class="scContent">Valign</span>" <span class="scTag">default</span>="<span class="scContent">Top</span>"&gt;<div class="comment" style="margin-left: 1.5em">&lt;-- Vertical alignment --&gt;</div><div style="margin-left: 1.5em">&lt;<span class="scTag">xsd:simpleType</span>&gt;<div style="margin-left: 1.5em">&lt;<span class="scTag">xsd:restriction</span> <span class="scTag">base</span>="<span class="scContent"><span class="type"><a href="#ns_xsd" title="Find out namespace of 'xsd' prefix">xsd</a>:string</span></span>"&gt;<div style="margin-left: 1.5em">&lt;<span class="scTag">xsd:enumeration</span> <span class="scTag">value</span>="<span class="scContent">Top</span>"/&gt;</div><div style="margin-left: 1.5em">&lt;<span class="scTag">xsd:enumeration</span> <span class="scTag">value</span>="<span class="scContent">Middle</span>"/&gt;</div><div style="margin-left: 1.5em">&lt;<span class="scTag">xsd:enumeration</span> <span class="scTag">value</span>="<span class="scContent">Bottom</span>"/&gt;</div>&lt;/<span class="scTag">xsd:restriction</span>&gt;</div>&lt;/<span class="scTag">xsd:simpleType</span>&gt;</div>&lt;/<span class="scTag">xsd:attribute</span>&gt;</div>&lt;/<span class="scTag">xsd:attributeGroup</span>&gt;</div>
-</div>
-<script type="text/javascript">
-<!--
-setState('attributeGroup_FontAttributes_scbox', false);
-// -->
-</script>
-</div>
-<div style="text-align: right; clear: both;"><a href="#top">top</a></div>
-<hr />
-<h3>Attribute Group: <a name="attributeGroup_RectAttributes" class="name">RectAttributes</a>
-</h3>
-<table class="properties">
-<tr>
-<th>Name</th>
-<td>RectAttributes</td>
-</tr>
-<tr>
-<th>Documentation</th>
-<td>
-				Group of attributes for a pathway element, e.g. rectangular node.  
-			</td>
-</tr>
-</table>
-<div class="sample box">
-<div>
-<input type="button" id="attributeGroup_RectAttributes_xibox_button" class="control" onclick="switchState('attributeGroup_RectAttributes_xibox'); return false;" style="display: none" /> <span class="caption">XML Instance Representation</span>
-</div>
-<div id="attributeGroup_RectAttributes_xibox" class="contents">
-<span style="margin-left: 0em"> CenterX="<span class="type"><a href="#ns_xsd" title="Find out namespace of 'xsd' prefix">xsd</a>:float</span> <span class="occurs">[1]</span> <a href="javascript:void(0)" title="View Documentation" class="documentation" onclick="docArray = new Array('Middle of a pathway element in the x-direction.'); viewDocumentation('Attribute', 'CenterX', docArray);">?</a>"</span><br /><span style="margin-left: 0em"> CenterY="<span class="type"><a href="#ns_xsd" title="Find out namespace of 'xsd' prefix">xsd</a>:float</span> <span class="occurs">[1]</span> <a href="javascript:void(0)" title="View Documentation" class="documentation" onclick="docArray = new Array('Middle of a pathway element in the y-direction.'); viewDocumentation('Attribute', 'CenterY', docArray);">?</a>"</span><br /><span style="margin-left: 0em"> Width="<span class="type"><a href="#ns_gpml" title="Find out namespace of 'gpml' prefix">gpml</a>:<a title="Jump to &quot;Dimension&quot; type definition." href="#type_Dimension">Dimension</a></span> <span class="occurs">[1]</span> <a href="javascript:void(0)" title="View Documentation" class="documentation" onclick="docArray = new Array('The pixel value for the x-dimensional length of a pathway element.'); viewDocumentation('Attribute', 'Width', docArray);">?</a>"</span><br /><span style="margin-left: 0em"> Height="<span class="type"><a href="#ns_gpml" title="Find out namespace of 'gpml' prefix">gpml</a>:<a title="Jump to &quot;Dimension&quot; type definition." href="#type_Dimension">Dimension</a></span> <span class="occurs">[1]</span> <a href="javascript:void(0)" title="View Documentation" class="documentation" onclick="docArray = new Array('The pixel value for the y-dimensional length of a pathway element.'); viewDocumentation('Attribute', 'Height', docArray);">?</a>"</span>
-</div>
-<script type="text/javascript">
-<!--
-setState('attributeGroup_RectAttributes_xibox', true);
-// -->
-</script>
-</div>
-<div class="schemaComponent box">
-<div>
-<input type="button" id="attributeGroup_RectAttributes_scbox_button" class="control" onclick="switchState('attributeGroup_RectAttributes_scbox'); return false;" style="display: none" /> <span class="caption">Schema Component Representation</span>
-</div>
-<div id="attributeGroup_RectAttributes_scbox" class="contents">
-<div style="margin-left: 0em">&lt;<span class="scTag">xsd:attributeGroup</span> <span class="scTag">name</span>="<span class="scContent">RectAttributes</span>"&gt;<div style="margin-left: 1.5em">&lt;<span class="scTag">xsd:attribute</span> <span class="scTag">name</span>="<span class="scContent">CenterX</span>" <span class="scTag">type</span>="<span class="scContent"><span class="type"><a href="#ns_xsd" title="Find out namespace of 'xsd' prefix">xsd</a>:float</span></span>" <span class="scTag">use</span>="<span class="scContent">required</span>"/&gt;</div><div style="margin-left: 1.5em">&lt;<span class="scTag">xsd:attribute</span> <span class="scTag">name</span>="<span class="scContent">CenterY</span>" <span class="scTag">type</span>="<span class="scContent"><span class="type"><a href="#ns_xsd" title="Find out namespace of 'xsd' prefix">xsd</a>:float</span></span>" <span class="scTag">use</span>="<span class="scContent">required</span>"/&gt;</div><div style="margin-left: 1.5em">&lt;<span class="scTag">xsd:attribute</span> <span class="scTag">name</span>="<span class="scContent">Width</span>" <span class="scTag">type</span>="<span class="scContent"><span class="type"><a href="#ns_gpml" title="Find out namespace of 'gpml' prefix">gpml</a>:<a title="Jump to &quot;Dimension&quot; type definition." href="#type_Dimension">Dimension</a></span></span>" <span class="scTag">use</span>="<span class="scContent">required</span>"/&gt;</div><div style="margin-left: 1.5em">&lt;<span class="scTag">xsd:attribute</span> <span class="scTag">name</span>="<span class="scContent">Height</span>" <span class="scTag">type</span>="<span class="scContent"><span class="type"><a href="#ns_gpml" title="Find out namespace of 'gpml' prefix">gpml</a>:<a title="Jump to &quot;Dimension&quot; type definition." href="#type_Dimension">Dimension</a></span></span>" <span class="scTag">use</span>="<span class="scContent">required</span>"/&gt;</div>&lt;/<span class="scTag">xsd:attributeGroup</span>&gt;</div>
-</div>
-<script type="text/javascript">
-<!--
-setState('attributeGroup_RectAttributes_scbox', false);
-// -->
-</script>
-</div>
-<div style="text-align: right; clear: both;"><a href="#top">top</a></div>
-<hr />
-<h3>Attribute Group: <a name="attributeGroup_ShapeStyleAttributes" class="name">ShapeStyleAttributes</a>
-</h3>
-<table class="properties">
-<tr>
-<th>Name</th>
-<td>ShapeStyleAttributes</td>
-</tr>
-<tr>
-<th>Documentation</th>
-<td>
-				Group of attributes defining the style (e.g. color, line style) of a pathway element.   
-			</td>
-</tr>
-</table>
-<div class="sample box">
-<div>
-<input type="button" id="attributeGroup_ShapeStyleAttributes_xibox_button" class="control" onclick="switchState('attributeGroup_ShapeStyleAttributes_xibox'); return false;" style="display: none" /> <span class="caption">XML Instance Representation</span>
-</div>
-<div id="attributeGroup_ShapeStyleAttributes_xibox" class="contents">
-<span style="margin-left: 0em"> Color="<span class="type"><a href="#ns_gpml" title="Find out namespace of 'gpml' prefix">gpml</a>:<a title="Jump to &quot;ColorType&quot; type definition." href="#type_ColorType">ColorType</a></span> <span class="occurs">[0..1]</span> <a href="javascript:void(0)" title="View Documentation" class="documentation" onclick="docArray = new Array('The color to be used for visualization.'); viewDocumentation('Attribute', 'Color', docArray);">?</a>"</span><br /><span style="margin-left: 0em"> LineStyle="<span class="type"><a href="#ns_gpml" title="Find out namespace of 'gpml' prefix">gpml</a>:<a title="Jump to &quot;StyleType&quot; type definition." href="#type_StyleType">StyleType</a></span> <span class="occurs">[0..1]</span> <a href="javascript:void(0)" title="View Documentation" class="documentation" onclick="docArray = new Array('The visual appearance of a line or border, e.g., Solid or Broken.'); viewDocumentation('Attribute', 'LineStyle', docArray);">?</a>"</span><br /><span style="margin-left: 0em"> LineThickness="<span class="type"><a href="#ns_xsd" title="Find out namespace of 'xsd' prefix">xsd</a>:float</span> <span class="occurs">[0..1]</span> <a href="javascript:void(0)" title="View Documentation" class="documentation" onclick="docArray = new Array('The pixel value for the width of a given line, interaction or border.'); viewDocumentation('Attribute', 'LineThickness', docArray);">?</a>"</span>
-</div>
-<script type="text/javascript">
-<!--
-setState('attributeGroup_ShapeStyleAttributes_xibox', true);
-// -->
-</script>
-</div>
-<div class="schemaComponent box">
-<div>
-<input type="button" id="attributeGroup_ShapeStyleAttributes_scbox_button" class="control" onclick="switchState('attributeGroup_ShapeStyleAttributes_scbox'); return false;" style="display: none" /> <span class="caption">Schema Component Representation</span>
-</div>
-<div id="attributeGroup_ShapeStyleAttributes_scbox" class="contents">
-<div style="margin-left: 0em">&lt;<span class="scTag">xsd:attributeGroup</span> <span class="scTag">name</span>="<span class="scContent">ShapeStyleAttributes</span>"&gt;<div style="margin-left: 1.5em">&lt;<span class="scTag">xsd:attribute</span> <span class="scTag">name</span>="<span class="scContent">Color</span>" <span class="scTag">type</span>="<span class="scContent"><span class="type"><a href="#ns_gpml" title="Find out namespace of 'gpml' prefix">gpml</a>:<a title="Jump to &quot;ColorType&quot; type definition." href="#type_ColorType">ColorType</a></span></span>" <span class="scTag">default</span>="<span class="scContent">Black</span>"/&gt;</div><div class="comment" style="margin-left: 1.5em">&lt;-- 2017 adds fillColor attribute --&gt;</div><div style="margin-left: 1.5em">&lt;<span class="scTag">xsd:attribute</span> <span class="scTag">name</span>="<span class="scContent">LineStyle</span>" <span class="scTag">type</span>="<span class="scContent"><span class="type"><a href="#ns_gpml" title="Find out namespace of 'gpml' prefix">gpml</a>:<a title="Jump to &quot;StyleType&quot; type definition." href="#type_StyleType">StyleType</a></span></span>" <span class="scTag">default</span>="<span class="scContent">Solid</span>"/&gt;</div><div style="margin-left: 1.5em">&lt;<span class="scTag">xsd:attribute</span> <span class="scTag">name</span>="<span class="scContent">LineThickness</span>" <span class="scTag">type</span>="<span class="scContent"><span class="type"><a href="#ns_xsd" title="Find out namespace of 'xsd' prefix">xsd</a>:float</span></span>" <span class="scTag">default</span>="<span class="scContent">1.0</span>"/&gt;</div>&lt;/<span class="scTag">xsd:attributeGroup</span>&gt;</div>
-</div>
-<script type="text/javascript">
-<!--
-setState('attributeGroup_ShapeStyleAttributes_scbox', false);
-// -->
-</script>
-</div>
-<div style="text-align: right; clear: both;"><a href="#top">top</a></div>
-<hr />
-<h3>Simple Type: <a name="type_RotationType" class="name">RotationType</a>
-</h3>
-<table class="hierarchy">
-<tr>
-<th>Super-types:</th>
-<td>None</td>
-</tr>
-<tr>
-<th>Sub-types:</th>
-<td>None</td>
-</tr>
-</table>
-<table class="properties">
-<tr>
-<th>Name</th>
-<td>RotationType</td>
-</tr>
-<tr>
-<th>Content</th>
-<td>
-<ul><li>Union of following types: <ul>
-<li>Locally defined type:<ul><li>Base XSD Type: string</li></ul>
-<ul>
-<li>
-<em>value</em> comes from list: {'Top'|'Right'|'Bottom'|'Left'}</li>
-</ul>
-</li>
-<li>Locally defined type:<ul><li>Base XSD Type: float</li></ul>
-</li>
-</ul>
-</li></ul>
-</td>
-</tr>
-<tr>
-<th>Documentation</th>
-<td>
-				 A float value (rotation in radians) or a string (Top, Right, Bottom, Left) 
-				 for each of the four right angles.
-			</td>
-</tr>
-</table>
-<div class="schemaComponent box">
-<div>
-<input type="button" id="type_RotationType_scbox_button" class="control" onclick="switchState('type_RotationType_scbox'); return false;" style="display: none" /> <span class="caption">Schema Component Representation</span>
-</div>
-<div id="type_RotationType_scbox" class="contents">
-<div style="margin-left: 0em">&lt;<span class="scTag">xsd:simpleType</span> <span class="scTag">name</span>="<span class="scContent">RotationType</span>"&gt;<div style="margin-left: 1.5em">&lt;<span class="scTag">xsd:union</span>&gt;<div style="margin-left: 1.5em">&lt;<span class="scTag">xsd:simpleType</span>&gt;<div style="margin-left: 1.5em">&lt;<span class="scTag">xsd:restriction</span> <span class="scTag">base</span>="<span class="scContent"><span class="type"><a href="#ns_xsd" title="Find out namespace of 'xsd' prefix">xsd</a>:string</span></span>"&gt;<div style="margin-left: 1.5em">&lt;<span class="scTag">xsd:enumeration</span> <span class="scTag">value</span>="<span class="scContent">Top</span>"/&gt;</div><div class="comment" style="margin-left: 1.5em">&lt;-- rotation of 0.0 !--&gt;</div><div style="margin-left: 1.5em">&lt;<span class="scTag">xsd:enumeration</span> <span class="scTag">value</span>="<span class="scContent">Right</span>"/&gt;</div><div class="comment" style="margin-left: 1.5em">&lt;-- rotation of 1/2 pi !--&gt;</div><div style="margin-left: 1.5em">&lt;<span class="scTag">xsd:enumeration</span> <span class="scTag">value</span>="<span class="scContent">Bottom</span>"/&gt;</div><div class="comment" style="margin-left: 1.5em">&lt;-- rotation of 1 pi !--&gt;</div><div style="margin-left: 1.5em">&lt;<span class="scTag">xsd:enumeration</span> <span class="scTag">value</span>="<span class="scContent">Left</span>"/&gt;</div><div class="comment" style="margin-left: 1.5em">&lt;-- rotation of 3/2 pi !--&gt;</div>&lt;/<span class="scTag">xsd:restriction</span>&gt;</div>&lt;/<span class="scTag">xsd:simpleType</span>&gt;</div><div style="margin-left: 1.5em">&lt;<span class="scTag">xsd:simpleType</span>&gt;<div style="margin-left: 1.5em">&lt;<span class="scTag">xsd:restriction</span> <span class="scTag">base</span>="<span class="scContent"><span class="type"><a href="#ns_xsd" title="Find out namespace of 'xsd' prefix">xsd</a>:float</span></span>"/&gt;</div><div class="comment" style="margin-left: 1.5em">&lt;-- rotation is always measured in radians !--&gt;</div>&lt;/<span class="scTag">xsd:simpleType</span>&gt;</div>&lt;/<span class="scTag">xsd:union</span>&gt;</div>&lt;/<span class="scTag">xsd:simpleType</span>&gt;</div>
-</div>
-<script type="text/javascript">
-<!--
-setState('type_RotationType_scbox', false);
-// -->
-</script>
-</div>
-<div style="text-align: right; clear: both;"><a href="#top">top</a></div>
-<hr />
-<h3>Simple Type: <a name="type_ColorType" class="name">ColorType</a>
-</h3>
-<table class="hierarchy">
-<tr>
-<th>Super-types:</th>
-<td>None</td>
-</tr>
-<tr>
-<th>Sub-types:</th>
-<td>None</td>
-</tr>
-</table>
-<table class="properties">
-<tr>
-<th>Name</th>
-<td>ColorType</td>
-</tr>
-<tr>
-<th>Content</th>
-<td>
-<ul><li>Union of following types: <ul>
-<li>Locally defined type:<ul><li>Base XSD Type: hexBinary</li></ul>
-</li>
-<li>Locally defined type:<ul><li>Base XSD Type: string</li></ul>
-<ul>
-<li>
-<em>value</em> comes from list: {'Aqua'|'Black'|'Blue'|'Fuchsia'|'Gray'|'Green'|'Lime'|'Maroon'|'Navy'|'Olive'|'Purple'|'Red'|'Silver'|'Teal'|'White'|'Yellow'|'Transparent'}</li>
-</ul>
-</li>
-</ul>
-</li></ul>
-</td>
-</tr>
-<tr>
-<th>Documentation</th>
-<td>
-				Color as a hexadecimal number, binary code, or string (enumerated colors).
-			</td>
-</tr>
-</table>
-<div class="schemaComponent box">
-<div>
-<input type="button" id="type_ColorType_scbox_button" class="control" onclick="switchState('type_ColorType_scbox'); return false;" style="display: none" /> <span class="caption">Schema Component Representation</span>
-</div>
-<div id="type_ColorType_scbox" class="contents">
-<div style="margin-left: 0em">&lt;<span class="scTag">xsd:simpleType</span> <span class="scTag">name</span>="<span class="scContent">ColorType</span>"&gt;<div style="margin-left: 1.5em">&lt;<span class="scTag">xsd:union</span>&gt;<div style="margin-left: 1.5em">&lt;<span class="scTag">xsd:simpleType</span>&gt;<div style="margin-left: 1.5em">&lt;<span class="scTag">xsd:restriction</span> <span class="scTag">base</span>="<span class="scContent"><span class="type"><a href="#ns_xsd" title="Find out namespace of 'xsd' prefix">xsd</a>:hexBinary</span></span>"/&gt;</div>&lt;/<span class="scTag">xsd:simpleType</span>&gt;</div><div style="margin-left: 1.5em">&lt;<span class="scTag">xsd:simpleType</span>&gt;<div style="margin-left: 1.5em">&lt;<span class="scTag">xsd:restriction</span> <span class="scTag">base</span>="<span class="scContent"><span class="type"><a href="#ns_xsd" title="Find out namespace of 'xsd' prefix">xsd</a>:string</span></span>"&gt;<div style="margin-left: 1.5em">&lt;<span class="scTag">xsd:enumeration</span> <span class="scTag">value</span>="<span class="scContent">Aqua</span>"/&gt;</div><div style="margin-left: 1.5em">&lt;<span class="scTag">xsd:enumeration</span> <span class="scTag">value</span>="<span class="scContent">Black</span>"/&gt;</div><div style="margin-left: 1.5em">&lt;<span class="scTag">xsd:enumeration</span> <span class="scTag">value</span>="<span class="scContent">Blue</span>"/&gt;</div><div style="margin-left: 1.5em">&lt;<span class="scTag">xsd:enumeration</span> <span class="scTag">value</span>="<span class="scContent">Fuchsia</span>"/&gt;</div><div style="margin-left: 1.5em">&lt;<span class="scTag">xsd:enumeration</span> <span class="scTag">value</span>="<span class="scContent">Gray</span>"/&gt;</div><div style="margin-left: 1.5em">&lt;<span class="scTag">xsd:enumeration</span> <span class="scTag">value</span>="<span class="scContent">Green</span>"/&gt;</div><div style="margin-left: 1.5em">&lt;<span class="scTag">xsd:enumeration</span> <span class="scTag">value</span>="<span class="scContent">Lime</span>"/&gt;</div><div style="margin-left: 1.5em">&lt;<span class="scTag">xsd:enumeration</span> <span class="scTag">value</span>="<span class="scContent">Maroon</span>"/&gt;</div><div style="margin-left: 1.5em">&lt;<span class="scTag">xsd:enumeration</span> <span class="scTag">value</span>="<span class="scContent">Navy</span>"/&gt;</div><div style="margin-left: 1.5em">&lt;<span class="scTag">xsd:enumeration</span> <span class="scTag">value</span>="<span class="scContent">Olive</span>"/&gt;</div><div style="margin-left: 1.5em">&lt;<span class="scTag">xsd:enumeration</span> <span class="scTag">value</span>="<span class="scContent">Purple</span>"/&gt;</div><div style="margin-left: 1.5em">&lt;<span class="scTag">xsd:enumeration</span> <span class="scTag">value</span>="<span class="scContent">Red</span>"/&gt;</div><div style="margin-left: 1.5em">&lt;<span class="scTag">xsd:enumeration</span> <span class="scTag">value</span>="<span class="scContent">Silver</span>"/&gt;</div><div style="margin-left: 1.5em">&lt;<span class="scTag">xsd:enumeration</span> <span class="scTag">value</span>="<span class="scContent">Teal</span>"/&gt;</div><div style="margin-left: 1.5em">&lt;<span class="scTag">xsd:enumeration</span> <span class="scTag">value</span>="<span class="scContent">White</span>"/&gt;</div><div style="margin-left: 1.5em">&lt;<span class="scTag">xsd:enumeration</span> <span class="scTag">value</span>="<span class="scContent">Yellow</span>"/&gt;</div><div style="margin-left: 1.5em">&lt;<span class="scTag">xsd:enumeration</span> <span class="scTag">value</span>="<span class="scContent">Transparent</span>"/&gt;</div>&lt;/<span class="scTag">xsd:restriction</span>&gt;</div>&lt;/<span class="scTag">xsd:simpleType</span>&gt;</div>&lt;/<span class="scTag">xsd:union</span>&gt;</div>&lt;/<span class="scTag">xsd:simpleType</span>&gt;</div>
-</div>
-<script type="text/javascript">
-<!--
-setState('type_ColorType_scbox', false);
-// -->
-</script>
-</div>
-<div style="text-align: right; clear: both;"><a href="#top">top</a></div>
-<hr />
-<h3>Simple Type: <a name="type_StyleType" class="name">StyleType</a>
-</h3>
-<table class="hierarchy">
-<tr>
-<th>Super-types:</th>
-<td>
-<span class="type">
-<a href="#ns_xsd" title="Find out namespace of 'xsd' prefix">xsd</a>:string</span> &lt; <strong>StyleType</strong> (by restriction)</td>
-</tr>
-<tr>
-<th>Sub-types:</th>
-<td>None</td>
-</tr>
-</table>
-<table class="properties">
-<tr>
-<th>Name</th>
-<td>StyleType</td>
-</tr>
-<tr>
-<th>Content</th>
-<td>
-<ul><li>Base XSD Type: string</li></ul>
-<ul>
-<li>
-<em>value</em> comes from list: {'Solid'|'Broken'}</li>
-</ul>
-</td>
-</tr>
-</table>
-<div class="schemaComponent box">
-<div>
-<input type="button" id="type_StyleType_scbox_button" class="control" onclick="switchState('type_StyleType_scbox'); return false;" style="display: none" /> <span class="caption">Schema Component Representation</span>
-</div>
-<div id="type_StyleType_scbox" class="contents">
-<div style="margin-left: 0em">&lt;<span class="scTag">xsd:simpleType</span> <span class="scTag">name</span>="<span class="scContent">StyleType</span>"&gt;<div style="margin-left: 1.5em">&lt;<span class="scTag">xsd:restriction</span> <span class="scTag">base</span>="<span class="scContent"><span class="type"><a href="#ns_xsd" title="Find out namespace of 'xsd' prefix">xsd</a>:string</span></span>"&gt;<div style="margin-left: 1.5em">&lt;<span class="scTag">xsd:enumeration</span> <span class="scTag">value</span>="<span class="scContent">Solid</span>"/&gt;</div><div style="margin-left: 1.5em">&lt;<span class="scTag">xsd:enumeration</span> <span class="scTag">value</span>="<span class="scContent">Broken</span>"/&gt;</div>&lt;/<span class="scTag">xsd:restriction</span>&gt;</div>&lt;/<span class="scTag">xsd:simpleType</span>&gt;</div>
-</div>
-<script type="text/javascript">
-<!--
-setState('type_StyleType_scbox', false);
-// -->
-</script>
-</div>
-<div style="text-align: right; clear: both;"><a href="#top">top</a></div>
-<hr />
-<h3>Simple Type: <a name="type_Dimension" class="name">Dimension</a>
-</h3>
-<table class="hierarchy">
-<tr>
-<th>Super-types:</th>
-<td>
-<span class="type">
-<a href="#ns_xsd" title="Find out namespace of 'xsd' prefix">xsd</a>:float</span> &lt; <strong>Dimension</strong> (by restriction)</td>
-</tr>
-<tr>
-<th>Sub-types:</th>
-<td>None</td>
-</tr>
-</table>
-<table class="properties">
-<tr>
-<th>Name</th>
-<td>Dimension</td>
-</tr>
-<tr>
-<th>Content</th>
-<td>
-<ul><li>Base XSD Type: float</li></ul>
-<ul>
-<li>
-<em>value</em> &gt;= 0</li>
-</ul>
-</td>
-</tr>
-<tr>
-<th>Documentation</th>
-<td>
-				Dimension for width and height. Cannot be negative values. 
-			</td>
-</tr>
-</table>
-<div class="schemaComponent box">
-<div>
-<input type="button" id="type_Dimension_scbox_button" class="control" onclick="switchState('type_Dimension_scbox'); return false;" style="display: none" /> <span class="caption">Schema Component Representation</span>
-</div>
-<div id="type_Dimension_scbox" class="contents">
-<div style="margin-left: 0em">&lt;<span class="scTag">xsd:simpleType</span> <span class="scTag">name</span>="<span class="scContent">Dimension</span>"&gt;<div style="margin-left: 1.5em">&lt;<span class="scTag">xsd:restriction</span> <span class="scTag">base</span>="<span class="scContent"><span class="type"><a href="#ns_xsd" title="Find out namespace of 'xsd' prefix">xsd</a>:float</span></span>"&gt;<div style="margin-left: 1.5em">&lt;<span class="scTag">xsd:minInclusive</span> <span class="scTag">value</span>="<span class="scContent">0</span>"/&gt;</div>&lt;/<span class="scTag">xsd:restriction</span>&gt;</div>&lt;/<span class="scTag">xsd:simpleType</span>&gt;</div>
-</div>
-<script type="text/javascript">
-<!--
-setState('type_Dimension_scbox', false);
-// -->
-</script>
-</div>
-<div style="text-align: right; clear: both;"><a href="#top">top</a></div>
-<hr />
-<h3>Model Group: <a name="group_CommentGroup" class="name">CommentGroup</a>
-</h3>
-<table class="properties">
-<tr>
-<th>Name</th>
-<td>CommentGroup</td>
-</tr>
-<tr>
-<th>Documentation</th>
-<td>
-				One or more comments, references, and key value attributes.  
-			</td>
-</tr>
-</table>
-<div class="sample box">
-<div>
-<input type="button" id="group_CommentGroup_xibox_button" class="control" onclick="switchState('group_CommentGroup_xibox'); return false;" style="display: none" /> <span class="caption">XML Instance Representation</span>
-</div>
-<div id="group_CommentGroup_xibox" class="contents">
-<div style="margin-left: 0em">&lt;<a href="#ns_gpml" title="Find out namespace of 'gpml' prefix">gpml</a>:Comment<br /><span style="margin-left: 0.5em"> Source="<span class="type"><a href="#ns_xsd" title="Find out namespace of 'xsd' prefix">xsd</a>:string</span> <span class="occurs">[0..1]</span>"</span>&gt;  <span class="occurs">[0..*]</span>  <a href="javascript:void(0)" title="View Documentation" class="documentation" onclick="docArray = new Array('Elements used to provide descriptions and arbitrary notes for a given object.'); viewDocumentation('Element', 'Comment', docArray);">?</a><br /><span style="margin-left: 1.5em"> <span class="type"><a href="#ns_xsd" title="Find out namespace of 'xsd' prefix">xsd</a>:string</span> </span><br />&lt;/<a href="#ns_gpml" title="Find out namespace of 'gpml' prefix">gpml</a>:Comment&gt;</div><div style="margin-left: 0em">&lt;<a href="#ns_gpml" title="Find out namespace of 'gpml' prefix">gpml</a>:PublicationXref<br /><span style="margin-left: 0.5em"> ID="<span class="type"><a href="#ns_xsd" title="Find out namespace of 'xsd' prefix">xsd</a>:string</span> <span class="occurs">[1]</span>"</span><br /><span style="margin-left: 0.5em"> Database="<span class="type"><a href="#ns_xsd" title="Find out namespace of 'xsd' prefix">xsd</a>:string</span> <span class="occurs">[1]</span>"</span>/&gt;  <span class="occurs">[0..*]</span></div><div style="margin-left: 0em">&lt;<a href="#ns_gpml" title="Find out namespace of 'gpml' prefix">gpml</a>:BiopaxRef&gt; ... &lt;/<a href="#ns_gpml" title="Find out namespace of 'gpml' prefix">gpml</a>:BiopaxRef&gt; <span class="occurs">[0..*]</span></div><div style="margin-left: 0em">&lt;<a href="#ns_gpml" title="Find out namespace of 'gpml' prefix">gpml</a>:Attribute<br /><span style="margin-left: 0.5em"> Key="<span class="type"><a href="#ns_xsd" title="Find out namespace of 'xsd' prefix">xsd</a>:string</span> <span class="occurs">[1]</span>"</span><br /><span style="margin-left: 0.5em"> Value="<span class="type"><a href="#ns_xsd" title="Find out namespace of 'xsd' prefix">xsd</a>:string</span> <span class="occurs">[1]</span>"</span>/&gt;  <span class="occurs">[0..*]</span></div>
-</div>
-<script type="text/javascript">
-<!--
-setState('group_CommentGroup_xibox', true);
-// -->
-</script>
-</div>
-<div class="schemaComponent box">
-<div>
-<input type="button" id="group_CommentGroup_scbox_button" class="control" onclick="switchState('group_CommentGroup_scbox'); return false;" style="display: none" /> <span class="caption">Schema Component Representation</span>
-</div>
-<div id="group_CommentGroup_scbox" class="contents">
-<div style="margin-left: 0em">&lt;<span class="scTag">xsd:group</span> <span class="scTag">name</span>="<span class="scContent">CommentGroup</span>"&gt;<div style="margin-left: 1.5em">&lt;<span class="scTag">xsd:sequence</span>&gt;<div style="margin-left: 1.5em">&lt;<span class="scTag">xsd:element</span> <span class="scTag">name</span>="<span class="scContent">Comment</span>" <span class="scTag">minOccurs</span>="<span class="scContent">0</span>" <span class="scTag">maxOccurs</span>="<span class="scContent">unbounded</span>"&gt;<div style="margin-left: 1.5em">&lt;<span class="scTag">xsd:complexType</span>&gt;<div style="margin-left: 1.5em">&lt;<span class="scTag">xsd:simpleContent</span>&gt;<div style="margin-left: 1.5em">&lt;<span class="scTag">xsd:extension</span> <span class="scTag">base</span>="<span class="scContent"><span class="type"><a href="#ns_xsd" title="Find out namespace of 'xsd' prefix">xsd</a>:string</span></span>"&gt;<div style="margin-left: 1.5em">&lt;<span class="scTag">xsd:attribute</span> <span class="scTag">name</span>="<span class="scContent">Source</span>" <span class="scTag">type</span>="<span class="scContent"><span class="type"><a href="#ns_xsd" title="Find out namespace of 'xsd' prefix">xsd</a>:string</span></span>"/&gt;</div>&lt;/<span class="scTag">xsd:extension</span>&gt;</div>&lt;/<span class="scTag">xsd:simpleContent</span>&gt;</div>&lt;/<span class="scTag">xsd:complexType</span>&gt;</div>&lt;/<span class="scTag">xsd:element</span>&gt;</div><div style="margin-left: 1.5em">&lt;<span class="scTag">xsd:element</span> <span class="scTag">name</span>="<span class="scContent">PublicationXref</span>" <span class="scTag">minOccurs</span>="<span class="scContent">0</span>" <span class="scTag">maxOccurs</span>="<span class="scContent">unbounded</span>"&gt;<div style="margin-left: 1.5em">&lt;<span class="scTag">xsd:complexType</span>&gt;<div style="margin-left: 1.5em">&lt;<span class="scTag">xsd:attribute</span> <span class="scTag">name</span>="<span class="scContent">ID</span>" <span class="scTag">type</span>="<span class="scContent"><span class="type"><a href="#ns_xsd" title="Find out namespace of 'xsd' prefix">xsd</a>:string</span></span>" <span class="scTag">use</span>="<span class="scContent">required</span>"/&gt;</div><div style="margin-left: 1.5em">&lt;<span class="scTag">xsd:attribute</span> <span class="scTag">name</span>="<span class="scContent">Database</span>" <span class="scTag">type</span>="<span class="scContent"><span class="type"><a href="#ns_xsd" title="Find out namespace of 'xsd' prefix">xsd</a>:string</span></span>" <span class="scTag">use</span>="<span class="scContent">required</span>"/&gt;</div>&lt;/<span class="scTag">xsd:complexType</span>&gt;</div>&lt;/<span class="scTag">xsd:element</span>&gt;</div><div style="margin-left: 1.5em">&lt;<span class="scTag">xsd:element</span> <span class="scTag">name</span>="<span class="scContent">BiopaxRef</span>" <span class="scTag">minOccurs</span>="<span class="scContent">0</span>" <span class="scTag">maxOccurs</span>="<span class="scContent">unbounded</span>"/&gt;</div><div style="margin-left: 1.5em">&lt;<span class="scTag">xsd:element</span> <span class="scTag">name</span>="<span class="scContent">Attribute</span>" <span class="scTag">minOccurs</span>="<span class="scContent">0</span>" <span class="scTag">maxOccurs</span>="<span class="scContent">unbounded</span>"&gt;<div style="margin-left: 1.5em">&lt;<span class="scTag">xsd:complexType</span>&gt;<div style="margin-left: 1.5em">&lt;<span class="scTag">xsd:attribute</span> <span class="scTag">name</span>="<span class="scContent">Key</span>" <span class="scTag">type</span>="<span class="scContent"><span class="type"><a href="#ns_xsd" title="Find out namespace of 'xsd' prefix">xsd</a>:string</span></span>" <span class="scTag">use</span>="<span class="scContent">required</span>"/&gt;</div><div style="margin-left: 1.5em">&lt;<span class="scTag">xsd:attribute</span> <span class="scTag">name</span>="<span class="scContent">Value</span>" <span class="scTag">type</span>="<span class="scContent"><span class="type"><a href="#ns_xsd" title="Find out namespace of 'xsd' prefix">xsd</a>:string</span></span>" <span class="scTag">use</span>="<span class="scContent">required</span>"/&gt;</div>&lt;/<span class="scTag">xsd:complexType</span>&gt;</div>&lt;/<span class="scTag">xsd:element</span>&gt;</div>&lt;/<span class="scTag">xsd:sequence</span>&gt;</div>&lt;/<span class="scTag">xsd:group</span>&gt;</div>
-</div>
-<script type="text/javascript">
-<!--
-setState('group_CommentGroup_scbox', false);
-// -->
-</script>
-</div>
-<div style="text-align: right; clear: both;"><a href="#top">top</a></div>
-<hr />
+<h2><a name="SchemaDeclarations">Global Declarations</a></h2>
 <h3>Element: <a name="element_Pathway" class="name">Pathway</a>
 </h3>
 <table class="properties">
@@ -1907,6 +1535,382 @@ setState('element_Biopax_xibox', true);
 <script type="text/javascript">
 <!--
 setState('element_Biopax_scbox', false);
+// -->
+</script>
+</div>
+<div style="text-align: right; clear: both;"><a href="#top">top</a></div>
+<hr />
+<h2><a name="SchemaDefinitions">Global Definitions</a></h2>
+<h3>Attribute Group: <a name="attributeGroup_FontAttributes" class="name">FontAttributes</a>
+</h3>
+<table class="properties">
+<tr>
+<th>Name</th>
+<td>FontAttributes</td>
+</tr>
+<tr>
+<th>Documentation</th>
+<td>
+				Common font properties. 
+			</td>
+</tr>
+</table>
+<div class="sample box">
+<div>
+<input type="button" id="attributeGroup_FontAttributes_xibox_button" class="control" onclick="switchState('attributeGroup_FontAttributes_xibox'); return false;" style="display: none" /> <span class="caption">XML Instance Representation</span>
+</div>
+<div id="attributeGroup_FontAttributes_xibox" class="contents">
+<span style="margin-left: 0em"> FontName="<span class="type"><a href="#ns_xsd" title="Find out namespace of 'xsd' prefix">xsd</a>:string</span> <span class="occurs">[0..1]</span> <a href="javascript:void(0)" title="View Documentation" class="documentation" onclick="docArray = new Array('The name of the set of printable text characters to be used for visualization.'); viewDocumentation('Attribute', 'FontName', docArray);">?</a>"</span><br /><span style="margin-left: 0em"> FontStyle="<span class="constraint"><span class="type"><a href="#ns_xsd" title="Find out namespace of 'xsd' prefix">xsd</a>:string</span> (<em>value</em> comes from list: {'Normal'|'Italic'})</span> <span class="occurs">[0..1]</span> <a href="javascript:void(0)" title="View Documentation" class="documentation" onclick="docArray = new Array('The typographic style or font face applied to displayed text, e.g., Arial.'); viewDocumentation('Attribute', 'FontStyle', docArray);">?</a>"</span><br /><span style="margin-left: 0em"> FontDecoration="<span class="constraint"><span class="type"><a href="#ns_xsd" title="Find out namespace of 'xsd' prefix">xsd</a>:string</span> (<em>value</em> comes from list: {'Normal'|'Underline'})</span> <span class="occurs">[0..1]</span> <a href="javascript:void(0)" title="View Documentation" class="documentation" onclick="docArray = new Array('The typographic style for underline or normal.'); viewDocumentation('Attribute', 'FontDecoration', docArray);">?</a>"</span><br /><span style="margin-left: 0em"> FontStrikethru="<span class="constraint"><span class="type"><a href="#ns_xsd" title="Find out namespace of 'xsd' prefix">xsd</a>:string</span> (<em>value</em> comes from list: {'Normal'|'Strikethru'})</span> <span class="occurs">[0..1]</span> <a href="javascript:void(0)" title="View Documentation" class="documentation" onclick="docArray = new Array('The typographic style for strikethru or normal.'); viewDocumentation('Attribute', 'FontStrikethru', docArray);">?</a>"</span><br /><span style="margin-left: 0em"> FontWeight="<span class="constraint"><span class="type"><a href="#ns_xsd" title="Find out namespace of 'xsd' prefix">xsd</a>:string</span> (<em>value</em> comes from list: {'Normal'|'Bold'})</span> <span class="occurs">[0..1]</span> <a href="javascript:void(0)" title="View Documentation" class="documentation" onclick="docArray = new Array('Thickness of the font used, e.g a bold font would have more weight. Used for DataNodes, Labels and Shapes.'); viewDocumentation('Attribute', 'FontWeight', docArray);">?</a>"</span><br /><span style="margin-left: 0em"> FontSize="<span class="type"><a href="#ns_xsd" title="Find out namespace of 'xsd' prefix">xsd</a>:nonNegativeInteger</span> <span class="occurs">[0..1]</span> <a href="javascript:void(0)" title="View Documentation" class="documentation" onclick="docArray = new Array('The point value for the size of the font.'); viewDocumentation('Attribute', 'FontSize', docArray);">?</a>"</span><br /><span style="margin-left: 0em"> Align="<span class="constraint"><span class="type"><a href="#ns_xsd" title="Find out namespace of 'xsd' prefix">xsd</a>:string</span> (<em>value</em> comes from list: {'Left'|'Center'|'Right'})</span> <span class="occurs">[0..1]</span> <a href="javascript:void(0)" title="View Documentation" class="documentation" onclick="docArray = new Array('Horizontal alignment of displayed text, e.g., Left, Center, Right.'); viewDocumentation('Attribute', 'Align', docArray);">?</a>"</span><br /><span style="margin-left: 0em"> Valign="<span class="constraint"><span class="type"><a href="#ns_xsd" title="Find out namespace of 'xsd' prefix">xsd</a>:string</span> (<em>value</em> comes from list: {'Top'|'Middle'|'Bottom'})</span> <span class="occurs">[0..1]</span> <a href="javascript:void(0)" title="View Documentation" class="documentation" onclick="docArray = new Array('Vertical alignment of displayed text, e.g., Top, Middle, Bottom.'); viewDocumentation('Attribute', 'Valign', docArray);">?</a>"</span>
+</div>
+<script type="text/javascript">
+<!--
+setState('attributeGroup_FontAttributes_xibox', true);
+// -->
+</script>
+</div>
+<div class="schemaComponent box">
+<div>
+<input type="button" id="attributeGroup_FontAttributes_scbox_button" class="control" onclick="switchState('attributeGroup_FontAttributes_scbox'); return false;" style="display: none" /> <span class="caption">Schema Component Representation</span>
+</div>
+<div id="attributeGroup_FontAttributes_scbox" class="contents">
+<div style="margin-left: 0em">&lt;<span class="scTag">xsd:attributeGroup</span> <span class="scTag">name</span>="<span class="scContent">FontAttributes</span>"&gt;<div style="margin-left: 1.5em">&lt;<span class="scTag">xsd:attribute</span> <span class="scTag">name</span>="<span class="scContent">FontName</span>" <span class="scTag">type</span>="<span class="scContent"><span class="type"><a href="#ns_xsd" title="Find out namespace of 'xsd' prefix">xsd</a>:string</span></span>" <span class="scTag">default</span>="<span class="scContent">Arial</span>"/&gt;</div><div style="margin-left: 1.5em">&lt;<span class="scTag">xsd:attribute</span> <span class="scTag">name</span>="<span class="scContent">FontStyle</span>" <span class="scTag">default</span>="<span class="scContent">Normal</span>"&gt;<div style="margin-left: 1.5em">&lt;<span class="scTag">xsd:simpleType</span>&gt;<div style="margin-left: 1.5em">&lt;<span class="scTag">xsd:restriction</span> <span class="scTag">base</span>="<span class="scContent"><span class="type"><a href="#ns_xsd" title="Find out namespace of 'xsd' prefix">xsd</a>:string</span></span>"&gt;<div style="margin-left: 1.5em">&lt;<span class="scTag">xsd:enumeration</span> <span class="scTag">value</span>="<span class="scContent">Normal</span>"/&gt;</div><div style="margin-left: 1.5em">&lt;<span class="scTag">xsd:enumeration</span> <span class="scTag">value</span>="<span class="scContent">Italic</span>"/&gt;</div>&lt;/<span class="scTag">xsd:restriction</span>&gt;</div>&lt;/<span class="scTag">xsd:simpleType</span>&gt;</div>&lt;/<span class="scTag">xsd:attribute</span>&gt;</div><div style="margin-left: 1.5em">&lt;<span class="scTag">xsd:attribute</span> <span class="scTag">name</span>="<span class="scContent">FontDecoration</span>" <span class="scTag">default</span>="<span class="scContent">Normal</span>"&gt;<div style="margin-left: 1.5em">&lt;<span class="scTag">xsd:simpleType</span>&gt;<div style="margin-left: 1.5em">&lt;<span class="scTag">xsd:restriction</span> <span class="scTag">base</span>="<span class="scContent"><span class="type"><a href="#ns_xsd" title="Find out namespace of 'xsd' prefix">xsd</a>:string</span></span>"&gt;<div style="margin-left: 1.5em">&lt;<span class="scTag">xsd:enumeration</span> <span class="scTag">value</span>="<span class="scContent">Normal</span>"/&gt;</div><div style="margin-left: 1.5em">&lt;<span class="scTag">xsd:enumeration</span> <span class="scTag">value</span>="<span class="scContent">Underline</span>"/&gt;</div>&lt;/<span class="scTag">xsd:restriction</span>&gt;</div>&lt;/<span class="scTag">xsd:simpleType</span>&gt;</div>&lt;/<span class="scTag">xsd:attribute</span>&gt;</div><div style="margin-left: 1.5em">&lt;<span class="scTag">xsd:attribute</span> <span class="scTag">name</span>="<span class="scContent">FontStrikethru</span>" <span class="scTag">default</span>="<span class="scContent">Normal</span>"&gt;<div style="margin-left: 1.5em">&lt;<span class="scTag">xsd:simpleType</span>&gt;<div style="margin-left: 1.5em">&lt;<span class="scTag">xsd:restriction</span> <span class="scTag">base</span>="<span class="scContent"><span class="type"><a href="#ns_xsd" title="Find out namespace of 'xsd' prefix">xsd</a>:string</span></span>"&gt;<div style="margin-left: 1.5em">&lt;<span class="scTag">xsd:enumeration</span> <span class="scTag">value</span>="<span class="scContent">Normal</span>"/&gt;</div><div style="margin-left: 1.5em">&lt;<span class="scTag">xsd:enumeration</span> <span class="scTag">value</span>="<span class="scContent">Strikethru</span>"/&gt;</div>&lt;/<span class="scTag">xsd:restriction</span>&gt;</div>&lt;/<span class="scTag">xsd:simpleType</span>&gt;</div>&lt;/<span class="scTag">xsd:attribute</span>&gt;</div><div style="margin-left: 1.5em">&lt;<span class="scTag">xsd:attribute</span> <span class="scTag">name</span>="<span class="scContent">FontWeight</span>" <span class="scTag">default</span>="<span class="scContent">Normal</span>"&gt;<div style="margin-left: 1.5em">&lt;<span class="scTag">xsd:simpleType</span>&gt;<div style="margin-left: 1.5em">&lt;<span class="scTag">xsd:restriction</span> <span class="scTag">base</span>="<span class="scContent"><span class="type"><a href="#ns_xsd" title="Find out namespace of 'xsd' prefix">xsd</a>:string</span></span>"&gt;<div style="margin-left: 1.5em">&lt;<span class="scTag">xsd:enumeration</span> <span class="scTag">value</span>="<span class="scContent">Normal</span>"/&gt;</div><div style="margin-left: 1.5em">&lt;<span class="scTag">xsd:enumeration</span> <span class="scTag">value</span>="<span class="scContent">Bold</span>"/&gt;</div>&lt;/<span class="scTag">xsd:restriction</span>&gt;</div>&lt;/<span class="scTag">xsd:simpleType</span>&gt;</div>&lt;/<span class="scTag">xsd:attribute</span>&gt;</div><div style="margin-left: 1.5em">&lt;<span class="scTag">xsd:attribute</span> <span class="scTag">name</span>="<span class="scContent">FontSize</span>" <span class="scTag">type</span>="<span class="scContent"><span class="type"><a href="#ns_xsd" title="Find out namespace of 'xsd' prefix">xsd</a>:nonNegativeInteger</span></span>" <span class="scTag">default</span>="<span class="scContent">12</span>"/&gt;</div><div style="margin-left: 1.5em">&lt;<span class="scTag">xsd:attribute</span> <span class="scTag">name</span>="<span class="scContent">Align</span>" <span class="scTag">default</span>="<span class="scContent">Center</span>"&gt;<div class="comment" style="margin-left: 1.5em">&lt;-- Horizontal alignment --&gt;</div><div style="margin-left: 1.5em">&lt;<span class="scTag">xsd:simpleType</span>&gt;<div style="margin-left: 1.5em">&lt;<span class="scTag">xsd:restriction</span> <span class="scTag">base</span>="<span class="scContent"><span class="type"><a href="#ns_xsd" title="Find out namespace of 'xsd' prefix">xsd</a>:string</span></span>"&gt;<div style="margin-left: 1.5em">&lt;<span class="scTag">xsd:enumeration</span> <span class="scTag">value</span>="<span class="scContent">Left</span>"/&gt;</div><div style="margin-left: 1.5em">&lt;<span class="scTag">xsd:enumeration</span> <span class="scTag">value</span>="<span class="scContent">Center</span>"/&gt;</div><div style="margin-left: 1.5em">&lt;<span class="scTag">xsd:enumeration</span> <span class="scTag">value</span>="<span class="scContent">Right</span>"/&gt;</div>&lt;/<span class="scTag">xsd:restriction</span>&gt;</div>&lt;/<span class="scTag">xsd:simpleType</span>&gt;</div>&lt;/<span class="scTag">xsd:attribute</span>&gt;</div><div style="margin-left: 1.5em">&lt;<span class="scTag">xsd:attribute</span> <span class="scTag">name</span>="<span class="scContent">Valign</span>" <span class="scTag">default</span>="<span class="scContent">Top</span>"&gt;<div class="comment" style="margin-left: 1.5em">&lt;-- Vertical alignment --&gt;</div><div style="margin-left: 1.5em">&lt;<span class="scTag">xsd:simpleType</span>&gt;<div style="margin-left: 1.5em">&lt;<span class="scTag">xsd:restriction</span> <span class="scTag">base</span>="<span class="scContent"><span class="type"><a href="#ns_xsd" title="Find out namespace of 'xsd' prefix">xsd</a>:string</span></span>"&gt;<div style="margin-left: 1.5em">&lt;<span class="scTag">xsd:enumeration</span> <span class="scTag">value</span>="<span class="scContent">Top</span>"/&gt;</div><div style="margin-left: 1.5em">&lt;<span class="scTag">xsd:enumeration</span> <span class="scTag">value</span>="<span class="scContent">Middle</span>"/&gt;</div><div style="margin-left: 1.5em">&lt;<span class="scTag">xsd:enumeration</span> <span class="scTag">value</span>="<span class="scContent">Bottom</span>"/&gt;</div>&lt;/<span class="scTag">xsd:restriction</span>&gt;</div>&lt;/<span class="scTag">xsd:simpleType</span>&gt;</div>&lt;/<span class="scTag">xsd:attribute</span>&gt;</div>&lt;/<span class="scTag">xsd:attributeGroup</span>&gt;</div>
+</div>
+<script type="text/javascript">
+<!--
+setState('attributeGroup_FontAttributes_scbox', false);
+// -->
+</script>
+</div>
+<div style="text-align: right; clear: both;"><a href="#top">top</a></div>
+<hr />
+<h3>Attribute Group: <a name="attributeGroup_RectAttributes" class="name">RectAttributes</a>
+</h3>
+<table class="properties">
+<tr>
+<th>Name</th>
+<td>RectAttributes</td>
+</tr>
+<tr>
+<th>Documentation</th>
+<td>
+				Group of attributes for a pathway element, e.g. rectangular node.  
+			</td>
+</tr>
+</table>
+<div class="sample box">
+<div>
+<input type="button" id="attributeGroup_RectAttributes_xibox_button" class="control" onclick="switchState('attributeGroup_RectAttributes_xibox'); return false;" style="display: none" /> <span class="caption">XML Instance Representation</span>
+</div>
+<div id="attributeGroup_RectAttributes_xibox" class="contents">
+<span style="margin-left: 0em"> CenterX="<span class="type"><a href="#ns_xsd" title="Find out namespace of 'xsd' prefix">xsd</a>:float</span> <span class="occurs">[1]</span> <a href="javascript:void(0)" title="View Documentation" class="documentation" onclick="docArray = new Array('Middle of a pathway element in the x-direction.'); viewDocumentation('Attribute', 'CenterX', docArray);">?</a>"</span><br /><span style="margin-left: 0em"> CenterY="<span class="type"><a href="#ns_xsd" title="Find out namespace of 'xsd' prefix">xsd</a>:float</span> <span class="occurs">[1]</span> <a href="javascript:void(0)" title="View Documentation" class="documentation" onclick="docArray = new Array('Middle of a pathway element in the y-direction.'); viewDocumentation('Attribute', 'CenterY', docArray);">?</a>"</span><br /><span style="margin-left: 0em"> Width="<span class="type"><a href="#ns_gpml" title="Find out namespace of 'gpml' prefix">gpml</a>:<a title="Jump to &quot;Dimension&quot; type definition." href="#type_Dimension">Dimension</a></span> <span class="occurs">[1]</span> <a href="javascript:void(0)" title="View Documentation" class="documentation" onclick="docArray = new Array('The pixel value for the x-dimensional length of a pathway element.'); viewDocumentation('Attribute', 'Width', docArray);">?</a>"</span><br /><span style="margin-left: 0em"> Height="<span class="type"><a href="#ns_gpml" title="Find out namespace of 'gpml' prefix">gpml</a>:<a title="Jump to &quot;Dimension&quot; type definition." href="#type_Dimension">Dimension</a></span> <span class="occurs">[1]</span> <a href="javascript:void(0)" title="View Documentation" class="documentation" onclick="docArray = new Array('The pixel value for the y-dimensional length of a pathway element.'); viewDocumentation('Attribute', 'Height', docArray);">?</a>"</span>
+</div>
+<script type="text/javascript">
+<!--
+setState('attributeGroup_RectAttributes_xibox', true);
+// -->
+</script>
+</div>
+<div class="schemaComponent box">
+<div>
+<input type="button" id="attributeGroup_RectAttributes_scbox_button" class="control" onclick="switchState('attributeGroup_RectAttributes_scbox'); return false;" style="display: none" /> <span class="caption">Schema Component Representation</span>
+</div>
+<div id="attributeGroup_RectAttributes_scbox" class="contents">
+<div style="margin-left: 0em">&lt;<span class="scTag">xsd:attributeGroup</span> <span class="scTag">name</span>="<span class="scContent">RectAttributes</span>"&gt;<div style="margin-left: 1.5em">&lt;<span class="scTag">xsd:attribute</span> <span class="scTag">name</span>="<span class="scContent">CenterX</span>" <span class="scTag">type</span>="<span class="scContent"><span class="type"><a href="#ns_xsd" title="Find out namespace of 'xsd' prefix">xsd</a>:float</span></span>" <span class="scTag">use</span>="<span class="scContent">required</span>"/&gt;</div><div style="margin-left: 1.5em">&lt;<span class="scTag">xsd:attribute</span> <span class="scTag">name</span>="<span class="scContent">CenterY</span>" <span class="scTag">type</span>="<span class="scContent"><span class="type"><a href="#ns_xsd" title="Find out namespace of 'xsd' prefix">xsd</a>:float</span></span>" <span class="scTag">use</span>="<span class="scContent">required</span>"/&gt;</div><div style="margin-left: 1.5em">&lt;<span class="scTag">xsd:attribute</span> <span class="scTag">name</span>="<span class="scContent">Width</span>" <span class="scTag">type</span>="<span class="scContent"><span class="type"><a href="#ns_gpml" title="Find out namespace of 'gpml' prefix">gpml</a>:<a title="Jump to &quot;Dimension&quot; type definition." href="#type_Dimension">Dimension</a></span></span>" <span class="scTag">use</span>="<span class="scContent">required</span>"/&gt;</div><div style="margin-left: 1.5em">&lt;<span class="scTag">xsd:attribute</span> <span class="scTag">name</span>="<span class="scContent">Height</span>" <span class="scTag">type</span>="<span class="scContent"><span class="type"><a href="#ns_gpml" title="Find out namespace of 'gpml' prefix">gpml</a>:<a title="Jump to &quot;Dimension&quot; type definition." href="#type_Dimension">Dimension</a></span></span>" <span class="scTag">use</span>="<span class="scContent">required</span>"/&gt;</div>&lt;/<span class="scTag">xsd:attributeGroup</span>&gt;</div>
+</div>
+<script type="text/javascript">
+<!--
+setState('attributeGroup_RectAttributes_scbox', false);
+// -->
+</script>
+</div>
+<div style="text-align: right; clear: both;"><a href="#top">top</a></div>
+<hr />
+<h3>Attribute Group: <a name="attributeGroup_ShapeStyleAttributes" class="name">ShapeStyleAttributes</a>
+</h3>
+<table class="properties">
+<tr>
+<th>Name</th>
+<td>ShapeStyleAttributes</td>
+</tr>
+<tr>
+<th>Documentation</th>
+<td>
+				Group of attributes defining the style (e.g. color, line style) of a pathway element.   
+			</td>
+</tr>
+</table>
+<div class="sample box">
+<div>
+<input type="button" id="attributeGroup_ShapeStyleAttributes_xibox_button" class="control" onclick="switchState('attributeGroup_ShapeStyleAttributes_xibox'); return false;" style="display: none" /> <span class="caption">XML Instance Representation</span>
+</div>
+<div id="attributeGroup_ShapeStyleAttributes_xibox" class="contents">
+<span style="margin-left: 0em"> Color="<span class="type"><a href="#ns_gpml" title="Find out namespace of 'gpml' prefix">gpml</a>:<a title="Jump to &quot;ColorType&quot; type definition." href="#type_ColorType">ColorType</a></span> <span class="occurs">[0..1]</span> <a href="javascript:void(0)" title="View Documentation" class="documentation" onclick="docArray = new Array('The color to be used for visualization.'); viewDocumentation('Attribute', 'Color', docArray);">?</a>"</span><br /><span style="margin-left: 0em"> LineStyle="<span class="type"><a href="#ns_gpml" title="Find out namespace of 'gpml' prefix">gpml</a>:<a title="Jump to &quot;StyleType&quot; type definition." href="#type_StyleType">StyleType</a></span> <span class="occurs">[0..1]</span> <a href="javascript:void(0)" title="View Documentation" class="documentation" onclick="docArray = new Array('The visual appearance of a line or border, e.g., Solid or Broken.'); viewDocumentation('Attribute', 'LineStyle', docArray);">?</a>"</span><br /><span style="margin-left: 0em"> LineThickness="<span class="type"><a href="#ns_xsd" title="Find out namespace of 'xsd' prefix">xsd</a>:float</span> <span class="occurs">[0..1]</span> <a href="javascript:void(0)" title="View Documentation" class="documentation" onclick="docArray = new Array('The pixel value for the width of a given line, interaction or border.'); viewDocumentation('Attribute', 'LineThickness', docArray);">?</a>"</span>
+</div>
+<script type="text/javascript">
+<!--
+setState('attributeGroup_ShapeStyleAttributes_xibox', true);
+// -->
+</script>
+</div>
+<div class="schemaComponent box">
+<div>
+<input type="button" id="attributeGroup_ShapeStyleAttributes_scbox_button" class="control" onclick="switchState('attributeGroup_ShapeStyleAttributes_scbox'); return false;" style="display: none" /> <span class="caption">Schema Component Representation</span>
+</div>
+<div id="attributeGroup_ShapeStyleAttributes_scbox" class="contents">
+<div style="margin-left: 0em">&lt;<span class="scTag">xsd:attributeGroup</span> <span class="scTag">name</span>="<span class="scContent">ShapeStyleAttributes</span>"&gt;<div style="margin-left: 1.5em">&lt;<span class="scTag">xsd:attribute</span> <span class="scTag">name</span>="<span class="scContent">Color</span>" <span class="scTag">type</span>="<span class="scContent"><span class="type"><a href="#ns_gpml" title="Find out namespace of 'gpml' prefix">gpml</a>:<a title="Jump to &quot;ColorType&quot; type definition." href="#type_ColorType">ColorType</a></span></span>" <span class="scTag">default</span>="<span class="scContent">Black</span>"/&gt;</div><div class="comment" style="margin-left: 1.5em">&lt;-- 2017 adds fillColor attribute --&gt;</div><div style="margin-left: 1.5em">&lt;<span class="scTag">xsd:attribute</span> <span class="scTag">name</span>="<span class="scContent">LineStyle</span>" <span class="scTag">type</span>="<span class="scContent"><span class="type"><a href="#ns_gpml" title="Find out namespace of 'gpml' prefix">gpml</a>:<a title="Jump to &quot;StyleType&quot; type definition." href="#type_StyleType">StyleType</a></span></span>" <span class="scTag">default</span>="<span class="scContent">Solid</span>"/&gt;</div><div style="margin-left: 1.5em">&lt;<span class="scTag">xsd:attribute</span> <span class="scTag">name</span>="<span class="scContent">LineThickness</span>" <span class="scTag">type</span>="<span class="scContent"><span class="type"><a href="#ns_xsd" title="Find out namespace of 'xsd' prefix">xsd</a>:float</span></span>" <span class="scTag">default</span>="<span class="scContent">1.0</span>"/&gt;</div>&lt;/<span class="scTag">xsd:attributeGroup</span>&gt;</div>
+</div>
+<script type="text/javascript">
+<!--
+setState('attributeGroup_ShapeStyleAttributes_scbox', false);
+// -->
+</script>
+</div>
+<div style="text-align: right; clear: both;"><a href="#top">top</a></div>
+<hr />
+<h3>Simple Type: <a name="type_RotationType" class="name">RotationType</a>
+</h3>
+<table class="hierarchy">
+<tr>
+<th>Super-types:</th>
+<td>None</td>
+</tr>
+<tr>
+<th>Sub-types:</th>
+<td>None</td>
+</tr>
+</table>
+<table class="properties">
+<tr>
+<th>Name</th>
+<td>RotationType</td>
+</tr>
+<tr>
+<th>Content</th>
+<td>
+<ul><li>Union of following types: <ul>
+<li>Locally defined type:<ul><li>Base XSD Type: string</li></ul>
+<ul>
+<li>
+<em>value</em> comes from list: {'Top'|'Right'|'Bottom'|'Left'}</li>
+</ul>
+</li>
+<li>Locally defined type:<ul><li>Base XSD Type: float</li></ul>
+</li>
+</ul>
+</li></ul>
+</td>
+</tr>
+<tr>
+<th>Documentation</th>
+<td>
+				 A float value (rotation in radians) or a string (Top, Right, Bottom, Left) 
+				 for each of the four right angles.
+			</td>
+</tr>
+</table>
+<div class="schemaComponent box">
+<div>
+<input type="button" id="type_RotationType_scbox_button" class="control" onclick="switchState('type_RotationType_scbox'); return false;" style="display: none" /> <span class="caption">Schema Component Representation</span>
+</div>
+<div id="type_RotationType_scbox" class="contents">
+<div style="margin-left: 0em">&lt;<span class="scTag">xsd:simpleType</span> <span class="scTag">name</span>="<span class="scContent">RotationType</span>"&gt;<div style="margin-left: 1.5em">&lt;<span class="scTag">xsd:union</span>&gt;<div style="margin-left: 1.5em">&lt;<span class="scTag">xsd:simpleType</span>&gt;<div style="margin-left: 1.5em">&lt;<span class="scTag">xsd:restriction</span> <span class="scTag">base</span>="<span class="scContent"><span class="type"><a href="#ns_xsd" title="Find out namespace of 'xsd' prefix">xsd</a>:string</span></span>"&gt;<div style="margin-left: 1.5em">&lt;<span class="scTag">xsd:enumeration</span> <span class="scTag">value</span>="<span class="scContent">Top</span>"/&gt;</div><div class="comment" style="margin-left: 1.5em">&lt;-- rotation of 0.0 !--&gt;</div><div style="margin-left: 1.5em">&lt;<span class="scTag">xsd:enumeration</span> <span class="scTag">value</span>="<span class="scContent">Right</span>"/&gt;</div><div class="comment" style="margin-left: 1.5em">&lt;-- rotation of 1/2 pi !--&gt;</div><div style="margin-left: 1.5em">&lt;<span class="scTag">xsd:enumeration</span> <span class="scTag">value</span>="<span class="scContent">Bottom</span>"/&gt;</div><div class="comment" style="margin-left: 1.5em">&lt;-- rotation of 1 pi !--&gt;</div><div style="margin-left: 1.5em">&lt;<span class="scTag">xsd:enumeration</span> <span class="scTag">value</span>="<span class="scContent">Left</span>"/&gt;</div><div class="comment" style="margin-left: 1.5em">&lt;-- rotation of 3/2 pi !--&gt;</div>&lt;/<span class="scTag">xsd:restriction</span>&gt;</div>&lt;/<span class="scTag">xsd:simpleType</span>&gt;</div><div style="margin-left: 1.5em">&lt;<span class="scTag">xsd:simpleType</span>&gt;<div style="margin-left: 1.5em">&lt;<span class="scTag">xsd:restriction</span> <span class="scTag">base</span>="<span class="scContent"><span class="type"><a href="#ns_xsd" title="Find out namespace of 'xsd' prefix">xsd</a>:float</span></span>"/&gt;</div><div class="comment" style="margin-left: 1.5em">&lt;-- rotation is always measured in radians !--&gt;</div>&lt;/<span class="scTag">xsd:simpleType</span>&gt;</div>&lt;/<span class="scTag">xsd:union</span>&gt;</div>&lt;/<span class="scTag">xsd:simpleType</span>&gt;</div>
+</div>
+<script type="text/javascript">
+<!--
+setState('type_RotationType_scbox', false);
+// -->
+</script>
+</div>
+<div style="text-align: right; clear: both;"><a href="#top">top</a></div>
+<hr />
+<h3>Simple Type: <a name="type_ColorType" class="name">ColorType</a>
+</h3>
+<table class="hierarchy">
+<tr>
+<th>Super-types:</th>
+<td>None</td>
+</tr>
+<tr>
+<th>Sub-types:</th>
+<td>None</td>
+</tr>
+</table>
+<table class="properties">
+<tr>
+<th>Name</th>
+<td>ColorType</td>
+</tr>
+<tr>
+<th>Content</th>
+<td>
+<ul><li>Union of following types: <ul>
+<li>Locally defined type:<ul><li>Base XSD Type: hexBinary</li></ul>
+</li>
+<li>Locally defined type:<ul><li>Base XSD Type: string</li></ul>
+<ul>
+<li>
+<em>value</em> comes from list: {'Aqua'|'Black'|'Blue'|'Fuchsia'|'Gray'|'Green'|'Lime'|'Maroon'|'Navy'|'Olive'|'Purple'|'Red'|'Silver'|'Teal'|'White'|'Yellow'|'Transparent'}</li>
+</ul>
+</li>
+</ul>
+</li></ul>
+</td>
+</tr>
+<tr>
+<th>Documentation</th>
+<td>
+				Color as a hexadecimal number, binary code, or string (enumerated colors).
+			</td>
+</tr>
+</table>
+<div class="schemaComponent box">
+<div>
+<input type="button" id="type_ColorType_scbox_button" class="control" onclick="switchState('type_ColorType_scbox'); return false;" style="display: none" /> <span class="caption">Schema Component Representation</span>
+</div>
+<div id="type_ColorType_scbox" class="contents">
+<div style="margin-left: 0em">&lt;<span class="scTag">xsd:simpleType</span> <span class="scTag">name</span>="<span class="scContent">ColorType</span>"&gt;<div style="margin-left: 1.5em">&lt;<span class="scTag">xsd:union</span>&gt;<div style="margin-left: 1.5em">&lt;<span class="scTag">xsd:simpleType</span>&gt;<div style="margin-left: 1.5em">&lt;<span class="scTag">xsd:restriction</span> <span class="scTag">base</span>="<span class="scContent"><span class="type"><a href="#ns_xsd" title="Find out namespace of 'xsd' prefix">xsd</a>:hexBinary</span></span>"/&gt;</div>&lt;/<span class="scTag">xsd:simpleType</span>&gt;</div><div style="margin-left: 1.5em">&lt;<span class="scTag">xsd:simpleType</span>&gt;<div style="margin-left: 1.5em">&lt;<span class="scTag">xsd:restriction</span> <span class="scTag">base</span>="<span class="scContent"><span class="type"><a href="#ns_xsd" title="Find out namespace of 'xsd' prefix">xsd</a>:string</span></span>"&gt;<div style="margin-left: 1.5em">&lt;<span class="scTag">xsd:enumeration</span> <span class="scTag">value</span>="<span class="scContent">Aqua</span>"/&gt;</div><div style="margin-left: 1.5em">&lt;<span class="scTag">xsd:enumeration</span> <span class="scTag">value</span>="<span class="scContent">Black</span>"/&gt;</div><div style="margin-left: 1.5em">&lt;<span class="scTag">xsd:enumeration</span> <span class="scTag">value</span>="<span class="scContent">Blue</span>"/&gt;</div><div style="margin-left: 1.5em">&lt;<span class="scTag">xsd:enumeration</span> <span class="scTag">value</span>="<span class="scContent">Fuchsia</span>"/&gt;</div><div style="margin-left: 1.5em">&lt;<span class="scTag">xsd:enumeration</span> <span class="scTag">value</span>="<span class="scContent">Gray</span>"/&gt;</div><div style="margin-left: 1.5em">&lt;<span class="scTag">xsd:enumeration</span> <span class="scTag">value</span>="<span class="scContent">Green</span>"/&gt;</div><div style="margin-left: 1.5em">&lt;<span class="scTag">xsd:enumeration</span> <span class="scTag">value</span>="<span class="scContent">Lime</span>"/&gt;</div><div style="margin-left: 1.5em">&lt;<span class="scTag">xsd:enumeration</span> <span class="scTag">value</span>="<span class="scContent">Maroon</span>"/&gt;</div><div style="margin-left: 1.5em">&lt;<span class="scTag">xsd:enumeration</span> <span class="scTag">value</span>="<span class="scContent">Navy</span>"/&gt;</div><div style="margin-left: 1.5em">&lt;<span class="scTag">xsd:enumeration</span> <span class="scTag">value</span>="<span class="scContent">Olive</span>"/&gt;</div><div style="margin-left: 1.5em">&lt;<span class="scTag">xsd:enumeration</span> <span class="scTag">value</span>="<span class="scContent">Purple</span>"/&gt;</div><div style="margin-left: 1.5em">&lt;<span class="scTag">xsd:enumeration</span> <span class="scTag">value</span>="<span class="scContent">Red</span>"/&gt;</div><div style="margin-left: 1.5em">&lt;<span class="scTag">xsd:enumeration</span> <span class="scTag">value</span>="<span class="scContent">Silver</span>"/&gt;</div><div style="margin-left: 1.5em">&lt;<span class="scTag">xsd:enumeration</span> <span class="scTag">value</span>="<span class="scContent">Teal</span>"/&gt;</div><div style="margin-left: 1.5em">&lt;<span class="scTag">xsd:enumeration</span> <span class="scTag">value</span>="<span class="scContent">White</span>"/&gt;</div><div style="margin-left: 1.5em">&lt;<span class="scTag">xsd:enumeration</span> <span class="scTag">value</span>="<span class="scContent">Yellow</span>"/&gt;</div><div style="margin-left: 1.5em">&lt;<span class="scTag">xsd:enumeration</span> <span class="scTag">value</span>="<span class="scContent">Transparent</span>"/&gt;</div>&lt;/<span class="scTag">xsd:restriction</span>&gt;</div>&lt;/<span class="scTag">xsd:simpleType</span>&gt;</div>&lt;/<span class="scTag">xsd:union</span>&gt;</div>&lt;/<span class="scTag">xsd:simpleType</span>&gt;</div>
+</div>
+<script type="text/javascript">
+<!--
+setState('type_ColorType_scbox', false);
+// -->
+</script>
+</div>
+<div style="text-align: right; clear: both;"><a href="#top">top</a></div>
+<hr />
+<h3>Simple Type: <a name="type_StyleType" class="name">StyleType</a>
+</h3>
+<table class="hierarchy">
+<tr>
+<th>Super-types:</th>
+<td>
+<span class="type">
+<a href="#ns_xsd" title="Find out namespace of 'xsd' prefix">xsd</a>:string</span> &lt; <strong>StyleType</strong> (by restriction)</td>
+</tr>
+<tr>
+<th>Sub-types:</th>
+<td>None</td>
+</tr>
+</table>
+<table class="properties">
+<tr>
+<th>Name</th>
+<td>StyleType</td>
+</tr>
+<tr>
+<th>Content</th>
+<td>
+<ul><li>Base XSD Type: string</li></ul>
+<ul>
+<li>
+<em>value</em> comes from list: {'Solid'|'Broken'}</li>
+</ul>
+</td>
+</tr>
+</table>
+<div class="schemaComponent box">
+<div>
+<input type="button" id="type_StyleType_scbox_button" class="control" onclick="switchState('type_StyleType_scbox'); return false;" style="display: none" /> <span class="caption">Schema Component Representation</span>
+</div>
+<div id="type_StyleType_scbox" class="contents">
+<div style="margin-left: 0em">&lt;<span class="scTag">xsd:simpleType</span> <span class="scTag">name</span>="<span class="scContent">StyleType</span>"&gt;<div style="margin-left: 1.5em">&lt;<span class="scTag">xsd:restriction</span> <span class="scTag">base</span>="<span class="scContent"><span class="type"><a href="#ns_xsd" title="Find out namespace of 'xsd' prefix">xsd</a>:string</span></span>"&gt;<div style="margin-left: 1.5em">&lt;<span class="scTag">xsd:enumeration</span> <span class="scTag">value</span>="<span class="scContent">Solid</span>"/&gt;</div><div style="margin-left: 1.5em">&lt;<span class="scTag">xsd:enumeration</span> <span class="scTag">value</span>="<span class="scContent">Broken</span>"/&gt;</div>&lt;/<span class="scTag">xsd:restriction</span>&gt;</div>&lt;/<span class="scTag">xsd:simpleType</span>&gt;</div>
+</div>
+<script type="text/javascript">
+<!--
+setState('type_StyleType_scbox', false);
+// -->
+</script>
+</div>
+<div style="text-align: right; clear: both;"><a href="#top">top</a></div>
+<hr />
+<h3>Simple Type: <a name="type_Dimension" class="name">Dimension</a>
+</h3>
+<table class="hierarchy">
+<tr>
+<th>Super-types:</th>
+<td>
+<span class="type">
+<a href="#ns_xsd" title="Find out namespace of 'xsd' prefix">xsd</a>:float</span> &lt; <strong>Dimension</strong> (by restriction)</td>
+</tr>
+<tr>
+<th>Sub-types:</th>
+<td>None</td>
+</tr>
+</table>
+<table class="properties">
+<tr>
+<th>Name</th>
+<td>Dimension</td>
+</tr>
+<tr>
+<th>Content</th>
+<td>
+<ul><li>Base XSD Type: float</li></ul>
+<ul>
+<li>
+<em>value</em> &gt;= 0</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th>Documentation</th>
+<td>
+				Dimension for width and height. Cannot be negative values. 
+			</td>
+</tr>
+</table>
+<div class="schemaComponent box">
+<div>
+<input type="button" id="type_Dimension_scbox_button" class="control" onclick="switchState('type_Dimension_scbox'); return false;" style="display: none" /> <span class="caption">Schema Component Representation</span>
+</div>
+<div id="type_Dimension_scbox" class="contents">
+<div style="margin-left: 0em">&lt;<span class="scTag">xsd:simpleType</span> <span class="scTag">name</span>="<span class="scContent">Dimension</span>"&gt;<div style="margin-left: 1.5em">&lt;<span class="scTag">xsd:restriction</span> <span class="scTag">base</span>="<span class="scContent"><span class="type"><a href="#ns_xsd" title="Find out namespace of 'xsd' prefix">xsd</a>:float</span></span>"&gt;<div style="margin-left: 1.5em">&lt;<span class="scTag">xsd:minInclusive</span> <span class="scTag">value</span>="<span class="scContent">0</span>"/&gt;</div>&lt;/<span class="scTag">xsd:restriction</span>&gt;</div>&lt;/<span class="scTag">xsd:simpleType</span>&gt;</div>
+</div>
+<script type="text/javascript">
+<!--
+setState('type_Dimension_scbox', false);
+// -->
+</script>
+</div>
+<div style="text-align: right; clear: both;"><a href="#top">top</a></div>
+<hr />
+<h3>Model Group: <a name="group_CommentGroup" class="name">CommentGroup</a>
+</h3>
+<table class="properties">
+<tr>
+<th>Name</th>
+<td>CommentGroup</td>
+</tr>
+<tr>
+<th>Documentation</th>
+<td>
+				One or more comments, references, and key value attributes.  
+			</td>
+</tr>
+</table>
+<div class="sample box">
+<div>
+<input type="button" id="group_CommentGroup_xibox_button" class="control" onclick="switchState('group_CommentGroup_xibox'); return false;" style="display: none" /> <span class="caption">XML Instance Representation</span>
+</div>
+<div id="group_CommentGroup_xibox" class="contents">
+<div style="margin-left: 0em">&lt;<a href="#ns_gpml" title="Find out namespace of 'gpml' prefix">gpml</a>:Comment<br /><span style="margin-left: 0.5em"> Source="<span class="type"><a href="#ns_xsd" title="Find out namespace of 'xsd' prefix">xsd</a>:string</span> <span class="occurs">[0..1]</span>"</span>&gt;  <span class="occurs">[0..*]</span>  <a href="javascript:void(0)" title="View Documentation" class="documentation" onclick="docArray = new Array('Elements used to provide descriptions and arbitrary notes for a given object.'); viewDocumentation('Element', 'Comment', docArray);">?</a><br /><span style="margin-left: 1.5em"> <span class="type"><a href="#ns_xsd" title="Find out namespace of 'xsd' prefix">xsd</a>:string</span> </span><br />&lt;/<a href="#ns_gpml" title="Find out namespace of 'gpml' prefix">gpml</a>:Comment&gt;</div><div style="margin-left: 0em">&lt;<a href="#ns_gpml" title="Find out namespace of 'gpml' prefix">gpml</a>:PublicationXref<br /><span style="margin-left: 0.5em"> ID="<span class="type"><a href="#ns_xsd" title="Find out namespace of 'xsd' prefix">xsd</a>:string</span> <span class="occurs">[1]</span>"</span><br /><span style="margin-left: 0.5em"> Database="<span class="type"><a href="#ns_xsd" title="Find out namespace of 'xsd' prefix">xsd</a>:string</span> <span class="occurs">[1]</span>"</span>/&gt;  <span class="occurs">[0..*]</span></div><div style="margin-left: 0em">&lt;<a href="#ns_gpml" title="Find out namespace of 'gpml' prefix">gpml</a>:BiopaxRef&gt; ... &lt;/<a href="#ns_gpml" title="Find out namespace of 'gpml' prefix">gpml</a>:BiopaxRef&gt; <span class="occurs">[0..*]</span></div><div style="margin-left: 0em">&lt;<a href="#ns_gpml" title="Find out namespace of 'gpml' prefix">gpml</a>:Attribute<br /><span style="margin-left: 0.5em"> Key="<span class="type"><a href="#ns_xsd" title="Find out namespace of 'xsd' prefix">xsd</a>:string</span> <span class="occurs">[1]</span>"</span><br /><span style="margin-left: 0.5em"> Value="<span class="type"><a href="#ns_xsd" title="Find out namespace of 'xsd' prefix">xsd</a>:string</span> <span class="occurs">[1]</span>"</span>/&gt;  <span class="occurs">[0..*]</span></div>
+</div>
+<script type="text/javascript">
+<!--
+setState('group_CommentGroup_xibox', true);
+// -->
+</script>
+</div>
+<div class="schemaComponent box">
+<div>
+<input type="button" id="group_CommentGroup_scbox_button" class="control" onclick="switchState('group_CommentGroup_scbox'); return false;" style="display: none" /> <span class="caption">Schema Component Representation</span>
+</div>
+<div id="group_CommentGroup_scbox" class="contents">
+<div style="margin-left: 0em">&lt;<span class="scTag">xsd:group</span> <span class="scTag">name</span>="<span class="scContent">CommentGroup</span>"&gt;<div style="margin-left: 1.5em">&lt;<span class="scTag">xsd:sequence</span>&gt;<div style="margin-left: 1.5em">&lt;<span class="scTag">xsd:element</span> <span class="scTag">name</span>="<span class="scContent">Comment</span>" <span class="scTag">minOccurs</span>="<span class="scContent">0</span>" <span class="scTag">maxOccurs</span>="<span class="scContent">unbounded</span>"&gt;<div style="margin-left: 1.5em">&lt;<span class="scTag">xsd:complexType</span>&gt;<div style="margin-left: 1.5em">&lt;<span class="scTag">xsd:simpleContent</span>&gt;<div style="margin-left: 1.5em">&lt;<span class="scTag">xsd:extension</span> <span class="scTag">base</span>="<span class="scContent"><span class="type"><a href="#ns_xsd" title="Find out namespace of 'xsd' prefix">xsd</a>:string</span></span>"&gt;<div style="margin-left: 1.5em">&lt;<span class="scTag">xsd:attribute</span> <span class="scTag">name</span>="<span class="scContent">Source</span>" <span class="scTag">type</span>="<span class="scContent"><span class="type"><a href="#ns_xsd" title="Find out namespace of 'xsd' prefix">xsd</a>:string</span></span>"/&gt;</div>&lt;/<span class="scTag">xsd:extension</span>&gt;</div>&lt;/<span class="scTag">xsd:simpleContent</span>&gt;</div>&lt;/<span class="scTag">xsd:complexType</span>&gt;</div>&lt;/<span class="scTag">xsd:element</span>&gt;</div><div style="margin-left: 1.5em">&lt;<span class="scTag">xsd:element</span> <span class="scTag">name</span>="<span class="scContent">PublicationXref</span>" <span class="scTag">minOccurs</span>="<span class="scContent">0</span>" <span class="scTag">maxOccurs</span>="<span class="scContent">unbounded</span>"&gt;<div style="margin-left: 1.5em">&lt;<span class="scTag">xsd:complexType</span>&gt;<div style="margin-left: 1.5em">&lt;<span class="scTag">xsd:attribute</span> <span class="scTag">name</span>="<span class="scContent">ID</span>" <span class="scTag">type</span>="<span class="scContent"><span class="type"><a href="#ns_xsd" title="Find out namespace of 'xsd' prefix">xsd</a>:string</span></span>" <span class="scTag">use</span>="<span class="scContent">required</span>"/&gt;</div><div style="margin-left: 1.5em">&lt;<span class="scTag">xsd:attribute</span> <span class="scTag">name</span>="<span class="scContent">Database</span>" <span class="scTag">type</span>="<span class="scContent"><span class="type"><a href="#ns_xsd" title="Find out namespace of 'xsd' prefix">xsd</a>:string</span></span>" <span class="scTag">use</span>="<span class="scContent">required</span>"/&gt;</div>&lt;/<span class="scTag">xsd:complexType</span>&gt;</div>&lt;/<span class="scTag">xsd:element</span>&gt;</div><div style="margin-left: 1.5em">&lt;<span class="scTag">xsd:element</span> <span class="scTag">name</span>="<span class="scContent">BiopaxRef</span>" <span class="scTag">minOccurs</span>="<span class="scContent">0</span>" <span class="scTag">maxOccurs</span>="<span class="scContent">unbounded</span>"/&gt;</div><div style="margin-left: 1.5em">&lt;<span class="scTag">xsd:element</span> <span class="scTag">name</span>="<span class="scContent">Attribute</span>" <span class="scTag">minOccurs</span>="<span class="scContent">0</span>" <span class="scTag">maxOccurs</span>="<span class="scContent">unbounded</span>"&gt;<div style="margin-left: 1.5em">&lt;<span class="scTag">xsd:complexType</span>&gt;<div style="margin-left: 1.5em">&lt;<span class="scTag">xsd:attribute</span> <span class="scTag">name</span>="<span class="scContent">Key</span>" <span class="scTag">type</span>="<span class="scContent"><span class="type"><a href="#ns_xsd" title="Find out namespace of 'xsd' prefix">xsd</a>:string</span></span>" <span class="scTag">use</span>="<span class="scContent">required</span>"/&gt;</div><div style="margin-left: 1.5em">&lt;<span class="scTag">xsd:attribute</span> <span class="scTag">name</span>="<span class="scContent">Value</span>" <span class="scTag">type</span>="<span class="scContent"><span class="type"><a href="#ns_xsd" title="Find out namespace of 'xsd' prefix">xsd</a>:string</span></span>" <span class="scTag">use</span>="<span class="scContent">required</span>"/&gt;</div>&lt;/<span class="scTag">xsd:complexType</span>&gt;</div>&lt;/<span class="scTag">xsd:element</span>&gt;</div>&lt;/<span class="scTag">xsd:sequence</span>&gt;</div>&lt;/<span class="scTag">xsd:group</span>&gt;</div>
+</div>
+<script type="text/javascript">
+<!--
+setState('group_CommentGroup_scbox', false);
 // -->
 </script>
 </div>
