@@ -1,6 +1,6 @@
 <html>
 <head>
-<title>GPML Schema 2013a Documentation</title>
+<title>GPML2013a Schema Documentation</title>
 <meta http-equiv="Content-Type" content="text/xml; charset=iso-8859-1" />
 <style type="text/css">
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
@@ -670,7 +670,7 @@ function viewDocumentation(compDesc, compName, docTextArray) {
 </script>
 </head>
 <body>
-<h1><a name="top">GPML Schema 2013a Documentation</a></h1>
+<h1><a name="top">GPML2013a Schema Documentation</a></h1>
 <div style="float: right;">
 <div id="printerControls" style="display:none;">
 <input type="checkbox" onclick="displayMode(this.checked)" />Printer-friendly Version</div>
