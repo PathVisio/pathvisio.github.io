@@ -670,7 +670,7 @@ function viewDocumentation(compDesc, compName, docTextArray) {
 </script>
 </head>
 <body>
-<h1><a name="top">GPML Schema Documentation</a></h1>
+<h1><a name="top">GPML Schema 2013a Documentation</a></h1>
 <div style="float: right;">
 <div id="printerControls" style="display:none;">
 <input type="checkbox" onclick="displayMode(this.checked)" />Printer-friendly Version</div>
