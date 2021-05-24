@@ -102,6 +102,7 @@ New elements Evidence and EvidenceRef (reference to an Evidence) are introduced 
 <h3 name="type">Updated Extensible Type Definitions <a href=#map>&#9450</a></h3>
 
 New categories for DataNode (Molecules vs. Concepts), State, Group, and Annotation types are defined. As well as enumeration types for connectorType, StyleType, and Anchor shapeType. All Types are extensible with type string.  
+
 | DataNode type       |              |State type              | Group type      | Annotation type     |
 | :---                | :---         |:---                    | :---            |:---                 |
 | Undefined (default) |              |Undefined (default)     | Group (default) | Undefined (default) |
