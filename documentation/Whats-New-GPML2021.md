@@ -21,7 +21,9 @@
   <em>Figure 1: GPML2021 Schema Diagram</em>
 </p>
 
+
 <h3 name="annotation">Streamlined Annotations and Citations <a href=#map>&#9312</a></h3>
+
 
 In GPML2021, Annotation and Citation replaces Biopax OpenControlledVocabulary and PublicationXref respectively. An Annotation has elementId, value, type (e.g. Ontology). Annotation optionally contains Xref and url. Citation has elementId, Xref, and optionally url. From a Citation Xref all information about a publication can be found. Therefore, publication details (e.g. author, title) are not written in GPML2021. 
 
@@ -88,6 +90,7 @@ AnnotationRef has elementRef which refers to the elementId of its parent Annotat
 
 <h3 name="evidence">New Evidence Code <a href=#map>&#9313</a></h3>
 
+
 New elements Evidence and EvidenceRef (reference to an Evidence) are introduced for the annotation of Evidence Codes. An Evidence will have elementId and Xref for the [Evidence Code Ontology](https://evidenceontology.org/). Evidence can also optional have a term/text value and an url link. EvidenceRef has elementRef which refers to the elementId of its parent Evidence. The Pathway can have a list of Evidences. Pathway, DataNode, State, Interaction, and Group can have EvidenceRef. EvidenceRef can also be nested in an AnnotationRef element. 
 
 *Example for Evidences*
@@ -127,9 +130,11 @@ Additionally, LineStyle "Double" and CellularComponent shapeTypes enumeration ty
 
 <h3 name="interaction-panel">New Interaction Panel <a href=#map>&#9314</a></h3>
 
+
 A new Interaction Panel (Interaction or Line arrowHead type) is introduced. ArrowHead type is extensible and plugins will be available for: 
 * Molecular Interaction Map (MIM) 
 * Systems Biology Graphical Notation (SBGN)
+
 
 | ArrowHead type|
 |:---|
@@ -176,7 +181,9 @@ Nested Groups are also possible by utilizing DataNode as Aliases.
   <Group elementId="efg" Style="Complex" textLabel="GroupEFG" />
 ```
 
+
 <h3 name="state">States Nested in DataNodes <a href=#map>&#9316</a></h3>
+
 
 Given that a State is always linked to a DataNode, States are moved to be nested inside of DataNodes in GPML2021. 
 
@@ -194,7 +201,9 @@ Given that a State is always linked to a DataNode, States are moved to be nested
 </DataNodes>
 ```
 
+
 <h3 name="author">Pathway Author Element <a href=#map>&#9317</a></h3>
+
 
 The Author elements nested in Authors allows the storing of pathway author information, including: 
 * name
@@ -210,7 +219,10 @@ The Author elements nested in Authors allows the storing of pathway author infor
     ...
 </Authors>
 ```
+
+
 <h3 name="graphics">Graphics Customization <a href=#map>&#9450</a></h3>
+
 
 Additional customization of graphics (e.g. color, shape) is now possible. 
 * Different colors can be specified for borderColor and textColor 
@@ -219,7 +231,9 @@ Additional customization of graphics (e.g. color, shape) is now possible.
 * Group has added graphics properties (RectAttributes, FontAttributes, ShapeStyleAttributes) 
 * State has added font properties (FontAttributes)
 
+
 <h3 name="datasource">Xref DataSource as Compact Identifier Prefix <a href=#map>&#9318</a></h3>
+
 
 Xref dataSource(s) will be retrieved from [BridgeDb](https://bridgedb.github.io/), and it is also possible to register new data sources. The DataSource compact identifier prefix is given priority and written for by default GPML2021 format (in contrast, DataSource full name is written by default for GPML2013a).  See registered BridgeDB [datasources](https://github.com/bridgedb/datasources/blob/main/datasources.tsv). Additionally, Xref is added for the Pathway. 
 
