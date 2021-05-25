@@ -1,18 +1,18 @@
 # About GPML2021
 
 ### What's new? 
-* [Streamlined Annotations and Citations (1)](#streamlined-annotations-and-citations-\(1\))
-* [New Evidence Code (2)](#new-evidence-code-(2))
-* [Updated Extensible Type Definitions (0)](#updated-extensible-type-definitions-(0))
-* [New Interaction Panel (3)](#new-interaction-panel-(3))
-* [DataNode Type Alias and Attribute ElementRef (4)](#datanode-type-alias-and-attribute-elementref-(4))
-* [States Nested in DataNodes (5)](#states-nested-in-datanodes-(5))
-* [Pathway Author Element (6)](#pathway-author-element(6))
-* [Graphics Customization (0)](#graphics-customization(0))
-* [Xref DataSource as Compact Identifier Prefix (7)](#xref-datasource-as-compact-identifier-prefix-(7))
-* [Merged Group GroupId and GraphId (8)](#merged-group-groupid-and-graphid-(8))
-* [Removed Unused Elements and Attributes (0)](#removed-unused-elements-and-attributes-(0))
-* [Modified Schema Format and Structure (0)](#modified-schema-format-and-structure-(0))
+* [Streamlined Annotations and Citations &#9312;](#streamlined-annotations-and-citations)
+* [New Evidence Code &#9313;](#new-evidence-code)
+* [Updated Extensible Type Definitions &#9450;](#updated-extensible-type-definitions)
+* [New Interaction Panel &#9314](#new-interaction-panel)
+* [DataNode Type Alias and Attribute ElementRef &#9315](#datanode-type-alias-and-attribute-elementref)
+* [States Nested in DataNodes &#9316](#states-nested-in-datanodes)
+* [Pathway Author Element &#9317](#pathway-author-element)
+* [Graphics Customization &#9450;](#graphics-customization)
+* [Xref DataSource as Compact Identifier Prefix &#9318](#xref-datasource-as-compact-identifier-prefix)
+* [Merged Group GroupId and GraphId &#9319](#merged-group-groupid-and-graphid)
+* [Removed Unused Elements and Attributes &#9450;](#removed-unused-elements-and-attributes)
+* [Modified Schema Format and Structure &#9450;](#modified-schema-format-and-structure)
 
 <div>
 <p align="center">
@@ -22,8 +22,8 @@
 </p>
 </div>
 
-### Streamlined Annotations and Citations [(1)](#map)
-
+### Streamlined Annotations and Citations 
+### [&#9312](#map)
 In GPML2021, Annotation and Citation replaces Biopax OpenControlledVocabulary and PublicationXref respectively. An Annotation has elementId, value, type (e.g. Ontology). Annotation optionally contains Xref and url. Citation has elementId, Xref, and optionally url. From a Citation Xref all information about a publication can be found. Therefore, publication details (e.g. author, title) are not written in GPML2021. 
 
 *Example of GPML2013a OpenControlledVocabulary compared with GPML2021 Annotation:* 
@@ -87,9 +87,8 @@ GPML2021 Citation and CitationRef
 AnnotationRef has elementRef which refers to the elementId of its parent Annotation. AnnotationRef can optionally have CitationRefs and EvidenceRefs which refer to Citations and Evidences which support the Annotation. CitationRef has elementRef which refers to the elementId of its parent Citation. AnnotationRef and CitationRef are grouped in CommentGroup along with Comment, Property, and [EvidenceRef](#evidence). DataNodes, States, Interactions, GraphicalLines, Labels, Shapes, and Groups all have CommentGroup. Therefore, in GPML2021, individual Pathway Elements can have AnnotationRefs and CitationRefs.  This improves upon GPML2013a in which Annotations/OpenControlledVocabulary could only be linked to the pathway and not to individual pathway elements.   
 
 
-### New Evidence Code [(2)](#map)
-
-
+### New Evidence Code
+### [&#9313](#map)
 New elements Evidence and EvidenceRef (reference to an Evidence) are introduced for the annotation of Evidence Codes. An Evidence will have elementId and Xref for the [Evidence Code Ontology](https://evidenceontology.org/). Evidence can also optional have a term/text value and an url link. EvidenceRef has elementRef which refers to the elementId of its parent Evidence. The Pathway can have a list of Evidences. Pathway, DataNode, State, Interaction, and Group can have EvidenceRef. EvidenceRef can also be nested in an AnnotationRef element. 
 
 *Example for Evidences*
@@ -101,8 +100,8 @@ New elements Evidence and EvidenceRef (reference to an Evidence) are introduced 
     ...
 </Evidences>
 ```
-### Updated Extensible Type Definitions (0)
-
+### Updated Extensible Type Definitions 
+### [&#9450](#map)
 New categories for DataNode (Molecules vs. Concepts), State, Group, and Annotation types are defined. As well as enumeration types for connectorType, StyleType, and Anchor shapeType. All Types are extensible with type string.  
 
 | DataNode type       |              |State type              | Group type      | Annotation type     |
@@ -127,9 +126,8 @@ New categories for DataNode (Molecules vs. Concepts), State, Group, and Annotati
 Additionally, LineStyle "Double" and CellularComponent shapeTypes enumeration types are cleaned up so that such information no longer needs to be stored in key-value pair Property.  
 
 
-### New Interaction Panel (3)
-
-
+### New Interaction Panel
+### [&#9314](#map)
 A new Interaction Panel (Interaction or Line arrowHead type) is introduced. ArrowHead type is extensible and plugins will be available for: 
 * Molecular Interaction Map (MIM) 
 * Systems Biology Graphical Notation (SBGN)
@@ -148,8 +146,8 @@ A new Interaction Panel (Interaction or Line arrowHead type) is introduced. Arro
 |Transcription-translation|
 
 
-### DataNode Type Alias and Attribute ElementRef (4)
-
+### DataNode Type Alias and Attribute ElementRef
+### [&#9315](#map)
 An Alias for a Group can be represented by a DataNode with type="Alias" and elementRef referring to the elementId of the parent Group. 
 
 *Example of a Group and DataNode Alias:* 
@@ -181,9 +179,8 @@ Nested Groups are also possible by utilizing DataNode as Aliases.
 ```
 
 
-### States Nested in DataNodes (5)
-
-
+### States Nested in DataNodes
+### [&#9316](#map)
 Given that a State is always linked to a DataNode, States are moved to be nested inside of DataNodes in GPML2021. 
 
 *Example for DataNode with States:* 
@@ -201,9 +198,8 @@ Given that a State is always linked to a DataNode, States are moved to be nested
 ```
 
 
-### Pathway Author Element (6)
-
-
+### Pathway Author Element 
+### [&#9317](#map)
 The Author elements nested in Authors allows the storing of pathway author information, including: 
 * name
 * username
@@ -220,9 +216,8 @@ The Author elements nested in Authors allows the storing of pathway author infor
 ```
 
 
-### Graphics Customization (0)
-
-
+### Graphics Customization
+### [&#9450](#map)
 Additional customization of graphics (e.g. color, shape) is now possible. 
 * Different colors can be specified for borderColor and textColor 
 * New shapeTypes 
@@ -231,9 +226,8 @@ Additional customization of graphics (e.g. color, shape) is now possible.
 * State has added font properties (FontAttributes)
 
 
-### Xref DataSource as Compact Identifier Prefix (7)
-
-
+### Xref DataSource as Compact Identifier Prefix
+### [&#9318](#map)
 Xref dataSource(s) will be retrieved from [BridgeDb](https://bridgedb.github.io/), and it is also possible to register new data sources. The DataSource compact identifier prefix is given priority and written for by default GPML2021 format (in contrast, DataSource full name is written by default for GPML2013a).  See registered BridgeDB [datasources](https://github.com/bridgedb/datasources/blob/main/datasources.tsv). Additionally, Xref is added for the Pathway. 
 
 *Example Pathway Xref:* 
@@ -248,20 +242,20 @@ Xref dataSource(s) will be retrieved from [BridgeDb](https://bridgedb.github.io/
 | :--- | :--- | :--- | :--- |
 |ENSG00000139618| ensembl | Ensembl | En | 
 
-### Merged Group GroupId and GraphId (8)
-
+### Merged Group GroupId and GraphId
+### [&#9319](#map)
 Group Element previously had both GroupId and GraphId, identification of Groups are merged into just elementId.  
 
-### Removed Unused Elements and Attributes (0)
-
+### Removed Unused Elements and Attributes
+### [&#9450](#map)
 Unimplemented elements and attributes of GPML2013a are removed in GPML2021.  
 For Example: 
 * Legend Element
 * Interaction and GraphicalLine “Type” Attribute 
 * Pathway Attributes Author, Maintainer, Email, LastModified...
 
-### Modified Schema Format and Structure (0)
-
+### Modified Schema Format and Structure
+### [&#9450](#map)
 * Conformed to naming convention
     * camelCase for Attributes
     * Upper camelCase for Elements
