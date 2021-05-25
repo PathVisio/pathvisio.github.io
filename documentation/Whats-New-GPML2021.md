@@ -14,12 +14,13 @@
 * [Removed Unused Elements and Attributes &#9450;](#removed)
 * [Modified Schema Format and Structure &#9450;](#structure)
 
-
+<div>
 <p align="center">
   <img name ="map" width="95%" src="gpml2021_schema_diagram.svg">
   <br>
   <em>Figure 1: GPML2021 Schema Diagram</em>
 </p>
+</div>
 
 <div>
 <h3 name="annotation">Streamlined Annotations and Citations <a href="map">&#9312;</a></h3>
