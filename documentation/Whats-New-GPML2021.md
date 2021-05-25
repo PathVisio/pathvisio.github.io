@@ -88,7 +88,7 @@ AnnotationRef has elementRef which refers to the elementId of its parent Annotat
 
 
 ### New Evidence Code
-### [&#9313](#map)
+### [&#9313;](#map)
 New elements Evidence and EvidenceRef (reference to an Evidence) are introduced for the annotation of Evidence Codes. An Evidence will have elementId and Xref for the [Evidence Code Ontology](https://evidenceontology.org/). Evidence can also optional have a term/text value and an url link. EvidenceRef has elementRef which refers to the elementId of its parent Evidence. The Pathway can have a list of Evidences. Pathway, DataNode, State, Interaction, and Group can have EvidenceRef. EvidenceRef can also be nested in an AnnotationRef element. 
 
 *Example for Evidences*
