@@ -14,9 +14,10 @@
 * [Removed Unused Elements and Attributes &#9450;](#removed-unused-elements-and-attributes)
 * [Modified Schema Format and Structure &#9450;](#modified-schema-format-and-structure)
 
+<a name="map"></a>
 <div>
 <p align="center">
-  <img name="map" width="95%" src="gpml2021_schema_diagram.svg">
+  <img width="95%" src="gpml2021_schema_diagram.svg">
   <br>
   <em>Figure 1: GPML2021 Schema Diagram</em>
 </p>
