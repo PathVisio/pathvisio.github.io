@@ -23,7 +23,7 @@
 </div>
 
 <div>
-<h3 name="annotation">Streamlined Annotations and Citations <a href="map">&#9312;</a></h3>
+<h3 name="annotation">Streamlined Annotations and Citations <a href="#map">&#9312;</a></h3>
 </div>
 
 In GPML2021, Annotation and Citation replaces Biopax OpenControlledVocabulary and PublicationXref respectively. An Annotation has elementId, value, type (e.g. Ontology). Annotation optionally contains Xref and url. Citation has elementId, Xref, and optionally url. From a Citation Xref all information about a publication can be found. Therefore, publication details (e.g. author, title) are not written in GPML2021. 
