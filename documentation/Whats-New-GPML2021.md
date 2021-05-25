@@ -14,6 +14,7 @@
 * [Removed Unused Elements and Attributes &#9450;](#removed-unused-elements-and-attributes)
 * [Modified Schema Format and Structure &#9450;](#modified-schema-format-and-structure)
 
+
 <a name="map"></a>
 <div>
 <p align="center">
@@ -117,6 +118,7 @@ New categories for DataNode (Molecules vs. Concepts), State, Group, and Annotati
 | Protein             | Alias        |                        |                 |                     |
 | Complex             | Event        |                        |                 |                     |
 | Metabolite          |              |                        |                 |                     |
+
 
 
 | ConnectorType      | Line/BorderStyle) |  Anchor shapeType  |
