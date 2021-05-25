@@ -1,7 +1,7 @@
 # About GPML2021
 
 ### What's new? 
-* [Streamlined Annotations and Citations (1)](#streamlined-annotations-and-citations-(1))
+* [Streamlined Annotations and Citations (1)](#streamlined-annotations-and-citations-\(1\))
 * [New Evidence Code (2)](#new-evidence-code-(2))
 * [Updated Extensible Type Definitions (0)](#updated-extensible-type-definitions-(0))
 * [New Interaction Panel (3)](#new-interaction-panel-(3))
