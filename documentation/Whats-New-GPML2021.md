@@ -121,7 +121,6 @@ New categories for DataNode (Molecules vs. Concepts), State, Group, and Annotati
 
 
 
-\
 
 | ConnectorType      | Line/BorderStyle) |  Anchor shapeType  |
 | :---               | :---              | :---               |
