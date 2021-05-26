@@ -119,7 +119,8 @@ New categories for DataNode (Molecules vs. Concepts), State, Group, and Annotati
 | Complex             | Event        |                        |                 |                     |
 | Metabolite          |              |                        |                 |                     |
 
-\\
+\
+\
 
 | ConnectorType      | Line/BorderStyle) |  Anchor shapeType  |
 | :---               | :---              | :---               |
