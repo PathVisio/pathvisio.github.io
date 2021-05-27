@@ -120,7 +120,6 @@ New categories for DataNode (Molecules vs. Concepts), State, Group, and Annotati
 | Metabolite          |              |                        |                 |                     |
 
 <br/>
-<br/>
 
 | ConnectorType      | Line/BorderStyle) |  Anchor shapeType  |
 | :---               | :---              | :---               |
