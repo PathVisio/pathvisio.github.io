@@ -119,8 +119,8 @@ New categories for DataNode (Molecules vs. Concepts), State, Group, and Annotati
 | Complex             | Event        |                        |                 |                     |
 | Metabolite          |              |                        |                 |                     |
 
-
-
+<br/>
+<br/>
 
 | ConnectorType      | Line/BorderStyle) |  Anchor shapeType  |
 | :---               | :---              | :---               |
@@ -141,8 +141,8 @@ A new Interaction Panel (Interaction or Line arrowHead type) is introduced. Arro
 
 | ArrowHead type|
 |:---|
-|Undirected relationship(default)|
-|Directed relationship|
+|Undirected (default)|
+|Directed|
 |Conversion|
 |Inhibition|
 |Catalysis|
