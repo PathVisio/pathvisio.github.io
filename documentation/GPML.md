@@ -5,7 +5,7 @@ File format to store pathway models in PathVisio and share them on WikiPathways.
 ### GPML2021 (Under development)
 * [Current Schema Documentation](https://pathvisio.github.io/documentation/GPML2021-doc.html)
 * Overview of [what’s new in GPML2021](https://pathvisio.github.io/documentation/Whats-New-GPML2021.html)
-* [LibPathVisio](https://github.com/PathVisio/libPathVisio) for reading, writing, and conversion of GPML2021
+* [LibGPML](https://github.com/PathVisio/libGPML) for reading, writing, and conversion of GPML2021
 
 
 ### GPML2013a
