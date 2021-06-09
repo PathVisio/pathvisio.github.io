@@ -207,16 +207,20 @@ Given that a State is always linked to a DataNode, States are moved to be nested
 ### [&#9317;](#map)
 The Author elements nested in Authors allows the storing of pathway author information, including: 
 * name
-* username
+
+*Optional properties:*
+* username 
 * order (authorship order)
 * Xref (e.g. ORCID iD).
 
 *Example for Authors:* 
 ```
 <Authors>
-    <Author name="Mkutmon" fullName="Martina Kutmon" email="xxx@xxx.com"/>
-    <Author name="Egonw" fullName="Egon Willighagen" email="xxx@xxx.com"/>
-    ...
+		<Author name="Mkutmon" username="Martina Kutmon" order="1">
+			<Xref identifier="0000" dataSource="orcid"/>
+		</Author>
+		<Author name="Egonw" username="Egon Willighagen" order="2"/>
+	  ...
 </Authors>
 ```
 
