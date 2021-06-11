@@ -12,11 +12,11 @@ The GPML Interaction Panel ArrowHead types can be mapped to equivalent MIM and S
 |:---|:---|
 |Undirected (default)|  |
 |Directed|  |
-|Conversion| mim-conversion,  mim-modification |  
+|Conversion| mim-conversion;  mim-modification |  
 |Inhibition| mim-inhibition |
 |Catalysis| mim-catalysis |
-|Stimulation| mim-stimulation, mim-necessary-stimulation |
-|Binding| mim-binding, mim-covalent-bond |
+|Stimulation| mim-stimulation; mim-necessary-stimulation |
+|Binding| mim-binding; mim-covalent-bond |
 |Translocation| mim-translocation |
 |Transcription-translation| mim-transcription-translation |
 
