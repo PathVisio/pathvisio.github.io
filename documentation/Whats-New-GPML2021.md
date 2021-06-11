@@ -43,7 +43,7 @@ An AnnotationRef has:
 * *CitationRef(s) (optional, refers to the elementId of Citation(s) which support the parent Annotation)*
 * *EvidencRef(s) (optional, refers to the elementId of Evidence(s) which support the parent Annotation)*
 
-*Example of GPML2013a OpenControlledVocabulary compared with GPML2021 Annotation:* 
+***GPML2013a OpenControlledVocabulary compared with GPML2021 Annotation:*** 
 
 *Example GPML2013a OpenControlledVocabulary*
 ```
@@ -84,7 +84,7 @@ A CitationRef has:
 * *AnnotationRef(s) (optional, refers to the elementId of Annotation(s) which support the parent Citation)*
 
 
-*Example of GPML2013a PublicationXref compared with GPML2021 Citation:* 
+***GPML2013a PublicationXref compared with GPML2021 Citation:*** 
 
 *Example of GPML2013a PublicationXref and BiopaxRef*
 ```
