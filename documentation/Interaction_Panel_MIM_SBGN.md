@@ -12,15 +12,13 @@ The GPML Interaction Panel ArrowHead types can be mapped to equivalent MIM and S
 |:---|:---|
 |Undirected (default)|  |
 |Directed|  |
-|Conversion|  |  |
-|Inhibition|  |
-|Catalysis|  |
-|Stimulation|  |
-|Binding|  |
-|Translocation|  |
-|Transcription-translation|  |
-
-
+|Conversion| mim-conversion,  mim-modification |  
+|Inhibition| mim-inhibition |
+|Catalysis| mim-catalysis |
+|Stimulation| mim-stimulation, mim-necessary-stimulation |
+|Binding| mim-binding, mim-covalent-bond |
+|Translocation| mim-translocation |
+|Transcription-translation| mim-transcription-translation |
 
 ### Equivalent SBGN ArrowHead Types  
 
@@ -28,11 +26,10 @@ The GPML Interaction Panel ArrowHead types can be mapped to equivalent MIM and S
 |:---|:---|
 |Undirected (default)|  |
 |Directed|  |
-|Conversion|  |  |
-|Inhibition|  |
-|Catalysis|  |
+|Conversion|  |  
+|Inhibition| SBGN-Inhibition |
+|Catalysis| SBGN-Catalysis |
 |Stimulation|  |
 |Binding|  |
 |Translocation|  |
 |Transcription-translation|  |
- 
