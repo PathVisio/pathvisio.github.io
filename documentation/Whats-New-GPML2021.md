@@ -45,7 +45,7 @@ An AnnotationRef has:
 
 ***GPML2013a OpenControlledVocabulary compared with GPML2021 Annotation:*** 
 
-*Example GPML2013a OpenControlledVocabulary*
+*Example of GPML2013a OpenControlledVocabulary*
 ```
 <Biopax>
     <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
@@ -56,7 +56,7 @@ An AnnotationRef has:
     ...
 </Biopax>
 ```
-*Example GPML2021 Annotation and AnnotationRef*
+*Example of GPML2021 Annotation and AnnotationRef*
 ```
 <Annotations>
     </Annotation>
