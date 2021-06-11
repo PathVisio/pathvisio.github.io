@@ -26,9 +26,9 @@
 
 ### Streamlined Annotations and Citations 
 ### [&#9312;](#map)
-In GPML2021, [Annotation/AnnotationRef](#annotation-and-annotationref) and [Citation/CitationRef](#citation-and-citationref) replaces Biopax OpenControlledVocabulary and PublicationXref/BiopaxRef respectively. Annotations and Citations of a Pathway are written at the end of a GPML, and are referenced using AnnotationRefs and CitationRefs belonging to the the Pathway or pathway elements. In GPML2021, individual pathway elements can be annotated with AnnotationRefs. This is an improvement on GPML2013a in which Annotations/OpenControlledVocabulary could only be linked to the Pathway and not to individual pathway elements.
+In GPML2021, [Annotation/AnnotationRef](#annotation-and-annotationref) and [Citation/CitationRef](#citation-and-citationref) replaces Biopax OpenControlledVocabulary and PublicationXref/BiopaxRef respectively. Annotations and Citations of a Pathway are written at the end of a GPML, and are referenced using AnnotationRefs and CitationRefs of the Pathway or pathway elements. These new GPML2021 features allow more flexibility in annotating individual pathway elements. And are an improvement on GPML2013a for which Annotations/OpenControlledVocabulary could only be linked to the Pathway and not to individual pathway elements.
 
-AnnotationRef and CitationRef are grouped in CommentGroup along with Comment and Property.  DataNodes, States, Interactions, GraphicalLines, Labels, Shapes, and Groups all have CommentGroup. In addition to CommentGroup, DataNodes, States, Interactions, and Groups can also have one or more [EvidenceRef](#new-evidence-code).  In addition, CitationRefs and EvidenceRefs can be nested in AnnotationRefs; and AnnotationRefs can be nested in CitationRefs to provide related information. 
+AnnotationRef and CitationRef are grouped in CommentGroup along with Comment and Property.  DataNodes, States, Interactions, GraphicalLines, Labels, Shapes, and Groups can all have CommentGroup. In addition to CommentGroup, DataNodes, States, Interactions, and Groups can also have one or more [EvidenceRef](#new-evidence-code).  In addition, CitationRefs and EvidenceRefs can be nested in AnnotationRefs; and AnnotationRefs can be nested in CitationRefs to provide related information. 
 
 #### Annotation and AnnotationRef
 An Annotation has: 
