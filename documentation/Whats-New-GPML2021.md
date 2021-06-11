@@ -26,11 +26,26 @@
 
 ### Streamlined Annotations and Citations 
 ### [&#9312;](#map)
-In GPML2021, Annotation and Citation replaces Biopax OpenControlledVocabulary and PublicationXref respectively. An Annotation has elementId, value, type (e.g. Ontology). Annotation optionally contains Xref and url. Citation has elementId, Xref, and optionally url. From a Citation Xref all information about a publication can be found. Therefore, publication details (e.g. author, title) are not written in GPML2021. 
+In GPML2021, [Annotation/AnnotationRef](#annotation-and-annotationref) and [Citation/CitationRef](#citation-and-citationref) replaces Biopax OpenControlledVocabulary and PublicationXref/BiopaxRef respectively. Annotations and Citations of a Pathway are written at the end of a GPML, and are referenced using AnnotationRefs and CitationRefs belonging to the the Pathway or pathway elements. In GPML2021, individual pathway elements can be annotated with AnnotationRefs. This is an improvement on GPML2013a in which Annotations/OpenControlledVocabulary could only be linked to the Pathway and not to individual pathway elements.
+
+AnnotationRef and CitationRef are grouped in CommentGroup along with Comment and Property.  DataNodes, States, Interactions, GraphicalLines, Labels, Shapes, and Groups all have CommentGroup. In addition to CommentGroup, DataNodes, States, Interactions, and Groups can also have one or more [EvidenceRef](#new-evidence-code).  In addition, CitationRefs and EvidenceRefs can be nested in AnnotationRefs; and AnnotationRefs can be nested in CitationRefs to provide related information. 
+
+#### Annotation and AnnotationRef
+An Annotation has: 
+* elementId
+* value
+* type (e.g. Ontology)
+* *Xref (optional)* 
+* *url (optional)* 
+
+An AnnotationRef has:
+* elementRef (refers to the elementId of the parent Annotation referenced) 
+* *CitationRef(s) (optional, refers to the elementId of Citation(s) which support the parent Annotation)*
+* *EvidencRef(s) (optional, refers to the elementId of Evidence(s) which support the parent Annotation)*
 
 *Example of GPML2013a OpenControlledVocabulary compared with GPML2021 Annotation:* 
 
-GPML2013a OpenControlledVocabulary
+*Example GPML2013a OpenControlledVocabulary*
 ```
 <Biopax>
     <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
@@ -41,7 +56,7 @@ GPML2013a OpenControlledVocabulary
     ...
 </Biopax>
 ```
-GPML2021 Annotation and AnnotationRef
+*Example GPML2021 Annotation and AnnotationRef*
 ```
 <Annotations>
     </Annotation>
@@ -50,11 +65,28 @@ GPML2021 Annotation and AnnotationRef
     </Annotation>
 </Annotations>
 
-<AnnotationRef elementRef="a2"/>	
+<AnnotationRef elementRef="a2">
+    <CitationRef elementRef="cbc" />
+    <EvidenceRef elementRef="evd" />
+</AnnotationRef>
 ```
+#### Citation and CitationRef
+
+A Citation has:
+* elementId
+* Xref
+* *url (optional)*
+
+From a Citation Xref all information about a publication can be found. Therefore, publication details (e.g. author, title) are not written in GPML2021. 
+
+A CitationRef has:
+* elementRef (refers to the elementId of the parent Citation referenced) 
+* *AnnotationRef(s) (optional, refers to the elementId of Annotation(s) which support the parent Citation)*
+
+
 *Example of GPML2013a PublicationXref compared with GPML2021 Citation:* 
 
-GPML2013a PublicationXref and BiopaxRef
+*Example of GPML2013a PublicationXref and BiopaxRef*
 ```
 <Biopax>
     <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" 
@@ -75,7 +107,7 @@ GPML2013a PublicationXref and BiopaxRef
 
 <BiopaxRef>cbc</BiopaxRef>
 ```
-GPML2021 Citation and CitationRef
+*Example of GPML2021 Citation and CitationRef*
 ```
 <Citations>
     <Citation elementId="cbc" url="https://identifiers.org/pubmed:7730304">
@@ -84,18 +116,31 @@ GPML2021 Citation and CitationRef
     ...
 </Citations>
 
-<CitationRef elementRef="cbc"/>
+<CitationRef elementRef="cbc">
+    <AnnotationRef elementRef="a2" />
+</CitationRef>
 ```
-AnnotationRef has elementRef which refers to the elementId of its parent Annotation. AnnotationRef can optionally have CitationRefs and EvidenceRefs which refer to Citations and Evidences which support the Annotation. CitationRef has elementRef which refers to the elementId of its parent Citation. AnnotationRef and CitationRef are grouped in CommentGroup along with Comment, Property, and [EvidenceRef](#evidence). 
 
-DataNodes, States, Interactions, GraphicalLines, Labels, Shapes, and Groups all have CommentGroup. Therefore, in GPML2021, individual Pathway Elements can have AnnotationRefs and CitationRefs.  This improves upon GPML2013a in which Annotations/OpenControlledVocabulary could only be linked to the pathway and not to individual pathway elements.   
 
 
 ### New Evidence Code
 ### [&#9313;](#map)
-New elements Evidence and EvidenceRef (reference to an Evidence) are introduced for the annotation of Evidence Codes. An Evidence will have elementId and Xref for the [Evidence Code Ontology](https://evidenceontology.org/). Evidence can also optional have a term/text value and an url link. EvidenceRef has elementRef which refers to the elementId of its parent Evidence. The Pathway can have a list of Evidences. Pathway, DataNode, State, Interaction, and Group can have EvidenceRef. EvidenceRef can also be nested in an AnnotationRef element. 
+New elements Evidence and EvidenceRef (reference to an Evidence) are introduced for the annotation of Evidence Codes.
+Evidences of a Pathway are written at the end of a GPML after Annotations and Citations, and are referenced using EvidenceRefs. The Pathway, DataNode, State, Interaction, and Group can have EvidenceRef. EvidenceRef can also be nested in an AnnotationRef element. 
 
-*Example for Evidences*
+An Evidence has:
+* elementId
+* Xref (e.g. [Evidence Code Ontology](https://evidenceontology.org/))
+* *value (optional, e.g. term or text)*
+*  *url (optional)*
+
+An EvidenceRef has:
+* elementRef (refers to the elementId of the parent Evidence referenced) 
+* Xref (e.g. [Evidence Code Ontology](https://evidenceontology.org/))
+* *value (optional, e.g. term or text)*
+*  *url (optional)*
+
+*Example of GPML2021 Evidence and EvidenceRef*
 ```
 <Evidences>
     <Evidence elementId="evd" value="experimental evidence" url="https://identifiers.org/ECO:0000006">
@@ -103,6 +148,8 @@ New elements Evidence and EvidenceRef (reference to an Evidence) are introduced 
     </Evidence>
     ...
 </Evidences>
+
+<EvidenceRef elementRef="evd" />
 ```
 ### Updated Extensible Type Definitions 
 ### [&#9450;](#map)
@@ -155,7 +202,7 @@ A new Interaction Panel (Interaction or Line arrowHead type) is introduced. Arro
 ### [&#9315;](#map)
 An Alias for a Group can be represented by a DataNode with type="Alias" and elementRef referring to the elementId of the parent Group. 
 
-*Example of a Group and DataNode Alias:* 
+*Example of GPML2021 Group and DataNode Alias:* 
 ```
 <DataNode elementId="c27d1" elementRef="d4107" textLabel="Alias_for_abc" .../>
 
@@ -168,7 +215,7 @@ An Alias for a Group can be represented by a DataNode with type="Alias" and elem
 ```
 Nested Groups are also possible by utilizing DataNode as Aliases.  
 
-*Example of Nested Groups and DataNode Aliases:* 
+*Example of GPML2021 Nested Groups and DataNode Aliases:* 
 ```
   <DataNode elementId="a1" elementRef="efg" textLabel="Alias_for_efg" />
   <DataNode elementId="a2" elementRef="abc" groupRef="efg" textLabel="Alias_for_abc" />
@@ -188,7 +235,7 @@ Nested Groups are also possible by utilizing DataNode as Aliases.
 ### [&#9316;](#map)
 Given that a State is always linked to a DataNode, States are moved to be nested inside of DataNodes in GPML2021. 
 
-*Example for DataNode with States:* 
+*Example of GPML2021 DataNode with States:* 
 ```
 <DataNodes>
     <DataNode elementId="b4d99" textLabel="ERBB2" type="GeneProduct">
@@ -207,13 +254,11 @@ Given that a State is always linked to a DataNode, States are moved to be nested
 ### [&#9317;](#map)
 The Author elements nested in Authors allows the storing of pathway author information, including: 
 * name
+* *username (optional)*
+* *order (optional, authorship order)*
+* *Xref (optional, e.g. ORCID iD)*
 
-*Optional properties:*
-* username 
-* order (authorship order)
-* Xref (e.g. ORCID iD).
-
-*Example for Authors:* 
+*Example of GPML2021 Authors:* 
 ```
 <Authors>
 		<Author name="Mkutmon" username="Martina Kutmon" order="1">
@@ -239,7 +284,7 @@ Additional customization of graphics (e.g. color, shape) is now possible.
 ### [&#9318;](#map)
 Xref dataSource(s) will be retrieved from [BridgeDb](https://bridgedb.github.io/), and it is also possible to register new data sources. The DataSource compact identifier prefix is given priority and written for by default GPML2021 format (in contrast, DataSource full name is written by default for GPML2013a).  See registered BridgeDB [datasources](https://github.com/bridgedb/datasources/blob/main/datasources.tsv). Additionally, Xref is added for the Pathway. 
 
-*Example Pathway Xref:* 
+*Example of GPML2021 Pathway Xref:* 
 ```
   <Xref identifier="WP1_r1" dataSource="wikipathways"/>
 ```
