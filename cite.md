@@ -1,4 +1,4 @@
-<img src="../images/pathvisio-logo.png" width="80" align="left"/>
+<img src="images/pathvisio-logo.png" width="80" align="left"/>
 
 <br/><br/>
 
