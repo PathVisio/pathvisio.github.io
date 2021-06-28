@@ -10,7 +10,7 @@ Please cite this publication if you are using **PathVisio 3.0.0+** in your resea
 <br/>doi: [10.1371/journal.pcbi.1004085](https://doi.org/10.1371/journal.pcbi.1004085) 
 
 If you are using the **WikiPathways pathway collections**, please also cite the latest WikiPathways publications:
-> **[WikiPathways: connecting communities.](https://doi.org/10.1093/nar/gkaa1024)**.
+> **[WikiPathways: connecting communities](https://doi.org/10.1093/nar/gkaa1024)**.
 <br/>Martens M, Ammar A, Riutta A, Waagmeester A, Slenter DN, Hanspers K, Miller RA, Digles D, Lopes EN, Ehrhart F, Dupuis LJ, Winckers LA, Coort SL, Willighagen EL, Evelo CT, Pico AR, Kutmon M.
 <br/>Nucleic Acids Res. 49(D1):D613-D621 (2021).
 <br/>doi: [10.1093/nar/gkaa1024](https://doi.org/10.1093/nar/gkaa1024) 
