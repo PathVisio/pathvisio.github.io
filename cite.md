@@ -10,10 +10,10 @@ Please cite this publication if you are using **PathVisio 3.0.0+** in your resea
 <br/>doi: [10.1371/journal.pcbi.1004085](https://doi.org/10.1371/journal.pcbi.1004085) 
 
 If you are using the **WikiPathways pathway collections**, please also cite the latest WikiPathways publications:
-> **[WikiPathways: a multifaceted pathway database bridging metabolomics to other omics research.](https://doi.org/10.1093/nar/gkx1064)**.
-<br/>Denise N Slenter, Martina Kutmon, Kristina Hanspers, Anders Riutta, Jacob Windsor, Nuno Nunes, Jonathan Mélius, Elisa Cirillo, Susan L Coort, Daniela Digles, Friederike Ehrhart, Pieter Giesbertz, Marianthi Kalafati, Marvin Martens, Ryan Miller, Kozo Nishida, Linda Rieswijk, Andra Waagmeester, Lars M T Eijssen, Chris T Evelo, Alexander R Pico, Egon L Willighagen
-<br/>Nucleic Acids Res. 46(D1):D661-D667 (2018).
-<br/>doi: [10.1093/nar/gkx1064](https://doi.org/10.1093/nar/gkx1064) 
+> **[WikiPathways: connecting communities.](https://doi.org/10.1093/nar/gkaa1024)**.
+<br/>Martens M, Ammar A, Riutta A, Waagmeester A, Slenter DN, Hanspers K, Miller RA, Digles D, Lopes EN, Ehrhart F, Dupuis LJ, Winckers LA, Coort SL, Willighagen EL, Evelo CT, Pico AR, Kutmon M.
+<br/>Nucleic Acids Res. 49(D1):D613-D621 (2021).
+<br/>doi: [10.1093/nar/gkaa1024](https://doi.org/10.1093/nar/gkaa1024) 
 
 ***
 
