@@ -28,7 +28,7 @@
 ### [&#9312;](#map)
 In GPML2021, [Annotation/AnnotationRef](#annotation-and-annotationref) and [Citation/CitationRef](#citation-and-citationref) replaces Biopax OpenControlledVocabulary and PublicationXref/BiopaxRef respectively. Annotations and Citations of a Pathway are written at the end of a GPML, and are referenced using AnnotationRefs and CitationRefs of the Pathway or pathway elements. These new GPML2021 features allow more flexibility in annotating individual pathway elements. And are an improvement on GPML2013a for which Annotations/OpenControlledVocabulary could only be linked to the Pathway and not to individual pathway elements.
 
-AnnotationRef and CitationRef are grouped in CommentGroup along with Comment and Property.  DataNodes, States, Interactions, GraphicalLines, Labels, Shapes, and Groups can all have CommentGroup. In addition to CommentGroup, DataNodes, States, Interactions, and Groups can also have one or more [EvidenceRef](#new-evidence-code).  In addition, CitationRefs and EvidenceRefs can be nested in AnnotationRefs; and AnnotationRefs can be nested in CitationRefs to provide related information. 
+AnnotationRef and CitationRef are grouped in CommentGroup along with Comment, Property, and [EvidenceRef](#new-evidence-code).  DataNodes, States, Interactions, GraphicalLines, Labels, Shapes, and Groups can all have CommentGroup. In addition, CitationRefs and EvidenceRefs can be nested in AnnotationRefs; and AnnotationRefs can be nested in CitationRefs to provide related information. 
 
 #### Annotation and AnnotationRef
 An Annotation has: 
@@ -36,7 +36,7 @@ An Annotation has:
 * value
 * type (e.g. Ontology)
 * *Xref (optional)* 
-* *url (optional)* 
+* [*Url*](#url) *(optional)* 
 
 An AnnotationRef has:
 * elementRef (refers to the elementId of the parent Annotation referenced) 
@@ -74,8 +74,7 @@ An AnnotationRef has:
 
 A Citation has:
 * elementId
-* Xref
-* *url (optional)*
+* Xref and/or [*Url*](#url)
 
 From a Citation Xref all information about a publication can be found. Therefore, publication details (e.g. author, title) are not written in GPML2021. 
 
@@ -120,25 +119,25 @@ A CitationRef has:
     <AnnotationRef elementRef="a2" />
 </CitationRef>
 ```
-
+#### Url 
+An Url has: 
+* link
+* *description (optional)*  
 
 
 ### New Evidence Code
 ### [&#9313;](#map)
 New elements Evidence and EvidenceRef (reference to an Evidence) are introduced for the annotation of Evidence Codes.
-Evidences of a Pathway are written at the end of a GPML after Annotations and Citations, and are referenced using EvidenceRefs. The Pathway, DataNode, State, Interaction, and Group can have EvidenceRef. EvidenceRef can also be nested in an AnnotationRef element. 
+Evidences of a Pathway are written at the end of a GPML after Annotations and Citations, and are referenced using EvidenceRefs. EvidencRef is grouped in CommentGroup along with [AnnotationRef](#annotation-and-annotationref), [CitationRef](#citation-and-citationref), Comment, and Property.  DataNodes, States, Interactions, GraphicalLines, Labels, Shapes, and Groups can all have CommentGroup. EvidenceRef can also be nested in an [AnnotationRef](#annotation-and-annotationref) element. 
 
 An Evidence has:
 * elementId
 * Xref (e.g. [Evidence Code Ontology](https://evidenceontology.org/))
 * *value (optional, e.g. term or text)*
-*  *url (optional)*
+*  [*Url](#url) (optional)*
 
 An EvidenceRef has:
 * elementRef (refers to the elementId of the parent Evidence referenced) 
-* Xref (e.g. [Evidence Code Ontology](https://evidenceontology.org/))
-* *value (optional, e.g. term or text)*
-*  *url (optional)*
 
 *Example of GPML2021 Evidence and EvidenceRef*
 ```
