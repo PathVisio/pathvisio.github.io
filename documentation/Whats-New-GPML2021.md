@@ -194,7 +194,7 @@ A new Interaction Panel (Interaction or Line arrowHead type) is introduced. Arro
 |Stimulation|
 |Binding|
 |Translocation|
-|Transcription-translation|
+|TranscriptionTranslation|
 
 
 ### DataNode Type Alias and Attribute ElementRef
