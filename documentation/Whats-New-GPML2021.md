@@ -157,9 +157,9 @@ New categories for DataNode (Molecules vs. Concepts), State, Group, and Annotati
 | DataNode type       |              |State type              | Group type      | Annotation type     |
 | :---                | :---         |:---                    | :---            |:---                 |
 | Undefined (default) |              |Undefined (default)     | Group (default) | Undefined (default) |
-| ***Molecules:***    | ***Concepts:***|Protein modification  | Complex       | Ontology            |
-| GeneProduct         | Pathway      |Genetic variant         | Pathway         | Taxonomy            |
-| DNA                 | Disease      |Epigenetic modification | Analog          | Interaction type    |
+| ***Molecules:***    | ***Concepts:***|ProteinModification  | Complex       | Ontology            |
+| GeneProduct         | Pathway      |GeneticVariant         | Pathway         | Taxonomy            |
+| DNA                 | Disease      |EpigeneticModification | Analog          |     |
 | RNA                 | Phenotype    |                        | Paralog         |                     |
 | Protein             | Alias        |                        |                 |                     |
 | Complex             | Event        |                        |                 |                     |
@@ -249,8 +249,17 @@ Given that a State is always linked to a DataNode, States are moved to be nested
 ```
 
 
-### Pathway Author Element 
+### Pathway Description and Author Elements 
 ### [&#9317;](#map)
+The Description element stores the pathway textual description (previously stored in a Comment element). 
+
+*Example of GPML2021 Description:* 
+```
+...
+<Description> textual description for pathway </Description
+...
+```
+
 The Author elements nested in Authors allows the storing of pathway author information, including: 
 * name
 * *username (optional)*
