@@ -2,7 +2,7 @@
 
 File format to store pathway models in PathVisio and share them on WikiPathways.
 
-See GPML Schemas on   <a href="https://github.com/PathVisio/GPML/"><img src="github_icon.svg" height="24" ></a>
+See GPML Schemas on    <a href="https://github.com/PathVisio/GPML/"><img src="github_icon.svg" height="28" ></a>
 
 
 
