@@ -2,6 +2,10 @@
 
 File format to store pathway models in PathVisio and share them on WikiPathways.
 
+See GPML Schemas on [![github](github_icon.png)](https://github.com/PathVisio/GPML/)
+
+
+
 ### GPML2021 (Under development)
 * [Current Schema Documentation](https://pathvisio.github.io/documentation/GPML2021-doc.html)
 * Overview of [what’s new in GPML2021](https://pathvisio.github.io/documentation/Whats-New-GPML2021.html)
