@@ -152,7 +152,7 @@ An EvidenceRef has:
 ```
 ### Updated Extensible Type Definitions 
 ### [&#9450;](#map)
-New categories for DataNode (Molecules vs. Concepts), State, Group, and Annotation types are defined. As well as enumeration types for connectorType, StyleType, and Anchor shapeType. All Types are extensible with type string.  
+New categories for DataNode (Molecules vs. Concepts), State, Group, and Annotation types are defined. As well as enumeration types for connectorType, StyleType, and Anchor shapeType. All Types are extensible with type string and written in UpperCamelCase format.  
 
 | DataNode type       |              |State type              | Group type      | Annotation type     |
 | :---                | :---         |:---                    | :---            |:---                 |
@@ -179,7 +179,7 @@ Additionally, LineStyle "Double" and CellularComponent shapeTypes enumeration ty
 
 ### New Interaction Panel
 ### [&#9314;](#map)
-A new Interaction Panel (Interaction or Line arrowHead type) is introduced. ArrowHead type is extensible and plugins will be available for: 
+A new Interaction Panel (Interaction or Line arrowHead type) is introduced. ArrowHead type is extensible with type string and written in UpperCamelCase format. Plugins will be available for: 
 * [Molecular Interaction Map (MIM)](Interaction_Panel_MIM_SBGN.md)
 * [Systems Biology Graphical Notation (SBGN)](Interaction_Panel_MIM_SBGN.md)
 
