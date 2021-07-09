@@ -3,6 +3,7 @@
 File format to store pathway models in PathVisio and share them on WikiPathways.
 
 See GPML Schemas on [![github](github_icon.png =10x10)](https://github.com/PathVisio/GPML/)
+See GPML Schemas on <a href="https://github.com/PathVisio/GPML/"><img src="github_icon.png" align="left" height="48" width="48" ></a>
 
 
 
