@@ -1532,7 +1532,7 @@ setState('element_AnnotationRef_scbox', false);
 </tr>
 <tr>
 <th>Documentation</th>
-<td>List of Citations. A citation is a literature reference, citation, or work.</td>
+<td>List of Citations. A citation is a reference to a source of information.</td>
 </tr>
 </table>
 <div class="sample box">
