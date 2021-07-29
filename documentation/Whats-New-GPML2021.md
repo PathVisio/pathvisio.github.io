@@ -5,7 +5,7 @@
 * [New Evidence Code &#9313;](#new-evidence-code)
 * [Updated Extensible Type Definitions &#9450;](#updated-extensible-type-definitions)
 * [New Interaction Panel &#9314;](#new-interaction-panel)
-* [DataNode Type Alias and Attribute ElementRef &#9315;](#datanode-type-alias-and-attribute-elementref)
+* [DataNode Type Alias and Attribute AliasRef &#9315;](#datanode-type-alias-and-attribute-aliasref)
 * [States Nested in DataNodes &#9316;](#states-nested-in-datanodes)
 * [Pathway Author Element &#9317;](#pathway-author-element)
 * [Graphics Customization &#9450;](#graphics-customization)
@@ -197,13 +197,13 @@ A new Interaction Panel (Interaction or Line arrowHead type) is introduced. Arro
 |TranscriptionTranslation|
 
 
-### DataNode Type Alias and Attribute ElementRef
+### DataNode Type Alias and Attribute AliasRef
 ### [&#9315;](#map)
-An Alias for a Group can be represented by a DataNode with type="Alias" and elementRef referring to the elementId of the parent Group. 
+An Alias for a Group can be represented by a DataNode with type="Alias" and aliasRef referring to the elementId of the parent Group. 
 
 *Example of GPML2021 Group and DataNode Alias:* 
 ```
-<DataNode elementId="c27d1" elementRef="d4107" textLabel="Alias_for_abc" .../>
+<DataNode elementId="c27d1" aliasRef="d4107" textLabel="Alias_for_abc" .../>
 
 <DataNode elementId="ed3f8" textLabel="DataNode" type="GeneProduct" groupRef="d4107"  .../ >
 
@@ -286,6 +286,7 @@ Additional customization of graphics (e.g. color, shape) is now possible.
 * Background color can be defined for pathway 
 * Group has added graphics properties (RectAttributes, FontAttributes, ShapeStyleAttributes) 
 * State has added font properties (FontAttributes)
+* Rotation is optionally added for DataNode, State, Label, and Shape.
 
 
 ### Xref DataSource as Compact Identifier Prefix
