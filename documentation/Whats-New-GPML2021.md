@@ -286,7 +286,7 @@ Additional customization of graphics (e.g. color, shape) is now possible.
 * Background color can be defined for pathway 
 * Group has added graphics properties (RectAttributes, FontAttributes, ShapeStyleAttributes) 
 * State has added font properties (FontAttributes)
-* Rotation is optionally added for DataNode, State, Label, and Shape.
+* Rotation is optionally added for DataNode, State, Label, Shape, and Group.
 
 
 ### Xref DataSource as Compact Identifier Prefix
@@ -313,6 +313,7 @@ Group Element previously had both GroupId and GraphId, identification of Groups 
 ### [&#9450;](#map)
 Unimplemented elements and attributes of GPML2013a are removed in GPML2021.  
 For Example: 
+* InfoBox
 * Legend Element
 * Interaction and GraphicalLine “Type” Attribute 
 * Pathway Attributes Author, Maintainer, Email, LastModified...
