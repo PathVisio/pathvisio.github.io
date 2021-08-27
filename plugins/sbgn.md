@@ -9,6 +9,7 @@ The plugin provides a palett with SBGN ([Systems Biology Graphical Notation](htt
 ----
 
 ### Installation
+* Start PathVisio.
 * Go to Plugins > Plugin Manager. 
 * Select the SBGN plugin.
 * Click on Install.
