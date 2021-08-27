@@ -16,8 +16,9 @@ The plugin provides a palett with SBGN ([Systems Biology Graphical Notation](htt
 ----
 
 ### Authors
- * Martijn van Iersel
- * Anwesha Bohler
+* Martijn van Iersel
+* Anwesha Bohler
+
 ---- 
 
 ### Releases
