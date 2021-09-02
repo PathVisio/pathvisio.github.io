@@ -24,7 +24,7 @@
 </p>
 </div>
 
-### Streamlined Annotations and Citations 
+### Streamlined Annotations, Citations, and Evidences 
 ### [&#9312;](#map)
 In GPML2021, [Annotation/AnnotationRef](#annotation-and-annotationref) and [Citation/CitationRef](#citation-and-citationref) replaces Biopax OpenControlledVocabulary and PublicationXref/BiopaxRef respectively. Annotations and Citations of a Pathway are written at the end of a GPML, and are referenced using AnnotationRefs and CitationRefs of the Pathway or pathway elements. These new GPML2021 features allow more flexibility in annotating individual pathway elements. And are an improvement on GPML2013a for which Annotations/OpenControlledVocabulary could only be linked to the Pathway and not to individual pathway elements.
 
