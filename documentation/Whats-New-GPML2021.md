@@ -60,8 +60,9 @@ An AnnotationRef has:
 ```
 <Annotations>
     </Annotation>
-        <Annotation elementId="a2" name="thyroid cancer" url="https://identifiers.org/DOID:1781" type="Disease">
+        <Annotation elementId="a2" name="thyroid cancer" type="Disease">
         <Xref identifier="1781" dataSource="DOID"/>
+	<Url link="https://identifiers.org/DOID:1781"/>
     </Annotation>
 </Annotations>
 
@@ -109,8 +110,9 @@ A CitationRef has:
 *Example of GPML2021 Citation and CitationRef*
 ```
 <Citations>
-    <Citation elementId="cbc" url="https://identifiers.org/pubmed:7730304">
+    <Citation elementId="cbc">
         <Xref identifier="7730304" dataSource="pubmed"/>
+        <Url link="https://identifiers.org/pubmed:7730304"/>
     </Citation>
     ...
 </Citations>
@@ -122,7 +124,6 @@ A CitationRef has:
 #### Url 
 An Url has: 
 * link
-* *description (optional)*  
 
 
 ### New Evidence Code
@@ -142,9 +143,10 @@ An EvidenceRef has:
 *Example of GPML2021 Evidence and EvidenceRef*
 ```
 <Evidences>
-    <Evidence elementId="evd" value="experimental evidence" url="https://identifiers.org/ECO:0000006">
+    <Evidence elementId="evd" value="experimental evidence">
         <Xref identifier="0000006" dataSource="ECO"/>
-    </Evidence>
+        <Url link="https://identifiers.org/ECO:0000006"/>
+   </Evidence>
     ...
 </Evidences>
 
