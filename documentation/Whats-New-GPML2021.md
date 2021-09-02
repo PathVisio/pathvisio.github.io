@@ -1,7 +1,7 @@
 # About GPML2021
 
 ### What's new? 
-* [Streamlined Annotations and Citations &#9312;](#streamlined-annotations-and-citations)
+* [Streamlined Annotations, Citations, and Evidences &#9312;](#streamlined-annotations-citations-and-evidences)
 * [New Evidence Code &#9313;](#new-evidence-code)
 * [Updated Extensible Type Definitions &#9450;](#updated-extensible-type-definitions)
 * [New Interaction Panel &#9314;](#new-interaction-panel)
@@ -135,7 +135,7 @@ An Evidence has:
 * elementId
 * Xref (e.g. [Evidence Code Ontology](https://evidenceontology.org/))
 * *value (optional, e.g. term or text)*
-*  [*Url](#url) (optional)*
+*  [*Url*](#url) *(optional)* 
 
 An EvidenceRef has:
 * elementRef (refers to the elementId of the parent Evidence referenced) 
