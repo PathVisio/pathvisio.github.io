@@ -6,6 +6,21 @@ The [new Interaction Panel](Whats-New-GPML2021.md#new-interaction-panel) introdu
 
 The GPML Interaction Panel ArrowHead types can be mapped to equivalent MIM and SBGN ArrowHead types. 
 
+
+### Equivalent Old ArrowHead Types  
+
+| Interaction Panel ArrowHead type| MIM ArrowHead type |
+|:---|:---|
+|Undirected (default)|  Line |
+|Directed|  Arrow |
+|Conversion|  |  
+|Inhibition|  |
+|Catalysis|  |
+|Stimulation|  |
+|Binding|  |
+|Translocation|  |
+|Transcription-translation|  |
+
 ### Equivalent MIM ArrowHead Types  
 
 | Interaction Panel ArrowHead type| MIM ArrowHead type |
