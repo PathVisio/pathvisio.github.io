@@ -30,6 +30,8 @@ In GPML2021, [Annotation/AnnotationRef](#annotation-and-annotationref) and [Cita
 
 AnnotationRef and CitationRef are grouped in CommentGroup along with Comment, Property, and [EvidenceRef](#new-evidence-code).  DataNodes, States, Interactions, GraphicalLines, Labels, Shapes, and Groups can all have CommentGroup. In addition, CitationRefs and EvidenceRefs can be nested in AnnotationRefs; and AnnotationRefs can be nested in CitationRefs to provide related information. 
 
+Related Read: [Guide to Adding Annotations, Citations, and Evidences](Guide_Add_Annotation_Citation_Evidence.md)
+
 #### Annotation and AnnotationRef
 An Annotation has: 
 * elementId
@@ -185,6 +187,8 @@ A new Interaction Panel (Interaction or Line arrowHead type) is introduced. Arro
 * [Molecular Interaction Map (MIM)](Interaction_Panel_MIM_SBGN.md)
 * [Systems Biology Graphical Notation (SBGN)](Interaction_Panel_MIM_SBGN.md)
 
+For more information on mapping of old arrowhead types to new interaction panel, see: 
+* [Equivalent Old ArrowHead Types (MIM)](Interaction_Panel_MIM_SBGN.md)
 
 | ArrowHead type|
 |:---|
