@@ -194,7 +194,7 @@ The GPML Interaction Panel ArrowHead types can be mapped to equivalent Old Arrow
 |:---|:---|:---|
 |Undirected (default)|  Line |  |
 |Directed|  Arrow |  |
-|Conversion|  | mim-conversion;  mim-modification;  mim-cleavage;  mim-gap;  mim-branching-right;  mim-branching-left |  
+|Conversion|  | mim-conversion;  mim-modification;  mim-cleavage;  mim-gap;  mim-branching-left;  mim-branching-right |  
 |Inhibition| TBar | mim-inhibition |
 |Catalysis|  | mim-catalysis |
 |Stimulation|  | mim-stimulation; mim-necessary-stimulation |
