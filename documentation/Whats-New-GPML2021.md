@@ -190,7 +190,7 @@ A new Interaction Panel (Interaction or Line arrowHead type) is introduced. Arro
 The GPML Interaction Panel ArrowHead types can be mapped to equivalent Old ArrowHead Types and MIM ArrowHead types. 
 
 
-| Interaction Panel | Old type | MIM ArrowHead type|
+| Interaction Panel | Old | MIM ArrowHead |
 |:---|:---|:---|
 |Undirected (default)|  Line |  |
 |Directed|  Arrow |  |
