@@ -2,7 +2,7 @@
 
 The [new Interaction Panel](Whats-New-GPML2021.md#new-interaction-panel) introduced in GPML2021 is extensible with ArrowHead type plugins: 
 * [Molecular Interaction Map (MIM)](#equivalent-mim-arrowhead-types) 
-* [Systems Biology Graphical Notation (SBGN)](#equivalent-sbgn-arrowhead-types)
+* Systems Biology Graphical Notation (SBGN)
 
 The GPML Interaction Panel ArrowHead types can be mapped to equivalent Old ArrowHead Types and MIM ArrowHead types.  
 
