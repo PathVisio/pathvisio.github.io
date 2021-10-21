@@ -187,9 +187,10 @@ A new Interaction Panel (Interaction or Line arrowHead type) is introduced. Arro
 * Molecular Interaction Map (MIM)
 * Systems Biology Graphical Notation (SBGN)
 
-The GPML Interaction Panel ArrowHead types can be mapped to equivalent Old ArrowHead Types and MIM ArrowHead types. Because there are many more SBGN ArrowHead types, they are not mapped to the GPML Interaction Panel. The SBGN Plugin handles SBGN Arrowhead types. 
+The GPML Interaction Panel ArrowHead types can be mapped to equivalent Old ArrowHead Types and MIM ArrowHead types. 
 
-| Interaction Panel ArrowHead type| Old ArrowHead type | MIM ArrowHead type |
+
+| Interaction Panel | Old type | MIM ArrowHead type|
 |:---|:---|:---|
 |Undirected (default)|  Line |  |
 |Directed|  Arrow |  |
@@ -200,6 +201,9 @@ The GPML Interaction Panel ArrowHead types can be mapped to equivalent Old Arrow
 |Binding|  | mim-translocation |
 |Translocation|  | mim-transcription-translation |
 |Transcription-translation|  |  |
+
+
+Because there are many more SBGN ArrowHead types, they are not mapped to the GPML Interaction Panel. The SBGN Plugin handles SBGN Arrowhead types. 
 
 
 ### DataNode Type Alias and Attribute AliasRef
