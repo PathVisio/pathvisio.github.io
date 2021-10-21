@@ -4,8 +4,9 @@ The [new Interaction Panel](Whats-New-GPML2021.md#new-interaction-panel) introdu
 * [Molecular Interaction Map (MIM)](#equivalent-mim-arrowhead-types) 
 * [Systems Biology Graphical Notation (SBGN)](#equivalent-sbgn-arrowhead-types)
 
-The GPML Interaction Panel ArrowHead types can be mapped to equivalent MIM and SBGN ArrowHead types. 
+The GPML Interaction Panel ArrowHead types can be mapped to equivalent Old ArrowHead Types and MIM ArrowHead types.  
 
+Because there are many more SBGN ArrowHead types, they are not mapped to the GPML Interaction Panel. The SBGN Plugin handles SBGN Arrowhead types. 
 
 ### Equivalent Old ArrowHead Types  
 
@@ -14,7 +15,7 @@ The GPML Interaction Panel ArrowHead types can be mapped to equivalent MIM and S
 |Undirected (default)|  Line |
 |Directed|  Arrow |
 |Conversion|  |  
-|Inhibition|  |
+|Inhibition| TBar |
 |Catalysis|  |
 |Stimulation|  |
 |Binding|  |
@@ -27,24 +28,10 @@ The GPML Interaction Panel ArrowHead types can be mapped to equivalent MIM and S
 |:---|:---|
 |Undirected (default)|  |
 |Directed|  |
-|Conversion| mim-conversion;  mim-modification |  
+|Conversion| mim-conversion;  mim-modification, mim-cleavage, mim-gap, mim-branching-right, mim-branching-left |  
 |Inhibition| mim-inhibition |
 |Catalysis| mim-catalysis |
 |Stimulation| mim-stimulation; mim-necessary-stimulation |
 |Binding| mim-binding; mim-covalent-bond |
 |Translocation| mim-translocation |
 |Transcription-translation| mim-transcription-translation |
-
-### Equivalent SBGN ArrowHead Types  
-
-| Interaction Panel ArrowHead type| SBGN ArrowHead type |
-|:---|:---|
-|Undirected (default)|  |
-|Directed|  |
-|Conversion|  |  
-|Inhibition| SBGN-Inhibition |
-|Catalysis| SBGN-Catalysis |
-|Stimulation|  |
-|Binding|  |
-|Translocation|  |
-|Transcription-translation|  |
