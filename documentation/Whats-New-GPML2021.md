@@ -198,9 +198,9 @@ The GPML Interaction Panel ArrowHead types can be mapped to equivalent Old Arrow
 |Inhibition| TBar | mim-inhibition |
 |Catalysis|  | mim-catalysis |
 |Stimulation|  | mim-stimulation; mim-necessary-stimulation |
-|Binding|  | mim-translocation |
-|Translocation|  | mim-transcription-translation |
-|Transcription-translation|  |  |
+|Binding|  | mim-binding; mim-covalent-bond |
+|Translocation|  | mim-translocation |
+|Transcription-translation|  | mim-transcription-translation |
 
 
 Because there are many more SBGN ArrowHead types, they are not mapped to the GPML Interaction Panel. The SBGN Plugin handles SBGN Arrowhead types. 
