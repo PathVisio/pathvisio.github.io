@@ -4,7 +4,7 @@
 {
   "@context": "http://schema.org",
   "@type": "SoftwareApplication",
-  "http://purl.org/dc/terms/conformsTo": { "@type": "CreativeWork", "@id": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT/" },
+  "http://purl.org/dc/terms/conformsTo": { "@type": "CreativeWork", "@id": "https://bioschemas.org/profiles/ComputationalTool/1.0-RELEASE/" },
   "name": "PathVisio",
   "@id": "https://pathvisio.org/",
   "url": "https://pathvisio.org/",
