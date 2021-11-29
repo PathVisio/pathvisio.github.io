@@ -1,5 +1,7 @@
 # Data visualization in PathVisio
 
+This tutorials shows you how you can visualize data in PathVisio. Make sure you successfully imported your expression dataset before you start creating a visualization!
+
 * All visualizations are saved in an .xml file in the same directory as the input data file. If you open the dataset later again (Data > Select Expression Data > Select the created .pgex file), all visualization settings are saved and restored. 
 * You can switch between visualizations in the drop-down box next to the quick menu. 
 
