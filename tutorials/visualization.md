@@ -15,21 +15,21 @@ Below we added three examples for visualization in PathVisio
 ### Simple visualization (log2FC)
 The following video shows how you can create a gradient visualization for a log2 fold change:
 
-<img src="https://github.com/PathVisio/pathvisio.github.io/blob/master/tutorials/visualization-simple.gif" alt="simple" />
+<img src="https://github.com/PathVisio/pathvisio.github.io/blob/master/tutorials/visualization-simple.gif?raw=true" alt="simple" />
 
 ----
 
 ### Advanced visualization 1 (log2FC + pvalue)
 If you want to visualize the log2FC but also show the p-value, you can combine a gradient visualization (log2FC) with a rule-based visualization (p-value) as shown in the following video:
 
-<img src="https://github.com/PathVisio/pathvisio.github.io/blob/master/tutorials/visualization-advanced1.gif" alt="advanced1" />
+<img src="https://github.com/PathVisio/pathvisio.github.io/blob/master/tutorials/visualization-advanced1.gif?raw=true" alt="advanced1" />
 
 ----
 
 ### Advanced visualization 2 (log2FC from multiple comparions)
 If you want to compare the changes from mutliple comparisons next to each other you can use an advanced visualization wiht a gradient visualization for multiple columns as shown in the following video. 
 
-<img src="https://github.com/PathVisio/pathvisio.github.io/blob/master/tutorials/visualization-advanced2.gif" alt="advanced2" />
+<img src="https://github.com/PathVisio/pathvisio.github.io/blob/master/tutorials/visualization-advanced2.gif?raw=true" alt="advanced2" />
 
 
 Let us know if you miss any other tutorials or want to share tips with our users: [create issue](https://github.com/PathVisio/pathvisio.github.io/issues). 
