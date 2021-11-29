@@ -30,3 +30,6 @@ If you want to visualize the log2FC but also show the p-value, you can combine a
 If you want to compare the changes from mutliple comparisons next to each other you can use an advanced visualization wiht a gradient visualization for multiple columns as shown in the following video. 
 
 <img src="https://github.com/PathVisio/pathvisio.github.io/blob/master/tutorials/visualization-advanced2.gif" alt="advanced2" />
+
+
+Let us know if you miss any other tutorials or want to share tips with our users: [create issue](https://github.com/PathVisio/pathvisio.github.io/issues). 
