@@ -1,3 +1,4 @@
-url: 'https://pathvisio.github.io/' # your main domain
+url: 'https://pathvisio.github.io/'
+baseurl: ''
 
 theme: jekyll-theme-cayman
