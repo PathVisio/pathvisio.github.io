@@ -21,7 +21,7 @@ If you want to get familiar with PathVisio and how the tools works, follow this 
 ## Basic tutorials
 
 * [Pathway drawing (WikiPathways academy)](http://academy.wikipathways.org/)
-* Data visualization *(coming soon)*
+* [Data visualization](tutorials/visualization.md)
 * Pathway statistics *(coming soon)*
 
 ---- 
