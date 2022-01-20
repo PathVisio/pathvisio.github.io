@@ -50,7 +50,7 @@ PathVisio has grown out of a need to extend  [GenMAPP](http://www.genmapp.org/).
 PathVisio and Cytoscape are very different programs, but after you install the WikiPathways App in Cytoscape, you will be able to open pathways created in PathVisio in Cytoscape. The WikiPathways App can be installed from the app manager menu within Cytoscape.
 
 
-**5. What is the relation between PathVisio and WikiPathways**
+**5. What is the relation between PathVisio and WikiPathways?**
 
 PathVisio and [WikiPathways](http://www.wikipathways.org/index.php/WikiPathways) are compatible. Pathways created in PathVisio can be shared on WikiPathways, and pathways from WikiPathways can be opened in PathVisio via the WikiPathways plugin. Also, some of the program code of PathVisio is embedded in WikiPathways, as a Java applet.
 
@@ -136,4 +136,18 @@ Try clearing the Java webstart cache, you can find instructions [here](http://ww
 You can find your pathvisio.log file in the local PathVisio directory:
 * Windows: in your home directory, go into the hidden directory "AppData"- "Roaming" - "PathVisio"
 * MacOS / Linux: in your home directory, go into the hidden directory ".PathVisio"
+
+**3. The installation does not work on Linux, what now?**
+
+Error message: 
+```bash
+bash: ./pathvisio.sh: Permission denied
+```
+Before being able to run PathVisio, you first need to make the .sh file executable.
+From the command line, go to the folder where you have downloaded PathVisio.
+Type the first line to make the file executable, and the second to run PathVisio:
+```bash
+chmod u+x deploy.sh
+./pathvisio.sh
+```
 
