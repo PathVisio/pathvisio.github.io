@@ -1,5 +1,21 @@
 # PathVisio biological pathway editor
 
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "SoftwareApplication",
+  "http://purl.org/dc/terms/conformsTo": { "@type": "CreativeWork", "@id": "https://bioschemas.org/profiles/ComputationalTool/1.0-RELEASE/" },
+  "name": "PathVisio",
+  "@id": "https://pathvisio.org/",
+  "url": "https://pathvisio.org/",
+  "description": "PathVisio is a free open-source pathway analysis and drawing software which allows drawing, editing, and analyzing biological pathways.",
+  "citation": "https://doi.org/10.1371/journal.pcbi.1004085",
+  "license": "https://spdx.org/licenses/Apache-2.0",
+  "applicationCategory": "Computational science tool",
+  "operatingSystem": ["Linux", "Windows", "Mac"]
+}
+</script>
+
 <p align="left">
   <table border="0">
     <tr>
