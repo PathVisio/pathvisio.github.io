@@ -1,7 +1,7 @@
 # Frequently Asked Questions
 
 * [Java Security Settings](#java-security-settings)
-* [Running Java 8](#running-java-8)
+* [Using Java 8 in PV while maintaining other Java versions](#running-java-8)
 * [General Questions](#general-questions) 
 * [Pathway Diagrams](#pathway-diagrams)
 * [Gene Expression / Omics Data](#gene-expression-/-omics-data)
@@ -14,9 +14,11 @@
 When starting PathVisio, you might see an error. In the latest Java update the security settings for self-signed applications have been [adapted (Java 7 Update 51)](http://java.com/en/download/faq/release7_changes.xml). Self-Signed applications, like Pathvisio, are blocked on high security level. **PathVisio is still safe to run.** We also are in the progress of registering a certificate which will allow users to also run PathVisio on high security level. Until then, you can either use the binary installation of PathVisio or lower the Java security settings. Instructions on how to set your security settings can be found [here](http://www.java.com/en/download/help/jcp_security.xml).
 
 ## Running Java 8
-There is no need to uninstall other Java versions, when you want to use PathVisio.
-Simply download Java 8, and find the folder where you have installed Java 8.
-Now, open the pathvisio.bat file in a text editor.
+When you have more then one version of Java installed on your computer, you can keep all other Java versions, when you want to use PathVisio.
+However, PathVisio (version 3.x) requires Java 8 and cannot work with other versions. Download and install Java 8, and find the folder where you have installed Java 8.
+
+### Windows:
+Open the pathvisio.bat file in a text editor.
 Change the 3rd line:
 ```
 java -Xmx1024m -jar -Dfile.encoding=UTF-8 pathvisio.jar "$@"
@@ -25,8 +27,35 @@ to the following line (where "C:\Program Files (x86)\Java\jre1.8.0_271\bin\java.
 ```
 call "C:\Program Files (x86)\Java\jre1.8.0_271\bin\java.exe" -Xmx1024m -jar -Dfile.encoding=UTF-8 pathvisio.jar "$@
 ```
-Save the pathvisio.bat file, close it, and try running it again.
-Adding this option allows PathVisio to find your Java 8 version (iso using a standard java version on your computer).
+Save the pathvisio.bat file, close it, and try running Pathvisio again (double click the pathvisio.bat file)
+Adding this option allows PathVisio to find your Java 8 version (iso using another Java version which is installed on your computer).
+
+### Mac:
+Locate your Java 8 installation: in the Finder choose Go > Go to Folder, enter "/Library/Internet/Plug-Ins/JavaAppletPlugin.plugin/Contents/Home/Bin" into the Go to Folder field, then click Go.
+You can also check the Library in your Home folder. In the Finder choose Go > Go to Folder, enter "~/Library/Internet/Plug-Ins/JavaAppletPlugin.plugin/Contents/Home/Bin" into the Go to Folder field, then click Go.
+
+The example below shows the menu to see the location (listed under "where"): 
+```
+/Library/Internet/Plug-Ins/JavaAppletPlugin.plugin/Contents/Home/Bin
+```
+![image](https://user-images.githubusercontent.com/26277832/153594709-4cb51cbd-1b85-4fe4-bd84-61c5baf259c7.png)
+
+Open the pathvisio.sh file in a text editor.
+Change the 7th line:
+
+```
+# Run PathVisio
+java -jar -Dfile.encoding=UTF-8 pathvisio.jar "$@"
+```
+to the following line, using the example folder location for a Java 8 installation:
+
+```
+# Run PathVisio
+/Library/Internet/Plug-Ins/JavaAppletPlugin.plugin/Contents/Home/Bin/java -jar -Dfile.encoding=UTF-8 pathvisio.jar "$@"
+```
+Save the pathvisio.sh file, close it, and try running Pathvisio again (double click the pathvisio.jar file).
+Adding this option allows PathVisio to find your Java 8 version (iso using another Java version which is installed on your computer).
+
 
 ## General Questions
 
