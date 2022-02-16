@@ -93,6 +93,10 @@ See [HowToCite](cite.md)
 
 Check out the list of supported systems codes [here](https://bridgedb.github.io/pages/system-codes).
 
+**8. How can find unconnected lines?**
+
+Use the CTRL+L shortcut to highlight unconnected lines.
+
 ## Pathway Diagrams
 
 **1. What is the meaning of each graphical symbol in pathways?**
