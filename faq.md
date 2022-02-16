@@ -65,7 +65,7 @@ You can just leave us an [issue](https://github.com/PathVisio/pathvisio.github.i
 
 **2. Can I run PathVisio when I'm offline?**
 
-You can run PathVisio offline, but the plugin requires internet connection. 
+You can run PathVisio offline, but the plugin manager requires internet connection. 
 
 
 **3. What is the relation between PathVisio and GenMAPP?**
