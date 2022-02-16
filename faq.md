@@ -61,8 +61,7 @@ Adding this option allows PathVisio to find your Java 8 version (iso using anoth
 
 **1. Help! Where can I ask questions?**
 
-Send an email to our discussion mailing list. For more information, see [Mailing Lists](https://pathvisio.github.io/pages/contact).
-
+You can just leave us an [issue](https://github.com/PathVisio/pathvisio.github.io/issues) in the Github repository and we will try to help you. 
 
 **2. Can I run PathVisio when I'm offline?**
 
