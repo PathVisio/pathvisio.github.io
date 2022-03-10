@@ -41,7 +41,8 @@ The example below shows the menu to see the location (listed under "where"):
 ![image](https://user-images.githubusercontent.com/26277832/153594709-4cb51cbd-1b85-4fe4-bd84-61c5baf259c7.png)
 
 Open the pathvisio.sh file in a text editor.
-Change the 7th line:
+
+Change the 7th line in this file:
 
 ```
 # Run PathVisio
@@ -56,6 +57,32 @@ to the following line, using the example folder location for a Java 8 installati
 Save the pathvisio.sh file, close it, and try running Pathvisio again (double click the pathvisio.jar file).
 Adding this option allows PathVisio to find your Java 8 version (iso using another Java version which is installed on your computer).
 
+### Linux:
+Locate your Java 8 installation (through the command line):
+```
+echo $JAVA_HOME
+```
+This will print out the folder where your java installation is located, for example: /home/username/Software/java-se-8u40-ri
+
+
+Open the pathvisio.sh file in a text editor (or through the command line, with nano/pico).
+```
+nano pathvisio.sh
+```
+
+Change the 7th line in this file:
+```
+# Run PathVisio
+java -jar -Dfile.encoding=UTF-8 pathvisio.jar "$@"
+```
+to the following line, using the example folder location for a Java 8 installation (note the added '/bin/java' to the folder location):
+
+```
+# Run PathVisio
+/home/username/Software/java-se-8u40-ri/bin/java -jar -Dfile.encoding=UTF-8 pathvisio.jar "$@"
+```
+Save the pathvisio.sh file, close it, and try running Pathvisio again (from the .sh file).
+Adding this option allows PathVisio to find your Java 8 version (iso using another Java version which is installed on your computer).
 
 ## General Questions
 
