@@ -12,7 +12,6 @@
 body {
    color: Black;
    background-color: White;
-   font-family: Arial, sans-serif;
 }
 /* Horizontal rules */
 hr {
