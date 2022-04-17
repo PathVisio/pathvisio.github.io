@@ -12,8 +12,6 @@
 body {
    color: Black;
    background-color: White;
-   font-family: Arial, sans-serif;
-   font-size: 10pt;
 }
 /* Horizontal rules */
 hr {
@@ -21,7 +19,6 @@ hr {
 }
 /* Document title */
 h1 {
-   font-size: 18pt;
    letter-spacing: 2px;
    border-bottom: 1px #ccc solid;
    padding-top: 5px;
@@ -29,12 +26,10 @@ h1 {
 }
 /* Main section headers */
 h2 {
-   font-size: 14pt;
    letter-spacing: 1px;
 }
 /* Sub-section headers */
 h3, h3 a, h3 span {
-   font-size: 12pt;
    font-weight: bold;
    color: black;
 }
