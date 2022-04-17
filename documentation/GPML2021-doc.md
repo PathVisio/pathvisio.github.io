@@ -17,17 +17,6 @@ body {
 hr {
    color: black;
 }
-/* Document title */
-h1 {
-   letter-spacing: 2px;
-   border-bottom: 1px #ccc solid;
-   padding-top: 5px;
-   padding-bottom: 5px;
-}
-/* Main section headers */
-h2 {
-   letter-spacing: 1px;
-}
 /* Sub-section headers */
 h3, h3 a, h3 span {
    font-weight: bold;
