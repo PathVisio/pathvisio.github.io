@@ -295,7 +295,7 @@ Additional customization of graphics (e.g. color, shape) is now possible.
 * Background color can be defined for pathway 
 * Group has added graphics properties (RectAttributes, FontAttributes, ShapeStyleAttributes) 
 * State has added font properties (FontAttributes)
-* Rotation is optionally added for DataNode, State, Label, and Shape (NOT recommended for Group).
+* Rotation is optionally added for DataNode, State, Label, and Shape (Group should NOT be rotated).
 
 
 ### Xref DataSource as Compact Identifier Prefix
