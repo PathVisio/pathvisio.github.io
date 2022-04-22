@@ -8,7 +8,7 @@
   "name": "PathVisio",
   "@id": "https://pathvisio.org/",
   "url": "https://pathvisio.org/",
-  "description": "PathVisio is a free open-source pathway analysis and drawing software which allows drawing, editing, and analyzing biological pathways.",
+  "description": "PathVisio is a free open-source pathway analysis and drawing software that allows drawing, editing, and analyzing biological pathways.",
   "citation": "https://doi.org/10.1371/journal.pcbi.1004085",
   "license": "https://spdx.org/licenses/Apache-2.0",
   "applicationCategory": "Computational science tool",
