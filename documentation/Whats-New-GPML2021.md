@@ -158,16 +158,16 @@ An EvidenceRef has:
 ### [&#9450;](#map)
 New categories for DataNode (Molecules vs. Concepts), State, Group, and Annotation types are defined. As well as enumeration types for connectorType, StyleType, and Anchor shapeType. All Types are extensible with type string and written in UpperCamelCase format.  
 
-| DataNode type       |              |State type              | Group type      | Annotation type     |
-| :---                | :---         |:---                    | :---            |:---                 |
-| Undefined (default) |              |Undefined (default)     | Group (default) | Undefined (default) |
-| ***Molecules:***    | ***Concepts:***|ProteinModification  | Complex       | Ontology            |
-| GeneProduct         | Pathway      |GeneticVariant         | Pathway         | Taxonomy            |
-| DNA                 | Disease      |EpigeneticModification | Analog          |     |
-| RNA                 | Phenotype    |                        | Paralog         |                     |
-| Protein             | Alias        |                        |                 |                     |
-| Complex             | Event        |                        |                 |                     |
-| Metabolite          |              |                        |                 |                     |
+| DataNode type       |              	|State type              | Group type      | Annotation type     |
+| :---                | :---         	|:---                    | :---            |:---                 |
+| Undefined (default) |              	|Undefined (default)     | Group (default) | Undefined (default) |
+| ***Molecules:***    | ***Concepts:***	|ProteinModification   	 | Transparent     | Ontology            |
+| GeneProduct         | Pathway      	|GeneticVariant          | Complex         | Taxonomy            |
+| DNA                 | Disease      	|EpigeneticModification  | Pathway         |   			 |
+| RNA                 | Phenotype    	|                        | Analog          |                     |
+| Protein             | Alias        	|                        | Paralog         |                     |
+| Complex             | Event        	|                        |                 |                     |
+| Metabolite          |              	|                        |                 |                     |
 
 <br/>
 
