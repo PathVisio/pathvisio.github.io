@@ -2,3 +2,4 @@ url: 'https://pathvisio.github.io/'
 baseurl: ''
 
 theme: jekyll-theme-cayman
+logo_url: 'https://pathvisio.github.io/images/logos/pathvisio-logo-transparent.png'
