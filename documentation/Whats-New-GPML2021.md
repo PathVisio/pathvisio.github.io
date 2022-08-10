@@ -61,11 +61,11 @@ An AnnotationRef has:
 *Example of GPML2021 Annotation and AnnotationRef*
 ```
 <Annotations>
-    </Annotation>
-        <Annotation elementId="a2" name="thyroid cancer" type="Disease">
+    <Annotation elementId="a2" name="thyroid cancer" type="Disease">
         <Xref identifier="1781" dataSource="DOID"/>
 	<Url link="https://identifiers.org/DOID:1781"/>
     </Annotation>
+    ...
 </Annotations>
 
 <AnnotationRef elementRef="a2">
@@ -149,7 +149,7 @@ An EvidenceRef has:
         <Xref identifier="0000006" dataSource="ECO"/>
         <Url link="https://identifiers.org/ECO:0000006"/>
    </Evidence>
-    ...
+   ...
 </Evidences>
 
 <EvidenceRef elementRef="evd" />
