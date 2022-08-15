@@ -4,14 +4,17 @@
 ---- 
 
 ## PathVisio Book
-For information on using PathVisio, see the PathVisio Book! 
-<a href="google.com"></a>
-<div>
-<p>
-  <img width="15%" src="https://pathvisio.github.io/images/logos/pathvisio-book-logo.png">
-  <br> 
+<p align="left">
+  <table border="0">
+    <tr>
+    <td>For information on using PathVisio, see the PathVisio Book!</td>
+      <td><img width="120" src="images/logos/pathvisio-book-logo.png"  alt="https://www.google.com"></td>
+    </tr>
+    <tr>
+      <td><a href="https://www.google.com">PathVisio Book</a> is the user manual for PathVisio.</td>
+    </tr>
+  </table>
 </p>
-</div>
 
 ## GPML file format
 You can find more information about the GPML file format [here](https://pathvisio.github.io/documentation/GPML).
