@@ -16,15 +16,6 @@
 </p>
 
 
-<a href="google.com"></a>
-<div>
-<p>
-  <img width="15%" src="https://pathvisio.github.io/images/logos/pathvisio-book-logo.png">
-  <br> 
-</p>
-</div>
-
-
 ## GPML file format
 You can find more information about the GPML file format [here](https://pathvisio.github.io/documentation/GPML).
 
