@@ -9,7 +9,7 @@
 <p align="left">
   <table border="0">
     <tr>
-    <td>For information on using PathVisio, see the <a href="https://www.google.com">PathVisio Book</a>! PathVisio Book is the user manual for PathVisio.</td>
+    <td>For information on using PathVisio, see the <a href="https://www.google.com">PathVisio Book</a>! <br> PathVisio Book is the user manual for PathVisio.</td>
       <td><img width="120" src="images/logos/pathvisio-book-logo.png"  alt="https://www.google.com"></td>
     </tr>
   </table>
