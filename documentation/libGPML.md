@@ -7,4 +7,6 @@ See libGPML repository on    <a href="https://github.com/PathVisio/libGPML/"><im
 * [libGPML Java Documentation](https://pathvisio.org/libgpml-javadoc/)
 
 
-If you use libGPML, please cite the article in JOSS: *in progress*
+If you use libGPML, please cite the article in JOSS: 
+
+* *in progress*
