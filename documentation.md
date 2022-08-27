@@ -10,7 +10,7 @@
   </table>
 </p>
 
-## GPML file format
+## GPML - Graphical Pathway Markup Language
 <p align="left">
   <table border="0">
     <tr>
@@ -19,7 +19,7 @@
   </table>
 </p>
 
-## libGPML
+## libGPML - Java API Library for GPML
 <p align="left">
   <table border="0">
     <tr>
