@@ -1,4 +1,4 @@
-# GPML - the Graphical Pathway Markup Language
+# GPML - Graphical Pathway Markup Language
 
 GPML (Graphical Pathway Markup Language) is the file format used to store pathway models in PathVisio and share them on WikiPathways.
 
