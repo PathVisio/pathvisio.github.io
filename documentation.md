@@ -10,8 +10,6 @@
   </table>
 </p>
 
-----
-
 ## GPML file format
 <p align="left">
   <table border="0">
@@ -20,10 +18,6 @@
     </tr>
   </table>
 </p>
-
-
-
-----
 
 ## libGPML
 <p align="left">
