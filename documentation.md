@@ -23,7 +23,7 @@
 <p align="left">
   <table border="0">
     <tr>
-    <td>libGPML is a Java API library for reading, writing, and manipulating the GPML file format. You can find more information about libGPML, [here] <a href="https://pathvisio.github.io/documentation/libGPML">here</a>.</td>
+    <td>libGPML is a Java API library for reading, writing, and manipulating the GPML file format. You can find more information about libGPML <a href="https://pathvisio.github.io/documentation/libGPML">here</a>.</td>
     </tr>
   </table>
 </p>
