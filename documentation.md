@@ -15,3 +15,8 @@
 ## GPML file format
 You can find more information about the GPML file format [here](https://pathvisio.github.io/documentation/GPML).
 
+----
+
+## libGPML
+You can find more information about libGPML, a Java API library for reading, writing, and manipulating the GPML file format [here](https://pathvisio.github.io/documentation/libGPML).
+
