@@ -14,7 +14,7 @@
 <p align="left">
   <table border="0">
     <tr>
-    <td>GPML (Graphical Pathway Markup Language) is the file format used to store pathway models in PathVisio and share them on WikiPathways. You can find more information about the GPML file format <a href="https://pathvisio.github.io/documentation/GPML">here</a>.</td>
+    <td>GPML (Graphical Pathway Markup Language) is the file format used to store pathway models in PathVisio and share them on WikiPathways. \nYou can find more information about the GPML file format <a href="https://pathvisio.github.io/documentation/GPML">here</a>.</td>
     </tr>
   </table>
 </p>
@@ -23,7 +23,7 @@
 <p align="left">
   <table border="0">
     <tr>
-    <td>libGPML is a Java API library for reading, writing, and manipulating the GPML file format. You can find more information about libGPML <a href="https://pathvisio.github.io/documentation/libGPML">here</a>.</td>
+    <td>libGPML is a Java API library for reading, writing, and manipulating the GPML file format. \nYou can find more information about libGPML <a href="https://pathvisio.github.io/documentation/libGPML">here</a>.</td>
     </tr>
   </table>
 </p>
