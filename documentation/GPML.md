@@ -7,7 +7,7 @@ See GPML Schemas on    <a href="https://github.com/PathVisio/GPML/"><img src="gi
 ### GPML2021
 * [Current Schema Documentation](https://pathvisio.github.io/documentation/GPML2021-doc.html)
 * Overview of [what’s new in GPML2021](https://pathvisio.github.io/documentation/Whats-New-GPML2021.html)
-* [LibGPML](https://github.com/PathVisio/libGPML) for reading, writing, and conversion of GPML2021
+* [LibGPML](https://pathvisio.github.io/documentation/libGPML) for reading, writing, and conversion of GPML2021
 
 
 ### GPML2013a
