@@ -7,7 +7,7 @@ You can test the new installers for the different operating systems. If that doe
 * Linux: [PathVisio_unix_3.3.0.sh](https://releases.pathvisio.org/3.3.0/installers/PathVisio_unix_3.3.0.sh)
 
 
-## Alternative isntallation
+### Alternative installation
 
 * Current version: **[PathVisio 3.3.0](https://github.com/PathVisio/pathvisio/releases/download/v3.3.0/pathvisio_bin-3.3.0.zip)**
 * Download the file and unzip it.
