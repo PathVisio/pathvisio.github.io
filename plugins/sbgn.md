@@ -1,8 +1,11 @@
-# SBGN plugin ![](/images/plugins/plugin.png)
+# SBGN plugin ![](/images/plugins/sbgn.png)
 
 ### Description
 
-The plugin provides a palett with SBGN ([Systems Biology Graphical Notation](https://sbgn.github.io/)) drawing style visuals for data nodes and interaction to create SBGN conform pathway models in PathVisio. It also allows users to open and save SBGN-ML files. 
+This plugin allows users to create pathway diagrams in the Systems Biology Graphical Notation (SBGN).
+A description of this standard notation can be found here: [http://www.sbgn.org/Main_Page](http://www.sbgn.org/Main_Page).
+
+**Website**: [https://pathvisio.github.io/plugins/sbgn.html](https://pathvisio.github.io/plugins/sbgn.html)
 
 **License**: [Apache 2.0](http://www.apache.org/licenses/LICENSE-2.0)
 
