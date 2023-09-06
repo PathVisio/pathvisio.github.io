@@ -30,3 +30,9 @@ If you want to get familiar with PathVisio and how the tools works, follow this 
 
 * [Multi-omics data visualization](tutorials/multi-omics-tutorial.md)
 * Time-series data visualization *(coming soon)*
+
+----
+
+## Hands-on tutorials with examples
+
+* [Lung cancer pathway analysis](tutorials/handson1.md) (data import, data visualization, data statistics with questions in between)
