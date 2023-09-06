@@ -16,7 +16,7 @@
 | ![](../images/plugins/plugin.png) | [PathVisioRPC plugin](pathvisiorpc.md) | 
 | ![](../images/plugins/plugin.png) | [QuickSearch plugin](quicksearch.md) | 
 | ![](../images/plugins/plugin.png) | [RegInt plugin](regint.md) | 
-| ![](../images/plugins/plugin.png) | [SBGN plugin](sbgn.md) | 
+| ![](../images/plugins/sbgn.png) | [SBGN plugin](sbgn.md) | 
 | ![](../images/plugins/plugin.png) | [TissueAnalyzer plugin](tissueanalyzer.md) | 
 | ![](../images/plugins/plugin.png) | [TypeConverter plugin](typeconverter.md) | 
 | ![](../images/plugins/wikipathways.png) | [WikiPathways plugin](wikipathways.md) |
