@@ -2,9 +2,9 @@
 
 You can test the new installers for the different operating systems. If that doesn't work follow the instructions for alternative installation below.
 
-* Windows: [PathVisio_windows-x64_3.3.0.exe](https://releases.pathvisio.org/3.3.0/installers/PathVisio_windows-x64_3.3.0.exe)
-* MacOSX: [PathVisio_macos_3.3.0.dmg](https://releases.pathvisio.org/3.3.0/installers/PathVisio_macos_3.3.0.dmg)
-* Linux: [PathVisio_unix_3.3.0.sh](https://releases.pathvisio.org/3.3.0/installers/PathVisio_unix_3.3.0.sh)
+* Windows: [PathVisio_windows-x64_3.3.0.exe](https://github.com/PathVisio/pathvisio/releases/download/v3.3.0/PathVisio_windows-x64_3.3.0.exe)
+* MacOSX: [PathVisio_macos_3.3.0.dmg](https://github.com/PathVisio/pathvisio/releases/download/v3.3.0/PathVisio_macos_3.3.0.dmg)
+* Linux: [PathVisio_unix_3.3.0.sh](https://github.com/PathVisio/pathvisio/releases/download/v3.3.0/PathVisio_unix_3.3.0.sh)
 
 
 ### Alternative installation
