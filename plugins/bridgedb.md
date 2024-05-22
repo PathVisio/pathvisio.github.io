@@ -23,7 +23,7 @@ The BridgeDb configuration plugin let's you configure identifier mapping resourc
 
 ### Releases
 
-Code repository: 
+Code repository: https://github.com/bigcat-um/BridgeDbConfig
 
 | Version | Release date |
 | ------- |:------------:| 
