@@ -193,7 +193,7 @@ Try clearing the Java webstart cache, you can find instructions [here](http://ww
 **2. Where can you find the log file?**
 
 You can find your pathvisio.log file in the local PathVisio directory:
-* Windows: in your home directory, go into the hidden directory "AppData"- "Roaming" - "PathVisio"
+* Windows: in your home directory, go into the hidden directory "AppData"- "Roaming" - "PathVisio" (you can also find this file using your file explorer, searching for 'pathvisio.log')
 * MacOS / Linux: in your home directory, go into the hidden directory ".PathVisio"
 
 **3. The installation does not work on Linux, what now?**
@@ -210,3 +210,11 @@ chmod u+x deploy.sh
 ./pathvisio.sh
 ```
 
+**4. I cannot load a BridgeDb mapping file, 'failed to connect to database' error message**
+
+1. Check if your BridgeDb file is compatible with the version of PathVisio you are using (indicated on the [Download](https://data.bridgedb.org/gene_database/) page in the 'Tested with' column).
+2. Try to load the file using the 'Data/Select Gene Database' button from the top menu (so not using the BridgeDb Plugin)
+3. Check if your file name has special characters in them, for example round brackets '(' or ')', and remove these characters from the file name.
+4. Check if one of the parent folders has special characters in them, and remove these characters from the folder name.
+5. If the above does not work, check the pathviso.log file (see [here](https://github.com/PathVisio/pathvisio.github.io/edit/master/faq.md#193) how) to find a more detailed error message on what might be the cause of the problem.
+6. Add an issue to the [BridgeDb GitHub](https://github.com/bridgedb/data/issues) repository including this detailed error message to get help.
